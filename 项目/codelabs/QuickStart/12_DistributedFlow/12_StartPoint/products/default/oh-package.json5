@@ -1,0 +1,15 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/learning": "file:../../features/learning",
+    "@ohos/quickstart": "file:../../features/quickstart",
+    "@ohos/map": "file:../../features/map",
+    "@ohos/utils": "file:../../commons/utils",
+    "@ohos/uicomponents": "file:../../commons/uicomponents"
+  }
+}

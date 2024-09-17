@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形备份 2</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20"></rect>
+    </defs>
+    <g id="典型页面7:个人账户" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人账户/平板" transform="translate(-483.000000, -110.000000)">
+            <g id="编组-3" transform="translate(416.000000, 88.000000)">
+                <g id="矩形备份-2" transform="translate(67.000000, 22.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill-opacity="0" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <path d="M5.92456235,7 L13.3196334,7 C13.8302363,7 14.2441617,7.3581722 14.2441617,7.8 C14.2441617,7.9816572 14.1727134,8.1579056 14.0415687,8.29975604 L10.3440332,12.2991312 C10.0250621,12.6441407 9.44326348,12.7000778 9.04454961,12.4240702 C8.99123696,12.3871648 8.94281267,12.345263 8.90016255,12.2991312 L5.20262703,8.29975604 C4.88365594,7.95474649 4.94830023,7.45131259 5.34701409,7.17530495 C5.51094503,7.0618246 5.71462832,7 5.92456235,7 Z" fill="#000000" mask="url(#mask-2)" transform="translate(9.622081, 9.799702) scale(1, -1) translate(-9.622081, -9.799702) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

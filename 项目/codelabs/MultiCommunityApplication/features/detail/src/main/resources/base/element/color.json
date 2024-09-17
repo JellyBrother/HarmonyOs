@@ -1,0 +1,88 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "acetate",
+      "value": "#00000000"
+    },
+    {
+      "name": "comment_bar_border_color",
+      "value": "#0D000000"
+    },
+    {
+      "name": "comment_item_favor_color",
+      "value": "#99000000"
+    },
+    {
+      "name": "card_detail_title_bgc",
+      "value": "#F2F2F2"
+    },
+    {
+      "name": "author_type_color",
+      "value": "#80000000"
+    },
+    {
+      "name": "follow_font_color",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "blog_title_follow_bc",
+      "value": "#0859F7"
+    },
+    {
+      "name": "author_type_name_color",
+      "value": "#CC0A59F7"
+    },
+    {
+      "name": "replay_bgc",
+      "value": "#0D000000"
+    },
+    {
+      "name": "read_all_replay_fc",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "read_all_replay_bgc",
+      "value": "#08000000"
+    },
+    {
+      "name": "comment_context_bgc",
+      "value": "#0D000000"
+    },
+    {
+      "name": "comment_context_bgc_dark",
+      "value": "#0DFFFFFF"
+    },
+    {
+      "name": "dark_mode_gbc",
+      "value": "#26282A"
+    },
+    {
+      "name": "font_color_dark",
+      "value": "#99FFFFFF"
+    },
+    {
+      "name": "font_color_normal",
+      "value": "#99000000"
+    },
+    {
+      "name": "title_board_color",
+      "value": "#26282A"
+    },
+    {
+      "name": "card_item_content_fc_dark",
+      "value": "#CCFFFFFF"
+    },
+    {
+      "name": "card_item_name_fc_dark",
+      "value": "#E6FFFFFF"
+    },
+    {
+      "name": "author_type_fc_dark",
+      "value": "#80FFFFFF"
+    }
+  ]
+}

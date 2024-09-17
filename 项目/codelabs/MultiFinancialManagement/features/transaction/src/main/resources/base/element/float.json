@@ -1,0 +1,224 @@
+{
+  "float": [
+    {
+      "name": "common_image_width",
+      "value": "24vp"
+    },
+    {
+      "name": "common_image_height",
+      "value": "24vp"
+    },
+    {
+      "name": "title_size",
+      "value": "18fp"
+    },
+    {
+      "name": "padding_common",
+      "value": "24vp"
+    },
+    {
+      "name": "fund_text_size",
+      "value": "16fp"
+    },
+    {
+      "name": "fund_text_height",
+      "value": "22vp"
+    },
+    {
+      "name": "amplitude_size",
+      "value": "12fp"
+    },
+    {
+      "name": "fund_text_padding_top",
+      "value": "29vp"
+    },
+    {
+      "name": "type_padding_top",
+      "value": "14vp"
+    },
+    {
+      "name": "type_padding_bottom",
+      "value": "17vp"
+    },
+    {
+      "name": "account_size",
+      "value": "16fp"
+    },
+    {
+      "name": "account_text_height",
+      "value": "22vp"
+    },
+    {
+      "name": "payment_size",
+      "value": "14fp"
+    },
+    {
+      "name": "payment_text_height",
+      "value": "19vp"
+    },
+    {
+      "name": "arrow_width",
+      "value": "6.74vp"
+    },
+    {
+      "name": "arrow_height",
+      "value": "12.81vp"
+    },
+    {
+      "name": "arrow_margin_left",
+      "value": "14vp"
+    },
+    {
+      "name": "account_height",
+      "value": "80vp"
+    },
+    {
+      "name": "account_padding_top_bottom",
+      "value": "29vp"
+    },
+    {
+      "name": "available_size",
+      "value": "14fp"
+    },
+    {
+      "name": "available_height",
+      "value": "19vp"
+    },
+    {
+      "name": "about_image",
+      "value": "22vp"
+    },
+    {
+      "name": "about_margin_left",
+      "value": "13vp"
+    },
+    {
+      "name": "available_row_height",
+      "value": "48vp"
+    },
+    {
+      "name": "purchase_size",
+      "value": "16fp"
+    },
+    {
+      "name": "purchase_text_height",
+      "value": "22vp"
+    },
+    {
+      "name": "rules_size",
+      "value": "14fp"
+    },
+    {
+      "name": "rules_text_height",
+      "value": "19vp"
+    },
+    {
+      "name": "symbol_size",
+      "value": "36fp"
+    },
+    {
+      "name": "input_margin",
+      "value": "10vp"
+    },
+    {
+      "name": "button_buy_width",
+      "value": "80vp"
+    },
+    {
+      "name": "button_buy_height",
+      "value": "28vp"
+    },
+    {
+      "name": "button_buy_size",
+      "value": "12fp"
+    },
+    {
+      "name": "confirm_size",
+      "value": "14vp"
+    },
+    {
+      "name": "confirm_text_height",
+      "value": "19vp"
+    },
+    {
+      "name": "confirm_padding_top",
+      "value": "14.93vp"
+    },
+    {
+      "name": "confirm_border_width",
+      "value": "0.5vp"
+    },
+    {
+      "name": "buy_info_height",
+      "value": "176vp"
+    },
+    {
+      "name": "buy_info_padding",
+      "value": "13vp"
+    },
+    {
+      "name": "recommendation_size",
+      "value": "16fp"
+    },
+    {
+      "name": "recommendation_text_height",
+      "value": "22vp"
+    },
+    {
+      "name": "recommendation_height",
+      "value": "48vp"
+    },
+    {
+      "name": "recommendation_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "read_size",
+      "value": "14fp"
+    },
+    {
+      "name": "read_text_height",
+      "value": "21vp"
+    },
+    {
+      "name": "read_margin_right",
+      "value": "16vp"
+    },
+    {
+      "name": "arrow_right_width",
+      "value": "12vp"
+    },
+    {
+      "name": "button_height",
+      "value": "40vp"
+    },
+    {
+      "name": "read_padding_top",
+      "value": "16vp"
+    },
+    {
+      "name": "read_padding_bottom",
+      "value": "48vp"
+    },
+    {
+      "name": "type_text_size",
+      "value": "10fp"
+    },
+    {
+      "name": "type_text_padding_lr",
+      "value": "4vp"
+    },
+    {
+      "name": "type_text_padding_tb",
+      "value": "1vp"
+    },
+    {
+      "name": "button_min_width",
+      "value": "328vp"
+    },
+    {
+      "name": "button_max_width",
+      "value": "604vp"
+    }
+  ]
+}

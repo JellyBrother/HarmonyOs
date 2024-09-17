@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Panel/item/close btn</title>
+    <defs>
+        <path d="M3.75735931,13.1854497 C3.49700978,13.4457993 3.0748998,13.4457993 2.81455027,13.1854497 C2.55420074,12.9251002 2.55420074,12.5029902 2.81455027,12.2426407 L7.05719096,8 L2.81455027,3.75735931 C2.55420074,3.49700979 2.55420074,3.0748998 2.81455027,2.81455027 C3.0748998,2.55420074 3.49700978,2.55420074 3.75735931,2.81455027 L8,7.05719096 L12.2426407,2.81455027 C12.5029902,2.55420075 12.9251002,2.55420075 13.1854497,2.81455027 C13.4457993,3.0748998 13.4457993,3.49700979 13.1854497,3.75735932 L3.75735931,13.1854497 Z M13.1854497,12.2426407 C13.4457993,12.5029902 13.4457993,12.9251002 13.1854497,13.1854497 C12.9251002,13.4457993 12.5029902,13.4457993 12.2426407,13.1854497 L8.47140452,9.41421356 L9.41421356,8.47140452 L13.1854497,12.2426407 Z" id="path-1"></path>
+    </defs>
+    <g id="Panel/item/close-btn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <circle id="椭圆形" fill-opacity="0.05" fill="#000000" cx="16" cy="16" r="16"></circle>
+            <g transform="translate(8.000000, 8.000000)" id="Public/ic_cancel">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="形状" fill-rule="nonzero"></g>
+                <g id="编组" mask="url(#mask-2)" fill="#000000" fill-opacity="0.901960784">
+                    <g id="Symbol/color-light/colorPrimary">
+                        <rect id="color/#000000" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

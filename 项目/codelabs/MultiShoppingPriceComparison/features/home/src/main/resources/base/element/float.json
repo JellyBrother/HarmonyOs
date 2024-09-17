@@ -1,0 +1,928 @@
+{
+  "float": [
+    {
+      "name": "bottom_tab_bar_width_lg",
+      "value": "96vp"
+    },
+    {
+      "name": "side_tab_bar_height",
+      "value": "80vp"
+    },
+    {
+      "name": "tab_font_size",
+      "value": "10fp"
+    },
+    {
+      "name": "tab_top_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "top_bar_text_selected_font",
+      "value": "24fp"
+    },
+    {
+      "name": "top_bar_text_font",
+      "value": "18fp"
+    },
+    {
+      "name": "top_bar_text_selected_line",
+      "value": "32vp"
+    },
+    {
+      "name": "top_bar_text_line",
+      "value": "24vp"
+    },
+    {
+      "name": "top_bar_text_font_sel",
+      "value": "24fp"
+    },
+    {
+      "name": "top_bar_text_line_sel",
+      "value": "33vp"
+    },
+    {
+      "name": "top_text_padding_left_sm",
+      "value": "8vp"
+    },
+    {
+      "name": "top_text_padding_right_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "top_text_padding_right_md",
+      "value": "24vp"
+    },
+    {
+      "name": "top_text_padding_right_lg",
+      "value": "32vp"
+    },
+    {
+      "name": "search_input_font",
+      "value": "16fp"
+    },
+    {
+      "name": "search_input_height",
+      "value": "40vp"
+    },
+    {
+      "name": "search_input_left",
+      "value": "36vp"
+    },
+    {
+      "name": "search_input_right",
+      "value": "12vp"
+    },
+    {
+      "name": "search_img_size",
+      "value": "16vp"
+    },
+    {
+      "name": "search_img_left",
+      "value": "12vp"
+    },
+    {
+      "name": "search_img_margin_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "search_img_margin",
+      "value": "24vp"
+    },
+    {
+      "name": "category_img_size_sm",
+      "value": "40vp"
+    },
+    {
+      "name": "category_img_size_md",
+      "value": "64vp"
+    },
+    {
+      "name": "category_img_size_lg",
+      "value": "68vp"
+    },
+    {
+      "name": "category_text_font",
+      "value": "12fp"
+    },
+    {
+      "name": "category_text_line",
+      "value": "17vp"
+    },
+    {
+      "name": "category_item_height_sm",
+      "value": "57vp"
+    },
+    {
+      "name": "category_item_height_md",
+      "value": "81vp"
+    },
+    {
+      "name": "category_item_height_lg",
+      "value": "85vp"
+    },
+    {
+      "name": "category_lanes_gutter",
+      "value": "12vp"
+    },
+    {
+      "name": "category_list_height_sm",
+      "value": "126vp"
+    },
+    {
+      "name": "category_list_height_md",
+      "value": "81vp"
+    },
+    {
+      "name": "category_list_height_lg",
+      "value": "85vp"
+    },
+    {
+      "name": "category_divider_width",
+      "value": "24vp"
+    },
+    {
+      "name": "category_divider_row_height",
+      "value": "32vp"
+    },
+    {
+      "name": "category_col_height_sm",
+      "value": "126vp"
+    },
+    {
+      "name": "category_col_height_md",
+      "value": "113vp"
+    },
+    {
+      "name": "category_col_height_lg",
+      "value": "117vp"
+    },
+    {
+      "name": "category_col_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "category_col_margin_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "welfare_image_size_sm",
+      "value": "60vp"
+    },
+    {
+      "name": "welfare_image_size",
+      "value": "72vp"
+    },
+    {
+      "name": "title_font",
+      "value": "16fp"
+    },
+    {
+      "name": "title_line",
+      "value": "22vp"
+    },
+    {
+      "name": "button_height",
+      "value": "28vp"
+    },
+    {
+      "name": "button_width",
+      "value": "80vp"
+    },
+    {
+      "name": "button_font",
+      "value": "12fp"
+    },
+    {
+      "name": "title_height",
+      "value": "48vp"
+    },
+    {
+      "name": "welfare_tip_font",
+      "value": "10fp"
+    },
+    {
+      "name": "welfare_tip_line",
+      "value": "16vp"
+    },
+    {
+      "name": "welfare_tip_width",
+      "value": "40vp"
+    },
+    {
+      "name": "welfare_info_font",
+      "value": "12fp"
+    },
+    {
+      "name": "welfare_info_line",
+      "value": "16vp"
+    },
+    {
+      "name": "welfare_info_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "welfare_row_height_sm",
+      "value": "102vp"
+    },
+    {
+      "name": "welfare_row_height_md",
+      "value": "114vp"
+    },
+    {
+      "name": "welfare_row_height_lg",
+      "value": "118vp"
+    },
+    {
+      "name": "welfare_row_padding_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "welfare_row_padding_md",
+      "value": "12vp"
+    },
+    {
+      "name": "welfare_row_padding_lg",
+      "value": "20vp"
+    },
+    {
+      "name": "welfare_col_height_sm",
+      "value": "162vp"
+    },
+    {
+      "name": "welfare_col_height_md",
+      "value": "174vp"
+    },
+    {
+      "name": "welfare_col_height_lg",
+      "value": "178vp"
+    },
+    {
+      "name": "welfare_col_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "title_tip_font",
+      "value": "14fp"
+    },
+    {
+      "name": "title_tip_line",
+      "value": "19vp"
+    },
+    {
+      "name": "recommend_swiper_top_sm",
+      "value": "24vp"
+    },
+    {
+      "name": "recommend_swiper_bottom_md",
+      "value": "12vp"
+    },
+    {
+      "name": "recommend_swiper_bottom",
+      "value": "16vp"
+    },
+    {
+      "name": "title_view_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "section_gutter_sm",
+      "value": "10vp"
+    },
+    {
+      "name": "section_gutter_md",
+      "value": "12vp"
+    },
+    {
+      "name": "section_gutter_lg",
+      "value": "8vp"
+    },
+    {
+      "name": "section_live_margin",
+      "value": "8vp"
+    },
+    {
+      "name": "section_image_margin_sm",
+      "value": "12vp"
+    },
+    {
+      "name": "section_image_margin",
+      "value": "8vp"
+    },
+    {
+      "name": "section_tip_text_line",
+      "value": "12vp"
+    },
+    {
+      "name": "section_tip_text_size",
+      "value": "8fp"
+    },
+    {
+      "name": "section_tip_text_margin",
+      "value": "2vp"
+    },
+    {
+      "name": "section_tip_text_padding",
+      "value": "4vp"
+    },
+    {
+      "name": "section_title_text_size",
+      "value": "14fp"
+    },
+    {
+      "name": "section_title_text_line",
+      "value": "19vp"
+    },
+    {
+      "name": "section_info_text_size",
+      "value": "12fp"
+    },
+    {
+      "name": "section_info_text_line",
+      "value": "16vp"
+    },
+    {
+      "name": "section_info_text_margin",
+      "value": "2vp"
+    },
+    {
+      "name": "section_price_text_size",
+      "value": "14fp"
+    },
+    {
+      "name": "section_price_text_line",
+      "value": "19vp"
+    },
+    {
+      "name": "section_price_text_margin",
+      "value": "10vp"
+    },
+    {
+      "name": "original_price_text_size",
+      "value": "8fp"
+    },
+    {
+      "name": "original_price_text_line",
+      "value": "10vp"
+    },
+    {
+      "name": "original_price_text_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "section_feature_text_size",
+      "value": "9fp"
+    },
+    {
+      "name": "section_feature_text_line",
+      "value": "12vp"
+    },
+    {
+      "name": "section_feature_padding",
+      "value": "4vp"
+    },
+    {
+      "name": "section_feature_margin_top",
+      "value": "6vp"
+    },
+    {
+      "name": "section_feature_margin_left",
+      "value": "4vp"
+    },
+    {
+      "name": "section_comments_text_size",
+      "value": "10fp"
+    },
+    {
+      "name": "section_comments_text_line",
+      "value": "14vp"
+    },
+    {
+      "name": "section_comments_text_top",
+      "value": "6vp"
+    },
+    {
+      "name": "section_comments_text_bottom",
+      "value": "12vp"
+    },
+    {
+      "name": "section_margin_md",
+      "value": "12vp"
+    },
+    {
+      "name": "section_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "section_feature_border_width",
+      "value": "1vp"
+    },
+    {
+      "name": "section_feature_border_radius",
+      "value": "4vp"
+    },
+    {
+      "name": "flash_sale_margin_lg",
+      "value": "16vp"
+    },
+    {
+      "name": "flash_sale_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "flash_grid_gutter_x_sm",
+      "value": "0"
+    },
+    {
+      "name": "flash_grid_gutter_x_md",
+      "value": "12vp"
+    },
+    {
+      "name": "flash_grid_gutter_x_lg",
+      "value": "4vp"
+    },
+    {
+      "name": "flash_grid_gutter_y",
+      "value": "12vp"
+    },
+    {
+      "name": "flash_button_top",
+      "value": "8vp"
+    },
+    {
+      "name": "flash_button_bottom",
+      "value": "12vp"
+    },
+    {
+      "name": "flash_button_right",
+      "value": "8vp"
+    },
+    {
+      "name": "flash_button_right_lg",
+      "value": "16vp"
+    },
+    {
+      "name": "flash_row_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "classify_banner_height",
+      "value": "107vp"
+    },
+    {
+      "name": "classify_swiper_indicator_width",
+      "value": "6vp"
+    },
+    {
+      "name": "classify_swiper_indicator_height",
+      "value": "6vp"
+    },
+    {
+      "name": "classify_swiper_indicator_selected_width",
+      "value": "12vp"
+    },
+    {
+      "name": "classify_swiper_indicator_selected_height",
+      "value": "6vp"
+    },
+    {
+      "name": "classify_swiper_next_margin_md",
+      "value": "13vp"
+    },
+    {
+      "name": "classify_navigation_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "classify_navigation_line_height",
+      "value": "19vp"
+    },
+    {
+      "name": "classify_navigation_divider_height",
+      "value": "16vp"
+    },
+    {
+      "name": "classify_navigation_bar_width_sm",
+      "value": "96vp"
+    },
+    {
+      "name": "classify_navigation_bar_width_md",
+      "value": "144vp"
+    },
+    {
+      "name": "classify_navigation_bar_width_lg",
+      "value": "200vp"
+    },
+    {
+      "name": "classify_navigation_bar_height",
+      "value": "48vp"
+    },
+    {
+      "name": "classify_header_input_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "classify_header_input_height",
+      "value": "40vp"
+    },
+    {
+      "name": "classify_header_input_padding_left",
+      "value": "36vp"
+    },
+    {
+      "name": "classify_header_input_padding_right",
+      "value": "12vp"
+    },
+    {
+      "name": "classify_header_input_search_size",
+      "value": "16vp"
+    },
+    {
+      "name": "classify_header_input_search_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "classify_header_row_width",
+      "value": "328vp"
+    },
+    {
+      "name": "classify_header_padding_left_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "classify_header_padding_right_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "classify_header_padding",
+      "value": "24vp"
+    },
+    {
+      "name": "classify_header_image_margin_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "classify_header_image_margin",
+      "value": "24vp"
+    },
+    {
+      "name": "classify_banner_padding_right_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "classify_banner_padding_right_md",
+      "value": "0vp"
+    },
+    {
+      "name": "classify_banner_padding_right_lg",
+      "value": "32vp"
+    },
+    {
+      "name": "classify_destination_padding_top",
+      "value": "8vp"
+    },
+    {
+      "name": "classify_destination_padding_left_sm",
+      "value": "4vp"
+    },
+    {
+      "name": "classify_destination_padding_left",
+      "value": "0vp"
+    },
+    {
+      "name": "classify_header_input_width",
+      "value": "232vp"
+    },
+    {
+      "name": "shop_list_font",
+      "value": "16fp"
+    },
+    {
+      "name": "shop_list_row_height",
+      "value": "48vp"
+    },
+    {
+      "name": "list_name_font",
+      "value": "12fp"
+    },
+    {
+      "name": "shop_grid_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "shop_col_padding_lg",
+      "value": "16vp"
+    },
+    {
+      "name": "shop_col_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "shop_col_margin_lg",
+      "value": "16vp"
+    },
+    {
+      "name": "shop_col_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "shop_list_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "bag_back_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "bag_title_font",
+      "value": "24fp"
+    },
+    {
+      "name": "bag_name_font",
+      "value": "14fp"
+    },
+    {
+      "name": "bag_close_margin",
+      "value": "24vp"
+    },
+    {
+      "name": "bag_title_row_height",
+      "value": "56vp"
+    },
+    {
+      "name": "bag_col_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "check_box_size",
+      "value": "18vp"
+    },
+    {
+      "name": "check_box_group_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "bag_seller_logo_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "bag_seller_logo_border_width",
+      "value": "0.5vp"
+    },
+    {
+      "name": "bag_card_title_row_height",
+      "value": "42vp"
+    },
+    {
+      "name": "bag_card_check_box_margin",
+      "value": "14vp"
+    },
+    {
+      "name": "bag_card_check_col_width",
+      "value": "32vp"
+    },
+    {
+      "name": "bag_card_check_col_padding",
+      "value": "40vp"
+    },
+    {
+      "name": "bag_card_row_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "bag_card_col_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "bag_discount_font_1",
+      "value": "20fp"
+    },
+    {
+      "name": "bag_discount_font_2",
+      "value": "14fp"
+    },
+    {
+      "name": "bag_discount_font_3",
+      "value": "16fp"
+    },
+    {
+      "name": "bag_discount_line_1",
+      "value": "28vp"
+    },
+    {
+      "name": "bag_discount_line_2",
+      "value": "19vp"
+    },
+    {
+      "name": "bag_discount_line_3",
+      "value": "22vp"
+    },
+    {
+      "name": "bag_discount_title_padding_top",
+      "value": "2vp"
+    },
+    {
+      "name": "bag_discount_title_padding_bottom",
+      "value": "4vp"
+    },
+    {
+      "name": "bag_discount_row_height",
+      "value": "48vp"
+    },
+    {
+      "name": "bag_discount_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "bag_discount_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "bag_discount_col_padding_bottom",
+      "value": "12vp"
+    },
+    {
+      "name": "shop_card_check_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "shop_card_font_1",
+      "value": "12fp"
+    },
+    {
+      "name": "shop_card_font_2",
+      "value": "16fp"
+    },
+    {
+      "name": "shop_card_font_3",
+      "value": "10fp"
+    },
+    {
+      "name": "shop_card_line_1",
+      "value": "19vp"
+    },
+    {
+      "name": "shop_card_line_2",
+      "value": "17vp"
+    },
+    {
+      "name": "shop_card_line_3",
+      "value": "22vp"
+    },
+    {
+      "name": "shop_card_line_4",
+      "value": "14vp"
+    },
+    {
+      "name": "arrow_up_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "arrow_up_width",
+      "value": "8vp"
+    },
+    {
+      "name": "arrow_up_height",
+      "value": "16vp"
+    },
+    {
+      "name": "foot_button_height",
+      "value": "40vp"
+    },
+    {
+      "name": "foot_button_width",
+      "value": "120vp"
+    },
+    {
+      "name": "foot_button_margin",
+      "value": "8vp"
+    },
+    {
+      "name": "foot_height",
+      "value": "56vp"
+    },
+    {
+      "name": "foot_padding_more",
+      "value": "32vp"
+    },
+    {
+      "name": "card_item_font_1",
+      "value": "13fp"
+    },
+    {
+      "name": "card_item_font_2",
+      "value": "9fp"
+    },
+    {
+      "name": "card_item_font_3",
+      "value": "12fp"
+    },
+    {
+      "name": "card_item_font_4",
+      "value": "16fp"
+    },
+    {
+      "name": "card_item_font_5",
+      "value": "10fp"
+    },
+    {
+      "name": "card_item_font_6",
+      "value": "11fp"
+    },
+    {
+      "name": "card_item_name_margin",
+      "value": "3vp"
+    },
+    {
+      "name": "card_item_type_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "card_type_padding_row_top",
+      "value": "1vp"
+    },
+    {
+      "name": "card_type_padding_row_left",
+      "value": "6vp"
+    },
+    {
+      "name": "card_type_padding_row_right",
+      "value": "10vp"
+    },
+    {
+      "name": "card_type_margin_row_bottom",
+      "value": "10vp"
+    },
+    {
+      "name": "card_preferential_padding_top",
+      "value": "2vp"
+    },
+    {
+      "name": "card_preferential_padding_left",
+      "value": "5vp"
+    },
+    {
+      "name": "card_preferential_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "card_preferential_row_margin",
+      "value": "11vp"
+    },
+    {
+      "name": "card_price_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "card_price_more_margin",
+      "value": "10vp"
+    },
+    {
+      "name": "add_button_size",
+      "value": "24vp"
+    },
+    {
+      "name": "add_button_border_width",
+      "value": "0.5vp"
+    },
+    {
+      "name": "card_number_font",
+      "value": "13fp"
+    },
+    {
+      "name": "card_number_width",
+      "value": "24vp"
+    },
+    {
+      "name": "card_number_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "card_item_col_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "card_gift_width",
+      "value": "48vp"
+    },
+    {
+      "name": "card_gift_row_margin_top",
+      "value": "4vp"
+    },
+    {
+      "name": "card_gift_row_margin_bottom",
+      "value": "5vp"
+    },
+    {
+      "name": "card_service_padding_left",
+      "value": "4vp"
+    },
+    {
+      "name": "card_service_padding_top",
+      "value": "2vp"
+    },
+    {
+      "name": "card_gift_row_padding",
+      "value": "42vp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "phone",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dynamicDependencies": {},
+  "dependencies": {
+    "@ohos/hot": "file:../../features/hot",
+    "@ohos/base": "file:../../commons/base",
+    "@ohos/detail": "file:../../features/detail",
+    "@ohos/rank": "file:../../features/rank",
+    "@ohos/picture": "file:../../features/picture"
+  }
+}

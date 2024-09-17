@@ -1,0 +1,220 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "the_fund_value",
+      "value": "-2.01%"
+    },
+    {
+      "name": "same_average_value",
+      "value": "-1.02%"
+    },
+    {
+      "name": "other_funding_value",
+      "value": "-0.67%"
+    },
+    {
+      "name": "my_funding",
+      "value": "我的基金 （元）"
+    },
+    {
+      "name": "my_concern",
+      "value": "我的关注"
+    },
+    {
+      "name": "my_amount",
+      "value": "******"
+    },
+    {
+      "name": "funding_news",
+      "value": "快来看看大家最近都在购买的基金"
+    },
+    {
+      "name": "funding_ranking",
+      "value": "排行榜"
+    },
+    {
+      "name": "funding_index_zone",
+      "value": "指数专区"
+    },
+    {
+      "name": "fixed_investment",
+      "value": "定投专区"
+    },
+    {
+      "name": "investment_star_selection",
+      "value": "投资星选"
+    },
+    {
+      "name": "funding_good_chance",
+      "value": "好机会"
+    },
+    {
+      "name": "funding_folder_add",
+      "value": "自建组合"
+    },
+    {
+      "name": "steady_growth",
+      "value": "稳健增长"
+    },
+    {
+      "name": "funding_short_term_B",
+      "value": "XXX短债基金B"
+    },
+    {
+      "name": "funding_amplitude",
+      "value": "+7.89%"
+    },
+    {
+      "name": "funding_industrial",
+      "value": "XXX产业基金C"
+    },
+    {
+      "name": "funding_mixed_currency",
+      "value": "XXX混合货币"
+    },
+    {
+      "name": "funding_bonds",
+      "value": "XXX债券A"
+    },
+    {
+      "name": "one_year_amplitude",
+      "value": "近一年涨跌幅"
+    },
+    {
+      "name": "funding_title",
+      "value": "基金详情"
+    },
+    {
+      "name": "funding_code",
+      "value": "000000"
+    },
+    {
+      "name": "currency_type",
+      "value": "货币型"
+    },
+    {
+      "name": "medium_risk",
+      "value": "R3-中风险"
+    },
+    {
+      "name": "purchase_rmb",
+      "value": "1.00元起购"
+    },
+    {
+      "name": "one_day_amplitude_data",
+      "value": "-0.25%"
+    },
+    {
+      "name": "one_day_amplitude",
+      "value": "日涨跌幅"
+    },
+    {
+      "name": "last_net_value_data",
+      "value": "1.257"
+    },
+    {
+      "name": "last_net_value",
+      "value": "最新净值"
+    },
+    {
+      "name": "last_net_not_show",
+      "value": "--"
+    },
+    {
+      "name": "three_year_rating",
+      "value": "三年评级"
+    },
+    {
+      "name": "the_fund",
+      "value": "本基金"
+    },
+    {
+      "name": "same_average",
+      "value": "同类平均"
+    },
+    {
+      "name": "other_funding",
+      "value": "沪深300"
+    },
+    {
+      "name": "funding_contrasts",
+      "value": "对比"
+    },
+    {
+      "name": "funding_concerned",
+      "value": "关注"
+    },
+    {
+      "name": "fixed_investment_button",
+      "value": "定投"
+    },
+    {
+      "name": "buying_button",
+      "value": "购买"
+    },
+    {
+      "name": "performance_trends",
+      "value": "业绩走势"
+    },
+    {
+      "name": "unit_net_value",
+      "value": "单位净值"
+    },
+    {
+      "name": "near_month",
+      "value": "near %d month"
+    },
+    {
+      "name": "near_year",
+      "value": "near %d year"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "search..."
+    },
+    {
+      "name": "pursue_profit",
+      "value": "pursue profit"
+    },
+    {
+      "name": "common_stock",
+      "value": "common stock"
+    },
+    {
+      "name": "partial_stock_mix",
+      "value": "partial stock mix"
+    },
+    {
+      "name": "flexible_configuration",
+      "value": "flexible configuration"
+    },
+    {
+      "name": "index_funds",
+      "value": "index funds"
+    },
+    {
+      "name": "tab_bar_home",
+      "value": "home"
+    },
+    {
+      "name": "tab_bar_card",
+      "value": "card"
+    },
+    {
+      "name": "tab_bar_fortunes",
+      "value": "fortunes"
+    },
+    {
+      "name": "tab_bar_life",
+      "value": "life"
+    },
+    {
+      "name": "tab_bar_mine",
+      "value": "mine"
+    }
+  ]
+}

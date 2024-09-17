@@ -1,0 +1,128 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "five_percent_black",
+      "value": "#0dffffff"
+    },
+    {
+      "name": "five_percent_white_fund",
+      "value": "#0d000000"
+    },
+    {
+      "name": "sixty_percent_black",
+      "value": "#99ffffff"
+    },
+    {
+      "name": "sixty_percent_white",
+      "value": "#99000000"
+    },
+    {
+      "name": "forty_percent_white",
+      "value": "#66000000"
+    },
+    {
+      "name": "ten_percent_white",
+      "value": "#1a000000"
+    },
+    {
+      "name": "harmony_blue",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "name_text",
+      "value": "#182431"
+    },
+    {
+      "name": "currency_font",
+      "value": "#1F69FF"
+    },
+    {
+      "name": "currency_border",
+      "value": "#1F69FF"
+    },
+    {
+      "name": "amplitude_text",
+      "value": "#E84026"
+    },
+    {
+      "name": "amplitude_date",
+      "value": "#28AD2B"
+    },
+    {
+      "name": "fund_chart",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "same_average_chart",
+      "value": "#660a59f7"
+    },
+    {
+      "name": "other_funding_chart",
+      "value": "#E84026"
+    },
+    {
+      "name": "bottom_button",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "common_background",
+      "value": "#F7F7F7"
+    },
+    {
+      "name": "name_build_text",
+      "value": "#cc000000"
+    },
+    {
+      "name": "value_build_text",
+      "value": "#28AD2B"
+    },
+    {
+      "name": "pursue_text",
+      "value": "#182431"
+    },
+    {
+      "name": "steady_font",
+      "value": "#182431"
+    },
+    {
+      "name": "amplitude_text_font",
+      "value": "#E84026"
+    },
+    {
+      "name": "list_background",
+      "value": "#0d1f69ff"
+    },
+    {
+      "name": "transparent_color",
+      "value": "#00000000"
+    },
+    {
+      "name": "gradient_left",
+      "value": "#0954EA"
+    },
+    {
+      "name": "gradient_center",
+      "value": "#6193F6"
+    },
+    {
+      "name": "gradient_right",
+      "value": "#88AFFC"
+    },
+    {
+      "name": "tab_choose_image",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "tab_un_image",
+      "value": "#33000000"
+    },
+    {
+      "name": "home_background",
+      "value": "#F1F3F5"
+    }
+  ]
+}

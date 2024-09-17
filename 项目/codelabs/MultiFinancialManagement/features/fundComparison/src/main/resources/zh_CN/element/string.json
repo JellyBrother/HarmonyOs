@@ -1,0 +1,92 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "搜索..."
+    },
+    {
+      "name": "fund_popularity",
+      "value": "热门"
+    },
+    {
+      "name": "self_selected",
+      "value": "自选"
+    },
+    {
+      "name": "select_fund",
+      "value": "请从上方选择基金"
+    },
+    {
+      "name": "start_comparison",
+      "value": "开始对比"
+    },
+    {
+      "name": "no_currency",
+      "value": "非货币 %d"
+    },
+    {
+      "name": "currency_bar",
+      "value": "货币 %d"
+    },
+    {
+      "name": "count_choose",
+      "value": "已选择%d只基金"
+    },
+    {
+      "name": "max_count_choose",
+      "value": "单类型最多选10只"
+    },
+    {
+      "name": "funding_comparison_title",
+      "value": "基金比较"
+    },
+    {
+      "name": "table_fund_name",
+      "value": "基金名称"
+    },
+    {
+      "name": "base_info",
+      "value": "基本信息"
+    },
+    {
+      "name": "category_fund_code",
+      "value": "基金代码"
+    },
+    {
+      "name": "category_fund_type",
+      "value": "基金类型"
+    },
+    {
+      "name": "category_established_time",
+      "value": "成立日期"
+    },
+    {
+      "name": "category_new_scale",
+      "value": "最新规模  (亿元)"
+    },
+    {
+      "name": "category_risks_level",
+      "value": "风险等级"
+    },
+    {
+      "name": "category_three_rating",
+      "value": "三年评级"
+    },
+    {
+      "name": "category_accumulated_dividends",
+      "value": "累计分红"
+    },
+    {
+      "name": "category_dividends_count",
+      "value": "分红次数"
+    },
+    {
+      "name": "category_fund_manager",
+      "value": "基金经理"
+    }
+  ]
+}

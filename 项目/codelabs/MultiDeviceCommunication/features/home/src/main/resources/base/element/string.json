@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "Message",
+      "value": "消息"
+    },
+    {
+      "name": "Contacts",
+      "value": "通讯录"
+    },
+    {
+      "name": "SocialCircle",
+      "value": "朋友圈"
+    },
+    {
+      "name": "Me",
+      "value": "我的"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "float": [
+    {
+      "name": "float_1",
+      "value": "30.6"
+    },
+    {
+      "name": "side_bar_with",
+      "value": "480vp"
+    },
+    {
+      "name": "min_side_bar_width",
+      "value": "480vp"
+    },
+    {
+      "name": "max_side_bar_width",
+      "value": "480vp"
+    },
+    {
+      "name": "comment_input_height",
+      "value": "40vp"
+    },
+    {
+      "name": "toolbar_comment_image_width",
+      "value": "24vp"
+    },
+    {
+      "name": "toolbar_comment_height",
+      "value": "56vp"
+    },
+    {
+      "name": "toolbar_comment_input_height",
+      "value": "84vp"
+    },
+    {
+      "name": "comment_bar_border_with",
+      "value": "0.5vp"
+    },
+    {
+      "name": "constraint_size",
+      "value": "40vp"
+    },
+    {
+      "name": "toolbar_sent_width",
+      "value": "24vp"
+    },
+    {
+      "name": "toolbar_sent_ml",
+      "value": "16vp"
+    },
+    {
+      "name": "toolbar_sent_mb",
+      "value": "8vp"
+    },
+    {
+      "name": "dialog_pl",
+      "value": "12vp"
+    },
+    {
+      "name": "dialog_pr",
+      "value": "16vp"
+    },
+    {
+      "name": "dialog_pt",
+      "value": "8vp"
+    },
+    {
+      "name": "comment_item_icon_width",
+      "value": "32vp"
+    },
+    {
+      "name": "comment_item_icon_br",
+      "value": "16vp"
+    },
+    {
+      "name": "comment_item_name_fs",
+      "value": "14fp"
+    },
+    {
+      "name": "comment_item_name_ml",
+      "value": "12vp"
+    },
+    {
+      "name": "comment_item_title_height",
+      "value": "39vp"
+    },
+    {
+      "name": "comment_item_favor_fs",
+      "value": "12fp"
+    },
+    {
+      "name": "comment_item_favor_width",
+      "value": "16vp"
+    },
+    {
+      "name": "comment_item_favor_ml",
+      "value": "4vp"
+    },
+    {
+      "name": "comment_item_title_pl",
+      "value": "16vp"
+    },
+    {
+      "name": "comment_item_content_fs",
+      "value": "14fp"
+    },
+    {
+      "name": "comment_item_content_ml",
+      "value": "44vp"
+    },
+    {
+      "name": "comment_item_content_mr",
+      "value": "16vp"
+    },
+    {
+      "name": "comment_list_title_fs",
+      "value": "18fp"
+    },
+    {
+      "name": "comment_list_title_pl",
+      "value": "16vp"
+    },
+    {
+      "name": "comment_list_title_height",
+      "value": "56vp"
+    },
+    {
+      "name": "card_detail_fs",
+      "value": "20fp"
+    },
+    {
+      "name": "card_detail_back_ml",
+      "value": "16vp"
+    },
+    {
+      "name": "card_detail_back_width",
+      "value": "24vp"
+    },
+    {
+      "name": "card_detail_fold_mr",
+      "value": "16vp"
+    },
+    {
+      "name": "card_detail_more_width",
+      "value": "24vp"
+    },
+    {
+      "name": "title_blank_height",
+      "value": "36vp"
+    },
+    {
+      "name": "detail_title_height",
+      "value": "40vp"
+    },
+    {
+      "name": "blog_icon_width",
+      "value": "36vp"
+    },
+    {
+      "name": "blog_icon_br",
+      "value": "18vp"
+    },
+    {
+      "name": "blog_name_fs",
+      "value": "14fp"
+    },
+    {
+      "name": "blog_name_height",
+      "value": "19fp"
+    },
+    {
+      "name": "author_type_fs",
+      "value": "12fp"
+    },
+    {
+      "name": "author_type_height",
+      "value": "16vp"
+    },
+    {
+      "name": "blog_title_ml",
+      "value": "8vp"
+    },
+    {
+      "name": "blog_add_width",
+      "value": "12vp"
+    },
+    {
+      "name": "follow_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "follow_margin_left",
+      "value": "5vp"
+    },
+    {
+      "name": "blog_title_follow_bw",
+      "value": "1vp"
+    },
+    {
+      "name": "blog_title_follow_br",
+      "value": "14vp"
+    },
+    {
+      "name": "blog_title_padding_left",
+      "value": "13vp"
+    },
+    {
+      "name": "blog_title_follow_height",
+      "value": "28vp"
+    },
+    {
+      "name": "blog_title_follow_width",
+      "value": "64vp"
+    },
+    {
+      "name": "blog_title_height",
+      "value": "52vp"
+    },
+    {
+      "name": "blog_margin_left",
+      "value": "16vp"
+    },
+    {
+      "name": "blog_margin_top",
+      "value": "8vp"
+    },
+    {
+      "name": "author_type_name_fs",
+      "value": "10fp"
+    },
+    {
+      "name": "author_type_name_br",
+      "value": "4vp"
+    },
+    {
+      "name": "author_type_name_fw",
+      "value": "0.5vp"
+    },
+    {
+      "name": "author_type_name_padding",
+      "value": "2vp"
+    },
+    {
+      "name": "author_type_name_ml",
+      "value": "4vp"
+    },
+    {
+      "name": "time_position_fs",
+      "value": "12fp"
+    },
+    {
+      "name": "time_position_opacity",
+      "value": "0.4"
+    },
+    {
+      "name": "review_count_fs",
+      "value": "12fp"
+    },
+    {
+      "name": "review_count_opacity",
+      "value": "0.6"
+    },
+    {
+      "name": "replay_fs",
+      "value": "12fp"
+    },
+    {
+      "name": "replay_opacity",
+      "value": "0.6"
+    },
+    {
+      "name": "replay_board_radius",
+      "value": "13vp"
+    },
+    {
+      "name": "replay_padding_left",
+      "value": "8vp"
+    },
+    {
+      "name": "replay_area_height",
+      "value": "24vp"
+    },
+    {
+      "name": "replay_normal_opacity",
+      "value": "0.9"
+    },
+    {
+      "name": "time_position_height",
+      "value": "40vp"
+    },
+    {
+      "name": "review_count_normal_fs",
+      "value": "14fp"
+    },
+    {
+      "name": "read_all_replay_fs",
+      "value": "12fp"
+    },
+    {
+      "name": "read_all_replay_br",
+      "value": "8vp"
+    },
+    {
+      "name": "read_all_replay_mr_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "all_replay_mr_md_fold",
+      "value": "32vp"
+    },
+    {
+      "name": "all_replay_mr_md_normal",
+      "value": "24vp"
+    },
+    {
+      "name": "replay_all_replay_mr_lg",
+      "value": "40vp"
+    },
+    {
+      "name": "sub_content_pl",
+      "value": "16vp"
+    },
+    {
+      "name": "sub_content_pt",
+      "value": "12vp"
+    },
+    {
+      "name": "picture_are_margin_top",
+      "value": "8vp"
+    },
+    {
+      "name": "window_padding_left_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "window_padding_left_md",
+      "value": "24vp"
+    },
+    {
+      "name": "window_padding_left_lg",
+      "value": "32vp"
+    },
+    {
+      "name": "mirco_blog_mt",
+      "value": "16vp"
+    },
+    {
+      "name": "comment_padding_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "blank_top_height",
+      "value": "24vp"
+    },
+    {
+      "name": "card_title_padding",
+      "value": "8vp"
+    },
+    {
+      "name": "grid_gap",
+      "value": "4vp"
+    },
+    {
+      "name": "comment_context_fs",
+      "value": "16fp"
+    },
+    {
+      "name": "comment_context_opacity",
+      "value": "0.6"
+    },
+    {
+      "name": "comment_context_br",
+      "value": "20vp"
+    },
+    {
+      "name": "text_input_bgc_opacity",
+      "value": "0.4"
+    },
+    {
+      "name": "sub_comment_margin_bottom",
+      "value": "8vp"
+    },
+    {
+      "name": "tab_bar_padding_top",
+      "value": "22vp"
+    },
+    {
+      "name": "tab_content_margin_top",
+      "value": "7vp"
+    }
+  ]
+}

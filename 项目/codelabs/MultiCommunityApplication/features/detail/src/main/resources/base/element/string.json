@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "detail_write_comment",
+      "value": "写评论"
+    },
+    {
+      "name": "comment_list_title",
+      "value": "评论"
+    },
+    {
+      "name": "card_detail_title",
+      "value": "详情页"
+    },
+    {
+      "name": "blog_follow",
+      "value": "关注"
+    },
+    {
+      "name": "author_type_name",
+      "value": "楼主"
+    },
+    {
+      "name": "replay",
+      "value": "回复"
+    },
+    {
+      "name": "read_all_replay",
+      "value": "查看全部回复"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "entry ability description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MultiCommunityApplication"
+    },
+    {
+      "name": "hot",
+      "value": "Hot"
+    },
+    {
+      "name": "main",
+      "value": "Main"
+    },
+    {
+      "name": "message",
+      "value": "Message"
+    },
+    {
+      "name": "mine",
+      "value": "Mine"
+    }
+  ]
+}

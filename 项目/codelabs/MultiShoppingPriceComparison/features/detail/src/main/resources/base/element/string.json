@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "comment_placeholder",
+      "value": "说点什么…"
+    },
+    {
+      "name": "official_review",
+      "value": "官方主播"
+    },
+    {
+      "name": "store_name",
+      "value": "官方直播间"
+    },
+    {
+      "name": "number_of_viewers",
+      "value": "73.86万人观看"
+    },
+    {
+      "name": "preferential_scheme",
+      "value": "XX元店铺通用红包"
+    },
+    {
+      "name": "pocket_baby",
+      "value": "口袋宝贝"
+    },
+    {
+      "name": "currency_symbol",
+      "value": "￥ "
+    }
+  ]
+}

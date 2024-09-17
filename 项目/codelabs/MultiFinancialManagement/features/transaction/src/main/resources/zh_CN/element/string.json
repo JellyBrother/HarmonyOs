@@ -1,0 +1,72 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "fixed_investment",
+      "value": "定投专区"
+    },
+    {
+      "name": "financial_purchase",
+      "value": "理财购买"
+    },
+    {
+      "name": "transaction_account",
+      "value": "账户"
+    },
+    {
+      "name": "payment_account",
+      "value": "付款账户 (0012)"
+    },
+    {
+      "name": "available_balance",
+      "value": "可用余额 ￥ 34,567.89"
+    },
+    {
+      "name": "purchase_amount",
+      "value": "购买金额"
+    },
+    {
+      "name": "transaction_rules",
+      "value": "交易规则"
+    },
+    {
+      "name": "money_symbol",
+      "value": "￥"
+    },
+    {
+      "name": "buy_all",
+      "value": "全部买入"
+    },
+    {
+      "name": "confirm_share_prompt",
+      "value": "购买%d费率，预计%d月%d日确认份额"
+    },
+    {
+      "name": "recommendation_no",
+      "value": "推荐号"
+    },
+    {
+      "name": "recommendation_optional",
+      "value": "选填"
+    },
+    {
+      "name": "transaction_read",
+      "value": "阅读并同意《产品说明书》《风险揭示书》等协议"
+    },
+    {
+      "name": "transaction_button",
+      "value": "同意协议下一步"
+    },
+    {
+      "name": "fund_type",
+      "value": "货币型"
+    },
+    {
+      "name": "risk_level",
+      "value": "R3-中风险"
+    }
+  ]
+}

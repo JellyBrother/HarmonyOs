@@ -1,0 +1,40 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "dialog_background",
+      "value": "#00FFFFFF"
+    },
+    {
+      "name": "dialog_mask",
+      "value": "#99000000"
+    },
+    {
+      "name": "home_background",
+      "value": "#F7F7F7"
+    },
+    {
+      "name": "bar_background",
+      "value": "#2ef1f3f5"
+    },
+    {
+      "name": "tab_choose_image",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "tab_un_image",
+      "value": "#33000000"
+    },
+    {
+      "name": "tab_choose_text",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "tab_un_text",
+      "value": "#33000000"
+    }
+  ]
+}

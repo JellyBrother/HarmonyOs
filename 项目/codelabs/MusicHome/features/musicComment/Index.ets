@@ -1,0 +1,1 @@
+export { MusicCommentPage } from './src/main/ets/view/MusicCommentPage';

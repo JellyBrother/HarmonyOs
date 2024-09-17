@@ -1,0 +1,72 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "fixed_investment",
+      "value": "fixed_investment"
+    },
+    {
+      "name": "financial_purchase",
+      "value": "Financial purchase"
+    },
+    {
+      "name": "transaction_account",
+      "value": "account"
+    },
+    {
+      "name": "payment_account",
+      "value": "payment account"
+    },
+    {
+      "name": "available_balance",
+      "value": "Available Balance"
+    },
+    {
+      "name": "purchase_amount",
+      "value": "Purchase Amount"
+    },
+    {
+      "name": "transaction_rules",
+      "value": "transaction rules"
+    },
+    {
+      "name": "money_symbol",
+      "value": "￥"
+    },
+    {
+      "name": "buy_all",
+      "value": "Buy it all"
+    },
+    {
+      "name": "confirm_share_prompt",
+      "value": "Buy %d rate, share confirmation is expected on %d %d"
+    },
+    {
+      "name": "recommendation_no",
+      "value": "Recommendation No"
+    },
+    {
+      "name": "recommendation_optional",
+      "value": "optional"
+    },
+    {
+      "name": "transaction_read",
+      "value": "Read and agree to the Product Description, Risk Disclosure, and other agreements."
+    },
+    {
+      "name": "transaction_button",
+      "value": "Agree to the next step of the agreement"
+    },
+    {
+      "name": "fund_type",
+      "value": "Currency type"
+    },
+    {
+      "name": "risk_level",
+      "value": "R3-Medium Risk"
+    }
+  ]
+}

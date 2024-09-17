@@ -1,0 +1,36 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "title_font_color",
+      "value": "#E6000000"
+    },
+    {
+      "name": "background_color",
+      "value": "#F2F2F2"
+    },
+    {
+      "name": "top_three_color",
+      "value": "#FD2704"
+    },
+    {
+      "name": "normal_index_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "content_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "click_count_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "group_item_title_font_color",
+      "value": "#444444"
+    }
+  ]
+}

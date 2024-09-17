@@ -1,0 +1,224 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "gps_location",
+      "value": "shenzhen"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "search..."
+    },
+    {
+      "name": "home_account",
+      "value": "account"
+    },
+    {
+      "name": "home_details",
+      "value": "details"
+    },
+    {
+      "name": "home_transfers",
+      "value": "transfers"
+    },
+    {
+      "name": "home_loans",
+      "value": "loans"
+    },
+    {
+      "name": "home_fund_investment",
+      "value": "fundInvestment"
+    },
+    {
+      "name": "home_wealth_products",
+      "value": "wealthProducts"
+    },
+    {
+      "name": "home_cards",
+      "value": "cards"
+    },
+    {
+      "name": "home_notes",
+      "value": "notes"
+    },
+    {
+      "name": "home_quick_profit",
+      "value": "quickProfit"
+    },
+    {
+      "name": "home_precious_metals",
+      "value": "preciousMetals"
+    },
+    {
+      "name": "home_deposits",
+      "value": "deposits"
+    },
+    {
+      "name": "home_payment",
+      "value": "payment"
+    },
+    {
+      "name": "home_quick_loan",
+      "value": "quickLoan"
+    },
+    {
+      "name": "home_more",
+      "value": "more"
+    },
+    {
+      "name": "swiper_image",
+      "value": "swiper"
+    },
+    {
+      "name": "home_list",
+      "value": "homeListInfo"
+    },
+    {
+      "name": "home_fortune_picks",
+      "value": "fortunePicks"
+    },
+    {
+      "name": "account_all_info",
+      "value": "Account Overview"
+    },
+    {
+      "name": "account_count",
+      "value": "999999.99"
+    },
+    {
+      "name": "yesterday_earnings",
+      "value": "Yesterday's earnings + 333.33"
+    },
+    {
+      "name": "current_period_amount",
+      "value": "8888.8"
+    },
+    {
+      "name": "current_period",
+      "value": "current period+"
+    },
+    {
+      "name": "investment_amount",
+      "value": "1333333.2"
+    },
+    {
+      "name": "investment_name",
+      "value": "investment"
+    },
+    {
+      "name": "remaining_due_amount",
+      "value": "5555.55"
+    },
+    {
+      "name": "remaining_due_month",
+      "value": "remaining due this month"
+    },
+    {
+      "name": "prompt_message",
+      "value": "Prepare for the old as soon as possible, worry-free old age, new users enjoy 3 gifts > >"
+    },
+    {
+      "name": "liabilities_name",
+      "value": "liabilities"
+    },
+    {
+      "name": "saving_card",
+      "value": "saving card"
+    },
+    {
+      "name": "save_card_account",
+      "value": "88888.8"
+    },
+    {
+      "name": "current_deposit",
+      "value": "current deposit"
+    },
+    {
+      "name": "day_day_treasure",
+      "value": "day and day treasure"
+    },
+    {
+      "name": "day_day_count",
+      "value": "33333.3"
+    },
+    {
+      "name": "yesterday_earnings_day",
+      "value": "Yesterday's earnings 1.33"
+    },
+    {
+      "name": "investment_wealth",
+      "value": "financial management"
+    },
+    {
+      "name": "investment_wealth_count",
+      "value": "66666.66"
+    },
+    {
+      "name": "half_year_treasure",
+      "value": "half a year treasure"
+    },
+    {
+      "name": "earnings_holding_positions",
+      "value": "earnings from holding positions"
+    },
+    {
+      "name": "earnings_holding_positions_count",
+      "value": "66.6"
+    },
+    {
+      "name": "last_redemption_date",
+      "value": "last redemption date:"
+    },
+    {
+      "name": "last_date",
+      "value": "2023-11-23"
+    },
+    {
+      "name": "position_amount",
+      "value": "position amount"
+    },
+    {
+      "name": "fund_name",
+      "value": "fund"
+    },
+    {
+      "name": "exponent_c",
+      "value": "XXXXXXXXX exponent C"
+    },
+    {
+      "name": "yesterday_earnings_exponent",
+      "value": "yesterday·s earnings"
+    },
+    {
+      "name": "yesterday_exponent_count",
+      "value": "-66.6"
+    },
+    {
+      "name": "investment_holding_count",
+      "value": "666.6"
+    },
+    {
+      "name": "credit_card_account",
+      "value": "credit card personal consumption account"
+    },
+    {
+      "name": "remaining_available_amount",
+      "value": "remaining available amount"
+    },
+    {
+      "name": "remaining_available_count",
+      "value": "500000.00"
+    },
+    {
+      "name": "remaining_due",
+      "value": "remaining RMB due"
+    },
+    {
+      "name": "remaining_due_count",
+      "value": "55555.55"
+    }
+  ]
+}

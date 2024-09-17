@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Public/ic_public_spinner_small</title>
+    <defs>
+        <path d="M2.66675891,5.91666667 L7.33326257,5.91666667 C7.65546776,5.91666667 7.91666667,6.18319218 7.91666667,6.51196805 C7.91666667,6.64714403 7.87158076,6.77829518 7.78882463,6.88384988 L5.4555728,9.85989185 C5.25429282,10.1166227 4.88716107,10.158247 4.63556109,9.95286231 C4.60191927,9.92540001 4.57136214,9.89421973 4.54444868,9.85989185 L2.21119685,6.88384988 C2.00991687,6.62711905 2.05070928,6.25250043 2.30230926,6.04711577 C2.40575442,5.96267201 2.53428447,5.91666667 2.66675891,5.91666667 Z" id="path-1"></path>
+    </defs>
+    <g id="Public/ic_public_spinner_small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="矩形备份-2"></g>
+        <g id="Symbol/color-light/colorPrimary" mask="url(#mask-2)" fill="#000000" fill-opacity="0.9">
+            <rect id="color/#000000" x="0" y="0" width="10" height="20"></rect>
+        </g>
+    </g>
+</svg>

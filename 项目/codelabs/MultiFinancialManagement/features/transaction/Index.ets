@@ -1,0 +1,1 @@
+export { TransactionComponent } from './src/main/ets/view/TransactionComponent';

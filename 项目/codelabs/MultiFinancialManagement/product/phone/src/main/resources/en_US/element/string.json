@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MultiFinancialManagement"
+    },
+    {
+      "name": "tab_bar_home",
+      "value": "home"
+    },
+    {
+      "name": "tab_bar_card",
+      "value": "card"
+    },
+    {
+      "name": "tab_bar_fortunes",
+      "value": "fortunes"
+    },
+    {
+      "name": "tab_bar_life",
+      "value": "life"
+    },
+    {
+      "name": "tab_bar_mine",
+      "value": "mine"
+    }
+  ]
+}

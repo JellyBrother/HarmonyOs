@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "AppletAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "DocumentAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "一多即时通讯"
+    },
+    {
+      "name": "AppletAbility_label",
+      "value": "一多即时通讯"
+    },
+    {
+      "name": "DocumentAbility_label",
+      "value": "一多即时通讯"
+    }
+  ]
+}

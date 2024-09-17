@@ -1,0 +1,224 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "gps_location",
+      "value": "深圳"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "搜索..."
+    },
+    {
+      "name": "home_account",
+      "value": "账户"
+    },
+    {
+      "name": "home_details",
+      "value": "明细"
+    },
+    {
+      "name": "home_transfers",
+      "value": "转账"
+    },
+    {
+      "name": "home_loans",
+      "value": "贷款"
+    },
+    {
+      "name": "home_fund_investment",
+      "value": "基金投资"
+    },
+    {
+      "name": "home_wealth_products",
+      "value": "理财产品"
+    },
+    {
+      "name": "home_cards",
+      "value": "信用卡"
+    },
+    {
+      "name": "home_notes",
+      "value": "账单"
+    },
+    {
+      "name": "home_quick_profit",
+      "value": "速盈"
+    },
+    {
+      "name": "home_precious_metals",
+      "value": "贵金属"
+    },
+    {
+      "name": "home_deposits",
+      "value": "存款产品"
+    },
+    {
+      "name": "home_payment",
+      "value": "缴费"
+    },
+    {
+      "name": "home_quick_loan",
+      "value": "快贷"
+    },
+    {
+      "name": "home_more",
+      "value": "更多"
+    },
+    {
+      "name": "swiper_image",
+      "value": "swiper"
+    },
+    {
+      "name": "home_list",
+      "value": "homeListInfo"
+    },
+    {
+      "name": "home_fortune_picks",
+      "value": "财富精选"
+    },
+    {
+      "name": "account_all_info",
+      "value": "账户总览"
+    },
+    {
+      "name": "account_count",
+      "value": "999999.99"
+    },
+    {
+      "name": "yesterday_earnings",
+      "value": "昨日收益+333.33"
+    },
+    {
+      "name": "current_period_amount",
+      "value": "8888.8"
+    },
+    {
+      "name": "current_period",
+      "value": "活期+"
+    },
+    {
+      "name": "investment_amount",
+      "value": "1333333.2"
+    },
+    {
+      "name": "investment_name",
+      "value": "投资"
+    },
+    {
+      "name": "remaining_due_amount",
+      "value": "5555.55"
+    },
+    {
+      "name": "remaining_due_month",
+      "value": "本月剩余应还"
+    },
+    {
+      "name": "prompt_message",
+      "value": "备老趁早，养老无忧，新用户立享3重礼>>"
+    },
+    {
+      "name": "liabilities_name",
+      "value": "负债"
+    },
+    {
+      "name": "saving_card",
+      "value": "储蓄卡"
+    },
+    {
+      "name": "save_card_account",
+      "value": "88888.8"
+    },
+    {
+      "name": "current_deposit",
+      "value": "活期存款"
+    },
+    {
+      "name": "day_day_treasure",
+      "value": "日日宝"
+    },
+    {
+      "name": "day_day_count",
+      "value": "33333.3"
+    },
+    {
+      "name": "yesterday_earnings_day",
+      "value": "昨日收益1.33"
+    },
+    {
+      "name": "investment_wealth",
+      "value": "理财"
+    },
+    {
+      "name": "investment_wealth_count",
+      "value": "66666.66"
+    },
+    {
+      "name": "half_year_treasure",
+      "value": "半年宝"
+    },
+    {
+      "name": "earnings_holding_positions",
+      "value": "持仓收益       "
+    },
+    {
+      "name": "earnings_holding_positions_count",
+      "value": "66.6"
+    },
+    {
+      "name": "last_redemption_date",
+      "value": "最近可赎日："
+    },
+    {
+      "name": "last_date",
+      "value": "2023-11-23"
+    },
+    {
+      "name": "position_amount",
+      "value": "持仓金额"
+    },
+    {
+      "name": "fund_name",
+      "value": "基金"
+    },
+    {
+      "name": "exponent_c",
+      "value": "XXXXXXXXX指数C"
+    },
+    {
+      "name": "yesterday_earnings_exponent",
+      "value": "昨日收益"
+    },
+    {
+      "name": "yesterday_exponent_count",
+      "value": "-66.6"
+    },
+    {
+      "name": "investment_holding_count",
+      "value": "666.6"
+    },
+    {
+      "name": "credit_card_account",
+      "value": "信用卡个人消费账户"
+    },
+    {
+      "name": "remaining_available_amount",
+      "value": "剩余可用额度  "
+    },
+    {
+      "name": "remaining_available_count",
+      "value": "500000.00"
+    },
+    {
+      "name": "remaining_due",
+      "value": "剩余应还人民币  "
+    },
+    {
+      "name": "remaining_due_count",
+      "value": "55555.55"
+    }
+  ]
+}

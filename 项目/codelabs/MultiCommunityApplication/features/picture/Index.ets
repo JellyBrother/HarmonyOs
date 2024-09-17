@@ -1,0 +1,1 @@
+export { PictureDetail } from './src/main/ets/view/PictureDetail';

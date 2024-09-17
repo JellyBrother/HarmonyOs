@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "entry ability description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "一多开发实例-社区评论"
+    },
+    {
+      "name": "hot",
+      "value": "热点"
+    },
+    {
+      "name": "main",
+      "value": "首页"
+    },
+    {
+      "name": "message",
+      "value": "消息"
+    },
+    {
+      "name": "mine",
+      "value": "我的"
+    }
+  ]
+}

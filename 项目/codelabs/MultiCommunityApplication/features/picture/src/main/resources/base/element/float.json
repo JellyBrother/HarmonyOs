@@ -1,0 +1,84 @@
+{
+  "float": [
+    {
+      "name": "content_with",
+      "value": "480vp"
+    },
+    {
+      "name": "back_margin_top",
+      "value": "46vp"
+    },
+    {
+      "name": "back_margin_left_sm",
+      "value": "18vp"
+    },
+    {
+      "name": "back_margin_left_md",
+      "value": "26vp"
+    },
+    {
+      "name": "back_margin_left_lg",
+      "value": "34vp"
+    },
+    {
+      "name": "swiper_digit_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "swiper_digit_bottom",
+      "value": "44vp"
+    },
+    {
+      "name": "back_width",
+      "value": "24vp"
+    },
+    {
+      "name": "above_button_width",
+      "value": "72vp"
+    },
+    {
+      "name": "button_line_padding_left",
+      "value": "32vp"
+    },
+    {
+      "name": "button_line_margin_bottom",
+      "value": "44vp"
+    },
+    {
+      "name": "detail_padding_top_md",
+      "value": "24vp"
+    },
+    {
+      "name": "zero",
+      "value": "0vp"
+    },
+    {
+      "name": "button_height",
+      "value": "28vp"
+    },
+    {
+      "name": "window_padding_left_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "window_padding_left_md",
+      "value": "24vp"
+    },
+    {
+      "name": "window_padding_left_lg",
+      "value": "32vp"
+    },
+    {
+      "name": "picture_content_padding",
+      "value": "16vp"
+    },
+    {
+      "name": "text_input_bgc_opacity",
+      "value": "0.4"
+    },
+    {
+      "name": "picture_comment_list_mt",
+      "value": "16vp"
+    }
+  ]
+}

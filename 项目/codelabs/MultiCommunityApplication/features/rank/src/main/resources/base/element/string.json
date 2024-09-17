@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "rank_title",
+      "value": "热搜榜单"
+    },
+    {
+      "name": "ran_sub_title",
+      "value": "最新最热大事件都在这"
+    }
+  ]
+}

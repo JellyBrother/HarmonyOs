@@ -1,0 +1,220 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "the_fund_value",
+      "value": "-2.01%"
+    },
+    {
+      "name": "same_average_value",
+      "value": "-1.02%"
+    },
+    {
+      "name": "other_funding_value",
+      "value": "-0.67%"
+    },
+    {
+      "name": "my_funding",
+      "value": "My fund (RMB)"
+    },
+    {
+      "name": "my_concern",
+      "value": "My concern"
+    },
+    {
+      "name": "my_amount",
+      "value": "******"
+    },
+    {
+      "name": "funding_news",
+      "value": "Let's take a look at the funds everyone's buying."
+    },
+    {
+      "name": "funding_ranking",
+      "value": "rankings"
+    },
+    {
+      "name": "funding_index_zone",
+      "value": "index zone"
+    },
+    {
+      "name": "fixed_investment",
+      "value": "fixed_investment"
+    },
+    {
+      "name": "investment_star_selection",
+      "value": "Investment Star Selection"
+    },
+    {
+      "name": "funding_good_chance",
+      "value": "good chance"
+    },
+    {
+      "name": "funding_folder_add",
+      "value": "Self-built combination"
+    },
+    {
+      "name": "steady_growth",
+      "value": "steady growth"
+    },
+    {
+      "name": "funding_short_term_B",
+      "value": "XXXshort-term debt fund B"
+    },
+    {
+      "name": "funding_amplitude",
+      "value": "+7.89%"
+    },
+    {
+      "name": "funding_industrial",
+      "value": "XXXindustrial fund"
+    },
+    {
+      "name": "funding_mixed_currency",
+      "value": "XXX Mixed Currency"
+    },
+    {
+      "name": "funding_bonds",
+      "value": "XXXBonds"
+    },
+    {
+      "name": "one_year_amplitude",
+      "value": "Ups and downs in the past year"
+    },
+    {
+      "name": "funding_title",
+      "value": "Fund Details"
+    },
+    {
+      "name": "funding_code",
+      "value": "000000"
+    },
+    {
+      "name": "currency_type",
+      "value": "Currency type"
+    },
+    {
+      "name": "medium_risk",
+      "value": "R3-Medium risk"
+    },
+    {
+      "name": "purchase_rmb",
+      "value": "Purchase from ￥1.00"
+    },
+    {
+      "name": "one_day_amplitude_data",
+      "value": "-0.25%"
+    },
+    {
+      "name": "one_day_amplitude",
+      "value": "Daily rise and fall"
+    },
+    {
+      "name": "last_net_value_data",
+      "value": "1.257"
+    },
+    {
+      "name": "last_net_value",
+      "value": "Last net value"
+    },
+    {
+      "name": "last_net_not_show",
+      "value": "--"
+    },
+    {
+      "name": "three_year_rating",
+      "value": "Three-year rating"
+    },
+    {
+      "name": "the_fund",
+      "value": "The fund"
+    },
+    {
+      "name": "same_average",
+      "value": "Average"
+    },
+    {
+      "name": "other_funding",
+      "value": "Shanghai and Shenzhen"
+    },
+    {
+      "name": "funding_contrasts",
+      "value": "contrasts"
+    },
+    {
+      "name": "funding_concerned",
+      "value": "concerned"
+    },
+    {
+      "name": "fixed_investment_button",
+      "value": "fixed investment"
+    },
+    {
+      "name": "buying_button",
+      "value": "buying"
+    },
+    {
+      "name": "performance_trends",
+      "value": "Performance Trends"
+    },
+    {
+      "name": "unit_net_value",
+      "value": "Unit Net Value"
+    },
+    {
+      "name": "near_month",
+      "value": "near %d month"
+    },
+    {
+      "name": "near_year",
+      "value": "near %d year"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "search..."
+    },
+    {
+      "name": "pursue_profit",
+      "value": "pursue profit"
+    },
+    {
+      "name": "index_funds",
+      "value": "index funds"
+    },
+    {
+      "name": "common_stock",
+      "value": "common stock"
+    },
+    {
+      "name": "partial_stock_mix",
+      "value": "partial stock mix"
+    },
+    {
+      "name": "flexible_configuration",
+      "value": "flexible configuration"
+    },
+    {
+      "name": "tab_bar_home",
+      "value": "home"
+    },
+    {
+      "name": "tab_bar_card",
+      "value": "card"
+    },
+    {
+      "name": "tab_bar_fortunes",
+      "value": "fortunes"
+    },
+    {
+      "name": "tab_bar_life",
+      "value": "life"
+    },
+    {
+      "name": "tab_bar_mine",
+      "value": "mine"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "float": [
+    {
+      "name": "background_height",
+      "value": "160vp"
+    },
+    {
+      "name": "title_max_fs",
+      "value": "32fp"
+    },
+    {
+      "name": "title_normal_fs",
+      "value": "24fp"
+    },
+    {
+      "name": "sub_title_fs",
+      "value": "12fp"
+    },
+    {
+      "name": "zero",
+      "value": "0vp"
+    },
+    {
+      "name": "hot_list_view_min_mt",
+      "value": "8vp"
+    },
+    {
+      "name": "hot_list_view_max_mt",
+      "value": "20vp"
+    },
+    {
+      "name": "swiper_next_margin_sm",
+      "value": "56vp"
+    },
+    {
+      "name": "swiper_next_margin_md",
+      "value": "64vp"
+    },
+    {
+      "name": "swiper_next_margin_lg",
+      "value": "72vp"
+    },
+    {
+      "name": "hot_rank_scroll_pl",
+      "value": "16vp"
+    },
+    {
+      "name": "back_icon_width",
+      "value": "24vp"
+    },
+    {
+      "name": "more_icon_width",
+      "value": "24vp"
+    },
+    {
+      "name": "tool_line_pt",
+      "value": "46vp"
+    },
+    {
+      "name": "tool_line_pl",
+      "value": "16vp"
+    },
+    {
+      "name": "index_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "index_width",
+      "value": "19vp"
+    },
+    {
+      "name": "list_item_icon_width",
+      "value": "48vp"
+    },
+    {
+      "name": "state_icon_margin_left",
+      "value": "4vp"
+    },
+    {
+      "name": "rank_item_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "state_icon_height",
+      "value": "16vp"
+    },
+    {
+      "name": "content_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "item_title_margin_left",
+      "value": "8vp"
+    },
+    {
+      "name": "item_icon_margin_left",
+      "value": "8vp"
+    },
+    {
+      "name": "click_count_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "up_down_icon_width",
+      "value": "16vp"
+    },
+    {
+      "name": "top_three_height",
+      "value": "72vp"
+    },
+    {
+      "name": "normal_item_height",
+      "value": "44vp"
+    },
+    {
+      "name": "group_item_title_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "group_item_title_ml",
+      "value": "7vp"
+    },
+    {
+      "name": "group_item_title_height",
+      "value": "28vp"
+    },
+    {
+      "name": "group_item_title_mt",
+      "value": "12vp"
+    },
+    {
+      "name": "rank_list_rd",
+      "value": "10vp"
+    },
+    {
+      "name": "item_icon_br",
+      "value": "10vp"
+    },
+    {
+      "name": "up_down_icon_mr",
+      "value": "10vp"
+    },
+    {
+      "name": "index_width_normal",
+      "value": "9vp"
+    },
+    {
+      "name": "index_width_more",
+      "value": "17vp"
+    },
+    {
+      "name": "index_icon_gap_normal",
+      "value": "4vp"
+    },
+    {
+      "name": "window_padding_left_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "window_padding_left_md",
+      "value": "24vp"
+    },
+    {
+      "name": "window_padding_left_lg",
+      "value": "32vp"
+    },
+    {
+      "name": "icon_name_margin_left",
+      "value": "8vp"
+    },
+    {
+      "name": "hot_list_pl",
+      "value": "9vp"
+    }
+  ]
+}

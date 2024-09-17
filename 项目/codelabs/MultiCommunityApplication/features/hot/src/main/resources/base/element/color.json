@@ -1,0 +1,108 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "pink",
+      "value": "#1fff9a6e"
+    },
+    {
+      "name": "tab_selected",
+      "value": "#000000"
+    },
+    {
+      "name": "tab_normal",
+      "value": "#99000000"
+    },
+    {
+      "name": "hot_title_border_color",
+      "value": "#0d000000"
+    },
+    {
+      "name": "water_flow_bgc",
+      "value": "#0d000000"
+    },
+    {
+      "name": "acetate",
+      "value": "#00000000"
+    },
+    {
+      "name": "read_total_rank_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "water_flow_bgc_lg",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "follow_item_date_fc",
+      "value": "#66000000"
+    },
+    {
+      "name": "follow_item_type_bgc",
+      "value": "#66000000"
+    },
+    {
+      "name": "follow_item_content_fc",
+      "value": "#A6000000"
+    },
+    {
+      "name": "follow_item_content_total_fc",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "follow_item_share_fc",
+      "value": "#D9000000"
+    },
+    {
+      "name": "follow_total_font_color",
+      "value": "#E6000000"
+    },
+    {
+      "name": "follow_more_font_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "follow_title_icon_bc",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "follow_title_select",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "follow_title_normal",
+      "value": "#99000000"
+    },
+    {
+      "name": "follow_title_content_fc",
+      "value": "#E6000000"
+    },
+    {
+      "name": "follow_title_bgc",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "follow_guide_icon_color",
+      "value": "#94B5F6"
+    },
+    {
+      "name": "follow_guide_name_fc",
+      "value": "#E6000000"
+    },
+    {
+      "name": "follow_guide_content_fc",
+      "value": "#66000000"
+    },
+    {
+      "name": "follow_guide_selected_bgc",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "nav_content_bgd",
+      "value": "#F1F3F5"
+    }
+  ]
+}

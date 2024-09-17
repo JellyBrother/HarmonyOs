@@ -1,0 +1,132 @@
+{
+  "color": [
+    {
+      "name": "living_background",
+      "value": "#1AFFFFFF"
+    },
+    {
+      "name": "living_border_color",
+      "value": "#1A000000"
+    },
+    {
+      "name": "swiper_indicator_background",
+      "value": "#66000000"
+    },
+    {
+      "name": "products_compare",
+      "value": "#0D000000"
+    },
+    {
+      "name": "products_info",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "time_tip_background",
+      "value": "#FFAE0D0D"
+    },
+    {
+      "name": "products_info_background_1",
+      "value": "#1ACF0A2C"
+    },
+    {
+      "name": "products_info_background_2",
+      "value": "#B3CF0A2C"
+    },
+    {
+      "name": "products_info_text",
+      "value": "#CF0A2C"
+    },
+    {
+      "name": "divider_color",
+      "value": "#19000000"
+    },
+    {
+      "name": "config_tip_background",
+      "value": "#05000000"
+    },
+    {
+      "name": "util_button_1",
+      "value": "#0D000000"
+    },
+    {
+      "name": "util_button_2",
+      "value": "#CF0A2C"
+    },
+    {
+      "name": "user_comments_tag_background",
+      "value": "#0D000000"
+    },
+    {
+      "name": "pay_bind_sheet_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "service_card_font",
+      "value": "#66000000"
+    },
+    {
+      "name": "service_font_color",
+      "value": "#CF0A2C"
+    },
+    {
+      "name": "message_user_background",
+      "value": "#1AE64566"
+    },
+    {
+      "name": "pay_contact_color",
+      "value": "#99000000"
+    },
+    {
+      "name": "pay_config_background_selected",
+      "value": "#0DCF0A2C"
+    },
+    {
+      "name": "price_tag_border_color",
+      "value": "#CF0A2C"
+    },
+    {
+      "name": "comment_background_color",
+      "value": "#1AFFFFFF"
+    },
+    {
+      "name": "store_background_color",
+      "value": "#1AFFFFFF"
+    },
+    {
+      "name": "shop_price_color",
+      "value": "#CF0A2C"
+    },
+    {
+      "name": "shop_tab_text_color",
+      "value": "#99000000"
+    },
+    {
+      "name": "shop_tab_text_color_current",
+      "value": "#000000"
+    },
+    {
+      "name": "preferential_scheme_background_color",
+      "value": "#CF0A2C"
+    },
+    {
+      "name": "bag_item_remark_font_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "bag_item_discounts_font_color",
+      "value": "#D0092D"
+    },
+    {
+      "name": "bag_item_discounts_border_color",
+      "value": "#66CF0A2C"
+    },
+    {
+      "name": "bag_item_price_color",
+      "value": "#CF0A2C"
+    },
+    {
+      "name": "pay_button_color",
+      "value": "#CF0A2C"
+    }
+  ]
+}

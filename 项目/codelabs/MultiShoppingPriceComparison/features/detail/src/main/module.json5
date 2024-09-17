@@ -1,0 +1,12 @@
+{
+  "module": {
+    "name": "detail",
+    "type": "har",
+    "description": "$string:shared_desc",
+    "deviceTypes": [
+      "phone",
+      "2in1",
+      "tablet"
+    ]
+  }
+}

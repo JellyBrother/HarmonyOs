@@ -1,0 +1,31 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "AppletAbility_desc",
+      "value": "description"
+    },{
+      "name": "DocumentAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MultiDeviceCommunication"
+    },
+    {
+      "name": "AppletAbility_label",
+      "value": "MultiDeviceCommunication"
+    },
+    {
+      "name": "DocumentAbility_label",
+      "value": "MultiDeviceCommunication"
+    }
+  ]
+}

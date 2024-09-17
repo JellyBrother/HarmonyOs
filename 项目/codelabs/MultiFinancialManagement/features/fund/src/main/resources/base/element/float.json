@@ -1,0 +1,420 @@
+{
+  "float": [
+    {
+      "name": "nav_bar_width",
+      "value": "474vp"
+    },
+    {
+      "name": "common_image",
+      "value": "24vp"
+    },
+    {
+      "name": "padding_common",
+      "value": "24vp"
+    },
+    {
+      "name": "common_margin",
+      "value": "24vp"
+    },
+    {
+      "name": "common_line_height",
+      "value": "22vp"
+    },
+    {
+      "name": "common_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "common_divider",
+      "value": "1vp"
+    },
+    {
+      "name": "title_text_size",
+      "value": "18fp"
+    },
+    {
+      "name": "title_height",
+      "value": "56vp"
+    },
+    {
+      "name": "code_size",
+      "value": "12fp"
+    },
+    {
+      "name": "currency_size",
+      "value": "10fp"
+    },
+    {
+      "name": "currency_border_radius",
+      "value": "4vp"
+    },
+    {
+      "name": "currency_padding_tb",
+      "value": "1vp"
+    },
+    {
+      "name": "currency_padding_lr",
+      "value": "4vp"
+    },
+    {
+      "name": "type_margin_top",
+      "value": "13vp"
+    },
+    {
+      "name": "type_margin_bottom",
+      "value": "24vp"
+    },
+    {
+      "name": "amplitude_size",
+      "value": "24fp"
+    },
+    {
+      "name": "amplitude_time_size",
+      "value": "12fp"
+    },
+    {
+      "name": "amplitude_date_size",
+      "value": "18fp"
+    },
+    {
+      "name": "value_size",
+      "value": "12fp"
+    },
+    {
+      "name": "last_net_margin_left",
+      "value": "16vp"
+    },
+    {
+      "name": "last_net_margin_tb",
+      "value": "16vp"
+    },
+    {
+      "name": "rating_margin_right",
+      "value": "18vp"
+    },
+    {
+      "name": "rating_height",
+      "value": "12vp"
+    },
+    {
+      "name": "scroll_column_padding_right",
+      "value": "56vp"
+    },
+    {
+      "name": "scroll_column_padding_top",
+      "value": "13vp"
+    },
+    {
+      "name": "scroll_column_padding_bottom",
+      "value": "16vp"
+    },
+    {
+      "name": "scroll_column_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "chart_button_size",
+      "value": "12fp"
+    },
+    {
+      "name": "chart_button_height",
+      "value": "28vp"
+    },
+    {
+      "name": "chart_button_min_width",
+      "value": "64vp"
+    },
+    {
+      "name": "chart_button_max_width",
+      "value": "150vp"
+    },
+    {
+      "name": "chart_button_margin",
+      "value": "12vp"
+    },
+    {
+      "name": "tab_bar_margin",
+      "value": "0vp"
+    },
+    {
+      "name": "image_enlarge_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "chart_height",
+      "value": "359vp"
+    },
+    {
+      "name": "contrasts_size",
+      "value": "12fp"
+    },
+    {
+      "name": "bottom_button_width",
+      "value": "84vp"
+    },
+    {
+      "name": "bottom_button_height",
+      "value": "40vp"
+    },
+    {
+      "name": "bottom_padding_tb",
+      "value": "14vp"
+    },
+    {
+      "name": "text_name_size",
+      "value": "12fp"
+    },
+    {
+      "name": "build_divider_width",
+      "value": "16vp"
+    },
+    {
+      "name": "build_divider_height",
+      "value": "2vp"
+    },
+    {
+      "name": "build_divider_radius",
+      "value": "1vp"
+    },
+    {
+      "name": "build_divider_margin_left",
+      "value": "8vp"
+    },
+    {
+      "name": "value_build_text_size",
+      "value": "14fp"
+    },
+    {
+      "name": "title_padding_tb",
+      "value": "8vp"
+    },
+    {
+      "name": "pursue_margin_left",
+      "value": "12vp"
+    },
+    {
+      "name": "bottom_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "bottom_margin_top",
+      "value": "12vp"
+    },
+    {
+      "name": "scroll_margin_top",
+      "value": "16vp"
+    },
+    {
+      "name": "steady_margin_left",
+      "value": "12vp"
+    },
+    {
+      "name": "amplitude_text_size",
+      "value": "24fp"
+    },
+    {
+      "name": "year_text_size",
+      "value": "12fp"
+    },
+    {
+      "name": "list_item_height",
+      "value": "99vp"
+    },
+    {
+      "name": "list_item_width",
+      "value": "140vp"
+    },
+    {
+      "name": "list_space_sm",
+      "value": "12vp"
+    },
+    {
+      "name": "list_space",
+      "value": "16vp"
+    },
+    {
+      "name": "list_margin_bottom",
+      "value": "16vp"
+    },
+    {
+      "name": "list_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "button_text_size",
+      "value": "12fp"
+    },
+    {
+      "name": "button_text_margin_top",
+      "value": "5vp"
+    },
+    {
+      "name": "swiper_height",
+      "value": "44vp"
+    },
+    {
+      "name": "column_swiper_width",
+      "value": "48vp"
+    },
+    {
+      "name": "swiper_build_height_lg",
+      "value": "60vp"
+    },
+    {
+      "name": "swiper_build_height",
+      "value": "84vp"
+    },
+    {
+      "name": "swiper_build_margin_top",
+      "value": "25vp"
+    },
+    {
+      "name": "my_fund_size",
+      "value": "18fp"
+    },
+    {
+      "name": "concern_margin_right",
+      "value": "8vp"
+    },
+    {
+      "name": "arrow_width",
+      "value": "12vp"
+    },
+    {
+      "name": "amount_text_size",
+      "value": "36fp"
+    },
+    {
+      "name": "amount_margin_top",
+      "value": "16vp"
+    },
+    {
+      "name": "news_text_size",
+      "value": "18fp"
+    },
+    {
+      "name": "sixty_margin_left",
+      "value": "12vp"
+    },
+    {
+      "name": "funding_info_height",
+      "value": "168vp"
+    },
+    {
+      "name": "info_radius",
+      "value": "16vp"
+    },
+    {
+      "name": "info_padding_left",
+      "value": "16vp"
+    },
+    {
+      "name": "info_padding_bottom",
+      "value": "16vp"
+    },
+    {
+      "name": "info_padding_right_sm",
+      "value": "16vp"
+    },
+    {
+      "name": "info_padding_right_md",
+      "value": "28vp"
+    },
+    {
+      "name": "info_padding_right_lg",
+      "value": "28vp"
+    },
+    {
+      "name": "code_margin_left",
+      "value": "10vp"
+    },
+    {
+      "name": "tab_text_size_fund",
+      "value": "16fp"
+    },
+    {
+      "name": "tab_bar_padding_bottom",
+      "value": "5vp"
+    },
+    {
+      "name": "tab_bar_border",
+      "value": "2vp"
+    },
+    {
+      "name": "tab_bar_top",
+      "value": "16vp"
+    },
+    {
+      "name": "search_width",
+      "value": "232vp"
+    },
+    {
+      "name": "search_width_sm",
+      "value": "248vp"
+    },
+    {
+      "name": "ic_background_image_width",
+      "value": "136vp"
+    },
+    {
+      "name": "ic_background_image_height",
+      "value": "126vp"
+    },
+    {
+      "name": "ic_background_position_lg",
+      "value": "50vp"
+    },
+    {
+      "name": "ic_background_position",
+      "value": "100vp"
+    },
+    {
+      "name": "tab_text_height",
+      "value": "14vp"
+    },
+    {
+      "name": "tab_bar_width",
+      "value": "96vp"
+    },
+    {
+      "name": "bottom_button_width_md",
+      "value": "234vp"
+    },
+    {
+      "name": "margin_text_left",
+      "value": "16vp"
+    },
+    {
+      "name": "near_button_width",
+      "value": "108vp"
+    },
+    {
+      "name": "near_button_width_lg",
+      "value": "156vp"
+    },
+    {
+      "name": "legend_padding_lr",
+      "value": "96vp"
+    },
+    {
+      "name": "legend_padding_lr_lg",
+      "value": "372vp"
+    },
+    {
+      "name": "tab_bar_height",
+      "value": "56vp"
+    },
+    {
+      "name": "trends_padding_top",
+      "value": "10vp"
+    },
+    {
+      "name": "profit_tab_height",
+      "value": "100vp"
+    },
+    {
+      "name": "home_tab_text_size",
+      "value": "10vp"
+    }
+  ]
+}

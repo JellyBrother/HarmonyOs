@@ -1,0 +1,72 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "fund_text",
+      "value": "#182431"
+    },
+    {
+      "name": "amplitude_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "account_text",
+      "value": "#182431"
+    },
+    {
+      "name": "common_text",
+      "value": "#99000000"
+    },
+    {
+      "name": "arrow_right",
+      "value": "#e6000000"
+    },
+    {
+      "name": "available_text",
+      "value": "#99000000"
+    },
+    {
+      "name": "purchase_text",
+      "value": "#182431"
+    },
+    {
+      "name": "rules_text",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "button_buy_background",
+      "value": "#0d000000"
+    },
+    {
+      "name": "button_buy",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "confirm_border",
+      "value": "#1a000000"
+    },
+    {
+      "name": "recommendation_text",
+      "value": "#182431"
+    },
+    {
+      "name": "button_background",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "transaction_background",
+      "value": "#F7F7F7"
+    },
+    {
+      "name": "type_text",
+      "value": "#1F69FF"
+    },
+    {
+      "name": "type_text_background",
+      "value": "#0d1f69ff"
+    }
+  ]
+}

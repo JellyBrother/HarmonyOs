@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "HMOS Basic"
+    },
+    {
+      "name": "apply_for_network",
+      "value": "Allow the app to access the network"
+    },
+    {
+      "name": "distributed_data_sync",
+      "value": "Allows data interchange between different devices"
+    }
+  ]
+}

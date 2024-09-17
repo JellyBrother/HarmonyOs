@@ -1,0 +1,17 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "fund",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "version": "1.0.0",
+  "packageType": "InterfaceHar",
+  "dynamicDependencies": {},
+  "dependencies": {
+    "@ohos/transaction": "file:../transaction",
+    "@ohos/fundComparison": "file:../fundComparison",
+    "@ohos/basic": "file:../../commons/basic",
+    "@ohos/mpchart": "3.0.0-rc.1"
+  }
+}

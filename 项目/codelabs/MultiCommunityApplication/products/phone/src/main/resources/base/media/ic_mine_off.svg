@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>phone_diBuTab_cell_4</title>
+    <defs>
+        <path d="M14,5.00519211 C14,7.76951093 11.7615167,10.0103842 9.00014606,10.0103842 C6.23848333,10.0103842 4,7.76951093 4,5.00519211 C4,2.24087328 6.23848333,0 9.00014606,0 C11.7615167,0 14,2.24087328 14,5.00519211 Z M0,19.3333333 L0,16 C-3.38176876e-16,13.2385763 2.23857625,11 5,11 L13,11 C15.7614237,11 18,13.2385763 18,16 L18,19.3333333 C18,20.2538079 17.2538079,21 16.3333333,21 L1.66666667,21 C0.746192084,21 9.30271286e-16,20.2538079 0,19.3333333 Z" id="path-1"></path>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone_diBuTab/cell/4">
+            <g id="symbol/frame/symbol_grid24"></g>
+            <g id="Group" transform="translate(3.000000, 1.500000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="合并形状" fill="#000000" xlink:href="#path-1"></use>
+                <rect id="color/#000000" fill="#7F7F7F" mask="url(#mask-2)" x="-3" y="-1.5" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

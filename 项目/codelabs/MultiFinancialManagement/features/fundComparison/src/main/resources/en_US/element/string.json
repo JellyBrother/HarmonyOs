@@ -1,0 +1,92 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "search..."
+    },
+    {
+      "name": "fund_popularity",
+      "value": "popularity"
+    },
+    {
+      "name": "self_selected",
+      "value": "self-selected"
+    },
+    {
+      "name": "select_fund",
+      "value": "Please select the fund from above"
+    },
+    {
+      "name": "start_comparison",
+      "value": "Start the comparison"
+    },
+    {
+      "name": "no_currency",
+      "value": "Non-monetary %d"
+    },
+    {
+      "name": "currency_bar",
+      "value": "currency %d"
+    },
+    {
+      "name": "count_choose",
+      "value": "%d funds selected"
+    },
+    {
+      "name": "max_count_choose",
+      "value": "A maximum of 10 items can be selected for a single type"
+    },
+    {
+      "name": "funding_comparison_title",
+      "value": "fund comparison"
+    },
+    {
+      "name": "table_fund_name",
+      "value": "fund name"
+    },
+    {
+      "name": "base_info",
+      "value": "base info"
+    },
+    {
+      "name": "category_fund_code",
+      "value": "fund code"
+    },
+    {
+      "name": "category_fund_type",
+      "value": "fund type"
+    },
+    {
+      "name": "category_established_time",
+      "value": "established time"
+    },
+    {
+      "name": "category_new_scale",
+      "value": "new scale"
+    },
+    {
+      "name": "category_risks_level",
+      "value": "risks level"
+    },
+    {
+      "name": "category_three_rating",
+      "value": "three year rating"
+    },
+    {
+      "name": "category_accumulated_dividends",
+      "value": "accumulated dividends"
+    },
+    {
+      "name": "category_dividends_count",
+      "value": "dividends count"
+    },
+    {
+      "name": "category_fund_manager",
+      "value": "fund manager"
+    }
+  ]
+}

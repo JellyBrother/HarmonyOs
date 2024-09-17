@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "placeholder",
+      "value": "搜索或输入网址"
+    },
+    {
+      "name": "read_total_rank",
+      "value": "查看完整榜单"
+    },
+    {
+      "name": "follow",
+      "value": "关注"
+    },
+    {
+      "name": "found",
+      "value": "发现"
+    },
+    {
+      "name": "read_total",
+      "value": "查看全部"
+    },
+    {
+      "name": "more",
+      "value": "更多"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>phone_diBuTab_cell_3</title>
+    <defs>
+        <path d="M14,-4.4408921e-16 C18.1421356,-1.20498718e-15 21.5,3.35786438 21.5,7.5 C21.5,11.6421356 18.1421356,15 14,15 L12.992,15 L8.70109876,19.1694991 C7.98879599,19.8615105 6.85018745,19.2054723 7.01634813,18.2886077 L7.0414094,18.18172 L7.0555986,18.1360222 C7.34525694,17.2670472 7.569429,16.5305351 7.7278248,15.9289706 L7.7841394,15.7097144 L7.82408556,15.5448805 C7.86092949,15.3905291 7.91218799,15.1714148 7.95008134,14.9994258 L7.5,15 C3.35786438,15 5.07265313e-16,11.6421356 0,7.5 C-5.07265313e-16,3.35786438 3.35786438,3.1680876e-16 7.5,-4.4408921e-16 L14,-4.4408921e-16 Z" id="path-1"></path>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone_diBuTab/cell/3">
+            <g id="symbol/frame/symbol_grid24-copy"></g>
+            <g id="Public/ic_public_message_filled" transform="translate(1.250000, 2.500000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="形状结合" fill-rule="nonzero"></g>
+                <g id="Symbol/color-light/colorPrimary" mask="url(#mask-2)" fill="#7F7F7F" fill-opacity="0.9">
+                    <g transform="translate(-1.250000, -2.500000)" id="color/#000000">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
