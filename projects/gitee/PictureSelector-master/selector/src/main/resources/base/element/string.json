@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "all_picture",
+      "value": "全部照片"
+    },
+    {
+      "name": "select",
+      "value": "选择"
+    },
+    {
+      "name": "confirm_select",
+      "value": "确定(%s)"
+    },
+    {
+      "name": "tips",
+      "value": "温馨提示"
+    },
+    {
+      "name": "tipsContent",
+      "value": "你的储存读写权限没有打开，快去“设置 > 应用”设置一下吧。"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "confirm",
+      "value": "确定"
+    },
+    {
+      "name": "max_count_toast",
+      "value": "最多选择%s张图片"
+    }
+  ]
+}

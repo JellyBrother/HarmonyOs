@@ -1,0 +1,1 @@
+export { SelectorPage } from './src/main/ets/pages/SelectorPage'

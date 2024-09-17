@@ -1,0 +1,21 @@
+{
+  "name": "@sea/picture-selector",
+  "modelVersion": "5.0.0",
+  "version": "1.0.0",
+  "description": "harmony custom picture selector",
+  "keywords": [
+    "Harmony",
+    "PictureSelector",
+    "HarmonyPictureSelector"
+  ],
+  "author": "",
+  "homepage": "https://gitee.com/sea5241/PictureSelector",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.18",
+    "@ohos/hamock": "1.0.0"
+  },
+  "main": "index.ts"
+}

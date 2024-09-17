@@ -1,0 +1,33 @@
+{
+  "module": {
+    "name": "selector",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO",
+        "reason": "$string:all_picture",
+        "usedScene": {
+          "abilities": [
+            "selector"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_IMAGEVIDEO",
+        "reason": "$string:all_picture",
+        "usedScene": {
+          "abilities": [
+            "selector"
+          ],
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}

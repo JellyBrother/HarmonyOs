@@ -1,0 +1,53 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/koolearn/.ohos/config/default_PictureSelector_W62tifQg9O2vShDFlSI_gD4L6ePlSdT_z59iV35ZhK8=.cer",
+          "storePassword": "0000001B93F3BB1B6376458DE64F065629AEE7D94F290D33643B6F7C3ACA79086270A3039E28780B455140",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BBEBF8F8348F519BF814EFD4FA36856A963EA19F7B745A13DDFFBA90B7138F1598EAA54D78089B1",
+          "profile": "/Users/koolearn/.ohos/config/default_PictureSelector_W62tifQg9O2vShDFlSI_gD4L6ePlSdT_z59iV35ZhK8=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/koolearn/.ohos/config/default_PictureSelector_W62tifQg9O2vShDFlSI_gD4L6ePlSdT_z59iV35ZhK8=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "selector",
+      "srcPath": "./selector"
+    }
+  ]
+}

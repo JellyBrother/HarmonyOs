@@ -1,0 +1,14 @@
+{
+  "name": "@sea/picture-selector",
+  "version": "1.0.0",
+  "description": "harmony custom picture selector",
+  "keywords": [
+    "Harmony",
+    "PictureSelector"
+  ],
+  "author": "sea",
+  "homepage": "https://gitee.com/sea5241/PictureSelector",
+  "license": "MIT",
+  "dependencies": {},
+  "main": "Index.ets"
+}
