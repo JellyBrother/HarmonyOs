@@ -1,0 +1,12 @@
+{
+  "module": {
+    "name": "datastore",
+    "type": "har",
+    "description": "$string:shared_desc",
+    "deviceTypes": [
+      "default",
+      "tablet",
+//      "2in1"
+    ]
+  }
+}

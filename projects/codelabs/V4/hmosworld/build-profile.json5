@@ -1,0 +1,108 @@
+{
+  "app": {
+//    "signingConfigs": [
+//      {
+//        "name": "default",
+//        "type": "HarmonyOS",
+//        "material": {
+//          "storePassword": "0000001DBA1EA72AB57535BE624EA0B1C61A83F3228158B31F89A50CE802B11725BE979C54E94D0E84FA3AE3B4",
+//          "certpath": "./signature/HmosWorld.cer",
+//          "keyAlias": "HmosWorld2024",
+//          "keyPassword": "0000001D1AC05C16C5FBB2BE4856D1D3763C11C6AAB6FCA8982109931D46F72F731182793683531528BB880E48",
+//          "profile": "./signature/HmosWorldProfileDebug.p7b",
+//          "signAlg": "SHA256withECDSA",
+//          "storeFile": "./signature/HmosWorld.p12"
+//        }
+//      }
+//    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_App1_AVxGwLixodq9HepEsik6YeEDz2avb77CgaY2iC-2Oxo=.cer",
+          "storePassword": "0000001A0081BDE27418221EB031B1C9071901B6921E0B169A3ED4BA884A21AC9D53287EFE2E3F50C700",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A368399BF40059F7CAFE93819DD1B12C28305A506EA2DD0D44BEB98CC54FC0E8633FE3FA74409",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_App1_AVxGwLixodq9HepEsik6YeEDz2avb77CgaY2iC-2Oxo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_App1_AVxGwLixodq9HepEsik6YeEDz2avb77CgaY2iC-2Oxo=.p12"
+        }
+      }
+    ],
+    // 4.0新增，5.0没有
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        // 4.0注释，5.0有
+//        "compatibleSdkVersion": "5.0.0(12)",
+//        "runtimeOS": "HarmonyOS"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "phone",
+      "srcPath": "./products/phone",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "discover",
+      "srcPath": "./features/discover"
+    },
+    {
+      "name": "learning",
+      "srcPath": "./features/learning"
+    },
+    {
+      "name": "topic",
+      "srcPath": "./features/topic"
+    },
+    {
+      "name": "login",
+      "srcPath": "./features/login"
+    },
+    {
+      "name": "challenge",
+      "srcPath": "./features/challenge"
+    },
+    {
+      "name": "mine",
+      "srcPath": "./features/mine"
+    },
+    {
+      "name": "conference",
+      "srcPath": "./features/conference"
+    },
+    {
+      "name": "uicomponents",
+      "srcPath": "./commons/uicomponents"
+    },
+    {
+      "name": "utils",
+      "srcPath": "./commons/utils"
+    },
+    {
+      "name": "network",
+      "srcPath": "./commons/network"
+    },
+    {
+      "name": "datastore",
+      "srcPath": "./commons/datastore"
+    },
+    {
+      "name": "audioplayer",
+      "srcPath": "./commons/audioplayer"
+    }
+  ]
+}
