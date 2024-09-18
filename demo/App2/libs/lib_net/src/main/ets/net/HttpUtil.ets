@@ -20,7 +20,7 @@ enum STATUS {
  })
  * ```
  */
-class HttpUtil {
+export class HttpUtil {
   private static instance: HttpUtil;
   private TAG: string = 'HttpUtil';
   private token: string;

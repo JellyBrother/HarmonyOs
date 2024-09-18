@@ -1,0 +1,45 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_wan-harmony_IDE2lkvHQXTY5UnflXVGkeTq-LaewyGGvaAXOBTJEeI=.cer",
+          "storePassword": "0000001A1A7AEF9C4222287F3A87C6E30AD12D13537E04E128B0527B9B1B60D326838D4FD2A0D8009DB3",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A78E5111A495FC7F446B8616336EB135CE6DB7EE3CA03C5601408E9A493C99F62CAA78026C8A7",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_wan-harmony_IDE2lkvHQXTY5UnflXVGkeTq-LaewyGGvaAXOBTJEeI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_wan-harmony_IDE2lkvHQXTY5UnflXVGkeTq-LaewyGGvaAXOBTJEeI=.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "materialprogressbar",
+      "srcPath": "./materialprogressbar"
+    }
+  ]
+}

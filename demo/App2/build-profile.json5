@@ -56,6 +56,18 @@
     {
       "name": "module_home",
       "srcPath": "./modules/module_home"
+    },
+    {
+      "name": "library",
+      "srcPath": "./library",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }

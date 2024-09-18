@@ -26,7 +26,7 @@
 //        "targetSdkVersion": 9,       //指定OpenHarmony应用/服务目标版本。若没有设置，默认为compatibleSdkVersion
         "compatibleSdkVersion": "4.1.0(11)",
 //        "compatibleSdkVersion": "4.1.7.5(11)",
-//        "runtimeOS": "HarmonyOS",
+        "runtimeOS": "HarmonyOS",
 //        "runtimeOS": "OpenHarmony",
       }
     ],
