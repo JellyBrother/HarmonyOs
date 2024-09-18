@@ -1,0 +1,61 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\build",
+    "BUNDLE_NAME": "com.example.calendar",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\harmonyapp-calendar-main\\build\\outputs\\default"
+    }
+  },
+  "version": 1
+}

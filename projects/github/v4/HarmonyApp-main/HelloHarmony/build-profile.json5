@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "/Users/cattail/.ohos/config/auto_debug_HelloHarmony_com.njtech.helloworld_390086000108916997.cer",
-          "storePassword": "0000001ACE4F175F7478D32CFDDBADE2442E07B406A19C2FEFD280BA183943D621E8ABCE82615FA5EAC7",
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_HelloHarmony_wb8GjPVqSd9qlt6c-s8jHRzxNSDo9umznWtrmR8_J9E=.cer",
+          "storePassword": "0000001AE8B8A8827A578E84ED3C1113B40A6B070BA7152E5075E354E0C0C2CC1A8EF99F4A59F65A472E",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001AD154D092314AE6BBF5092B278F5AE7384B2B912053CCC9AE54DA75B2C31FC7E948D520F88B11",
-          "profile": "/Users/cattail/.ohos/config/auto_debug_HelloHarmony_com.njtech.helloworld_390086000108916997.p7b",
+          "keyPassword": "0000001A39CDF88206BC537D432B73E69AF9127581E45E0DDD9984265D552671EE7A6EEFA739BA27E6C2",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_HelloHarmony_wb8GjPVqSd9qlt6c-s8jHRzxNSDo9umznWtrmR8_J9E=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/cattail/.ohos/config/auto_debug_HelloHarmony_com.njtech.helloworld_390086000108916997.p12"
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_HelloHarmony_wb8GjPVqSd9qlt6c-s8jHRzxNSDo9umznWtrmR8_J9E=.p12"
         }
       }
     ],

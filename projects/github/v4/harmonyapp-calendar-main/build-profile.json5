@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_harmonyapp-calendar-main_QGdYyRKTGtWOyCDPdK6sfodCKOuhsp1UoELwiyuUhQw=.cer",
+          "storePassword": "0000001AA1C8081BC6A29F738A4E56BE84291BAE0DF8051078F3C14C3A9C6680675352629A6555B3B421",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A2C71C623833FC4FED12B9B84CDFD27264E3DAB1F942D76FF0C946C5BB4B214B4C23436F40309",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_harmonyapp-calendar-main_QGdYyRKTGtWOyCDPdK6sfodCKOuhsp1UoELwiyuUhQw=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_harmonyapp-calendar-main_QGdYyRKTGtWOyCDPdK6sfodCKOuhsp1UoELwiyuUhQw=.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [

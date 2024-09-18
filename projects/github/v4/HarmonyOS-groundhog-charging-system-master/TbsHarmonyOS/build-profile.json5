@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_TbsHarmonyOS__FFlW7IoaxrOXFeRu3oroAyg4iRBGnj9pZZJUCWcAKk=.cer",
+          "storePassword": "0000001A545512F3EE9A60819FF7549C2846F7F65D0623E057A08AF6692F0CC11309B7CE97B11B9BD24C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AFF4F7C337C4900882275F34ADD0D33110EDAF21A4DA9AE0C1468028F1C70F598E45831AC253F",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_TbsHarmonyOS__FFlW7IoaxrOXFeRu3oroAyg4iRBGnj9pZZJUCWcAKk=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_TbsHarmonyOS__FFlW7IoaxrOXFeRu3oroAyg4iRBGnj9pZZJUCWcAKk=.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [

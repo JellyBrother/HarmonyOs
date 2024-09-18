@@ -1,0 +1,68 @@
+{
+	"app": {
+		"bundleName": "com.example.calendar",
+		"vendor": "example",
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"icon": "$media:app_icon",
+		"label": "$string:app_name",
+		"apiReleaseType": "Release",
+		"compileSdkVersion": "3.2.3.6",
+		"targetAPIVersion": 9,
+		"minAPIVersion": 9,
+		"compileSdkType": "HarmonyOS",
+		"bundleType": "app",
+		"debug": true
+	},
+	"module": {
+		"name": "entry",
+		"type": "entry",
+		"description": "$string:module_desc",
+		"mainElement": "EntryAbility",
+		"deviceTypes": [
+			"phone"
+		],
+		"deliveryWithInstall": true,
+		"installationFree": false,
+		"pages": "$profile:main_pages",
+		"abilities": [
+			{
+				"name": "EntryAbility",
+				"srcEntry": "./ets/entryability/EntryAbility.ts",
+				"description": "$string:EntryAbility_desc",
+				"icon": "$media:icon",
+				"label": "$string:EntryAbility_label",
+				"startWindowIcon": "$media:icon",
+				"startWindowBackground": "$color:start_window_background",
+				"exported": true,
+				"skills": [
+					{
+						"entities": [
+							"entity.system.home"
+						],
+						"actions": [
+							"action.system.home"
+						]
+					}
+				]
+			}
+		],
+		"requestPermissions": [
+			{
+				"name": "ohos.permission.INTERNET",
+				"usedScene": {
+					"when": "always"
+				}
+			},
+			{
+				"name": "ohos.permission.PUBLISH_AGENT_REMINDER",
+				"usedScene": {
+					"when": "always"
+				}
+			}
+		],
+		"virtualMachine": "ark9.0.0.0",
+		"compileMode": "esmodule",
+		"dependencies": []
+	}
+}

@@ -5,7 +5,7 @@
     "description": "$string:module_desc",
     "mainElement": "EntryAbility",
     "deviceTypes": [
-      "phone",
+      "default",
       "tablet"
     ],
     "deliveryWithInstall": true,
@@ -40,7 +40,7 @@
       "preloads": [
         {
           "moduleName": "feature_hsp_page"
-        },
+        }
       ]
     },
     "abilities": [
@@ -70,7 +70,7 @@
       {
         "name": "client_id",
         "value": "111763805"
-      },
+      }
     ]
   }
 }

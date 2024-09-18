@@ -78,8 +78,7 @@ struct RegisterPage {
           .margin({ top: 10 })
           .fontSize(24)
           .onClick(()=>{
-            if(this.username!='' && this.password!=''
-              && this.selectedPortraitInfo.portraitPath!=null){
+            if(this.username!='' && this.password!=''){
               //校验通过
               // 封装用户信息
               let  userInfo:UserInfo =

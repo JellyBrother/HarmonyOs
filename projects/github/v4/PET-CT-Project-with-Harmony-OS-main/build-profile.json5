@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_PET-CT-Project-with-Harmony-OS-main_OjXVdvCQZQFkeW83A7KmR-3pmFeJQirSjttnBnakjSg=.cer",
+          "storePassword": "0000001ACD75AE2BFBA465B911C8711E69AABBF3AC525D201F46638632BF1C66C702CFAB1586D4CB11BA",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001ABE87D12BB7B205FAB86E46A200E8F49D73BC843F64B4EF3E37E9D26C07AE3BD0ED542FA3235F",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_PET-CT-Project-with-Harmony-OS-main_OjXVdvCQZQFkeW83A7KmR-3pmFeJQirSjttnBnakjSg=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_PET-CT-Project-with-Harmony-OS-main_OjXVdvCQZQFkeW83A7KmR-3pmFeJQirSjttnBnakjSg=.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [

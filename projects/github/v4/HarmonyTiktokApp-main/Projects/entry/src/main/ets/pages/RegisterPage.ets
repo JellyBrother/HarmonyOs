@@ -10,8 +10,8 @@ export struct RegisterPage {
   @State message: string = 'Register Page';
   @State selectedPortraitInfo: PortraitInfo = new PortraitInfo();
 
-  @State username: string = '';
-  @State password: string = '';
+  @State username: string = 'xjk';
+  @State password: string = '123456';
 
   // 页面显示时候自动加载
   onPageShow() {
@@ -81,7 +81,8 @@ export struct RegisterPage {
           .margin({ top: '10' })
           .fontSize(24)
           .onClick(() => {
-            if (this.username !== '' && this.password !== '' && this.selectedPortraitInfo.portraitPath != null) {
+            if (this.username !== '' && this.password !== '') {
+            // if (this.username !== '' && this.password !== '' && this.selectedPortraitInfo.portraitPath != null) {
               if (this.validateLogin(this.username, this.password)) {
                 // 校验通过，封装用户信息
                 let userInfo: UserInfo = new UserInfo(this.username, this.password, this.selectedPortraitInfo.portraitPath);

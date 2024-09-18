@@ -2,7 +2,7 @@
   "app": {
 //    "bundleName": "com.rex.harmony.atomic.service",
     "bundleName": "com.atomicservice.5765880207855149405",
-    "bundleType": "atomicService",
+//    "bundleType": "atomicService",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

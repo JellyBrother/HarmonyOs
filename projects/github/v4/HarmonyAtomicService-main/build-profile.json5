@@ -27,6 +27,7 @@
 //        "compatibleSdkVersion": "4.1.0(11)",
 //        "compatibleSdkVersion": "4.1.7.5(11)",
 //        "runtimeOS": "HarmonyOS",
+//        "runtimeOS": "OpenHarmony",
       }
     ],
     "buildModeSet": [
