@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_Harmony-arkts-movie-music-app-ui-master_p-2ETqi0wsFOuU8UbLvKkYvbIt_wW8HWpyRZvx0ydfg=.cer",
+          "storePassword": "0000001AF588BB18D02DA8882EE86E240FF0967ABB68B0714636E430F663324B53A0537970CCB1AAEBAE",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AF2E4EB9499AC8E680A6F8F93A005E4159C5EAC4FA9306613BAED18883379D714687C7B924D2B",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_Harmony-arkts-movie-music-app-ui-master_p-2ETqi0wsFOuU8UbLvKkYvbIt_wW8HWpyRZvx0ydfg=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_Harmony-arkts-movie-music-app-ui-master_p-2ETqi0wsFOuU8UbLvKkYvbIt_wW8HWpyRZvx0ydfg=.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [

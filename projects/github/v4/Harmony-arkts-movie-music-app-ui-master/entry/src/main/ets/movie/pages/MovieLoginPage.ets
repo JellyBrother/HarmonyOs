@@ -79,6 +79,10 @@ struct MovieLoginPage {
         duration: 2000,
         bottom: px2vp(display.getDefaultDisplaySync().height) / 2
       })
+
+      router.replaceUrl({
+        url: 'movie/pages/IndexPage', // 目标url
+      });
     }).finally(() => {
       this.loading = false;
     })

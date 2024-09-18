@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "common_example",
+      "value": "常用示例"
+    },
+    {
+      "name": "http_example",
+      "value": "网络请求示例"
+    },
+    {
+      "name": "event_bus_example",
+      "value": "EventBus 事件通知示例"
+    },
+    {
+      "name": "custom_dialog_example",
+      "value": "自定义弹窗示例"
+    },
+    {
+      "name": "router_callback_example",
+      "value": "页面跳转回调示例（HAR、HSP）"
+    },
+    {
+      "name": "throttle_example",
+      "value": "节流防抖示例"
+    },
+    {
+      "name": "permission_example",
+      "value": "简易授权示例"
+    },
+    {
+      "name": "dynamic_router_example",
+      "value": "测试动态路由"
+    },
+    {
+      "name": "dynamic_ui_node_example",
+      "value": "UI动态节点示例"
+    },
+    {
+      "name": "fix_fold_ui_example",
+      "value": "折叠屏适配"
+    },
+    {
+      "name": "component_factory_example",
+      "value": "组件工厂示例"
+    },
+    {
+      "name": "attribute_modifier_example",
+      "value": "组件动态属性设置示例"
+    },
+    {
+      "name": "cloud_function_example",
+      "value": "云函数调用"
+    },
+    {
+      "name": "cloud_data_base_example",
+      "value": "云数据库示例"
+    }
+  ]
+}
