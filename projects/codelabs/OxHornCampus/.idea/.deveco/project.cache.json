@@ -1,0 +1,16 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.example.oxhorncampus",
+		"SELECT_BUILD_MODE":"",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\build\\outputs\\default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"crossplatform.projectType":"",
+		"project.ide.version":"5.0.3.700",
+		"current.select.product":"default",
+		"current.select.buildMode":""
+	}
+}

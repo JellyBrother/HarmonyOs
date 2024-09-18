@@ -1,0 +1,1 @@
+export { default as HttpUtil }  from './src/main/ets/net/HttpUtil';

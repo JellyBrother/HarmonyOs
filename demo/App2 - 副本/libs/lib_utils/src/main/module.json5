@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "lib_utils",
+    "type": "har",//静态
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

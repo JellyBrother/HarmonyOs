@@ -1,50 +1,50 @@
 {
   "ohos-module-entry": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "E:\\github\\github\\LittleGrass\\entry\\build",
+    "MODULE_BUILD_DIR": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build",
     "DEPENDENCY_INFO": {
-      "@ohos/axios": "E:\\github\\github\\LittleGrass\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios"
+      "@ohos/axios": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios"
     },
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "E:\\github\\github\\LittleGrass\\entry\\src\\main",
+        "SOURCE_ROOT": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\src\\main",
         "RESOURCES_PATH": [
-          "E:\\github\\github\\LittleGrass\\entry\\src\\main\\resources"
+          "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\src\\main\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\outputs\\default",
-          "INTERMEDIA_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader_out\\default",
-          "JS_LITE_ASSETS_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
-          "RES_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default",
-          "RES_PROFILE_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
-          "WORKER_LOADER": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
-          "MANIFEST_JSON": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\manifest\\default",
-          "OUTPUT_METADATA_JSON": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+          "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
         }
       },
       "ohosTest": {
-        "SOURCE_ROOT": "E:\\github\\github\\LittleGrass\\entry\\src\\ohosTest",
+        "SOURCE_ROOT": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\src\\ohosTest",
         "RESOURCES_PATH": [
-          "E:\\github\\github\\LittleGrass\\entry\\src\\ohosTest\\resources"
+          "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\src\\ohosTest\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\outputs\\ohosTest",
-          "INTERMEDIA_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
-          "JS_LITE_ASSETS_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
-          "RES_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\ohosTest",
-          "RES_PROFILE_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
-          "WORKER_LOADER": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
-          "MANIFEST_JSON": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
-          "OUTPUT_METADATA_JSON": "E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+          "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -54,8 +54,7 @@
     "BUILD_OPTION": {
       "default-default": {
         "debuggable": true,
-        "copyFrom": "default",
-        "resOptions": {}
+        "copyFrom": "default"
       }
     },
     "BUILD_PROFILE_OPT": {
@@ -75,28 +74,28 @@
   },
   "ohos-module-retrofit": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "E:\\github\\github\\LittleGrass\\retrofit\\build",
+    "MODULE_BUILD_DIR": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build",
     "DEPENDENCY_INFO": {
-      "@ohos/axios": "E:\\github\\github\\LittleGrass\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios"
+      "@ohos/axios": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios"
     },
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "E:\\github\\github\\LittleGrass\\retrofit\\src\\main",
+        "SOURCE_ROOT": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\src\\main",
         "RESOURCES_PATH": [
-          "E:\\github\\github\\LittleGrass\\retrofit\\src\\main\\resources"
+          "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\src\\main\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\outputs\\default",
-          "INTERMEDIA_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates\\loader_out\\default",
-          "JS_LITE_ASSETS_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates\\loader_out_lite\\default",
-          "RES_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates\\res\\default",
-          "RES_PROFILE_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
-          "WORKER_LOADER": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates\\loader\\default\\loader.json",
-          "MANIFEST_JSON": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates\\manifest\\default",
-          "OUTPUT_METADATA_JSON": "E:\\github\\github\\LittleGrass\\retrofit\\build\\default\\intermediates\\hsp_metadata\\default\\output_metadata.json"
+          "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit\\build\\default\\intermediates\\hsp_metadata\\default\\output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -106,8 +105,7 @@
     "BUILD_OPTION": {
       "default-default": {
         "debuggable": true,
-        "copyFrom": "default",
-        "resOptions": {}
+        "copyFrom": "default"
       }
     },
     "BUILD_PROFILE_OPT": {
@@ -123,15 +121,15 @@
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
-    "MODULE_BUILD_DIR": "E:\\github\\github\\LittleGrass\\build",
+    "MODULE_BUILD_DIR": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\build",
     "BUNDLE_NAME": "com.captainz.littlegrass",
     "BUILD_PATH": {
-      "OUTPUT_PATH": "E:\\github\\github\\LittleGrass\\build\\outputs\\default"
+      "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\build\\outputs\\default"
     },
     "MODULES": [
       {
         "name": "entry",
-        "srcPath": "E:\\github\\github\\LittleGrass\\entry",
+        "srcPath": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\entry",
         "targets": [
           {
             "name": "default",
@@ -140,11 +138,11 @@
             ]
           }
         ],
-        "belongProjectPath": "E:\\github\\github\\LittleGrass"
+        "belongProjectPath": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2"
       },
       {
         "name": "retrofit",
-        "srcPath": "E:\\github\\github\\LittleGrass\\retrofit",
+        "srcPath": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2\\retrofit",
         "targets": [
           {
             "name": "default",
@@ -153,7 +151,7 @@
             ]
           }
         ],
-        "belongProjectPath": "E:\\github\\github\\LittleGrass"
+        "belongProjectPath": "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2"
       }
     ],
     "PROFILE_OPT": {
@@ -197,10 +195,11 @@
     },
     "CONFIG_PROPERTIES": {
       "enableSignTask": true,
-      "skipNativeIncremental": false
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
     },
     "OVERALL_PROJECT_PATHS": [
-      "E:\\github\\github\\LittleGrass"
+      "G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main2"
     ]
   },
   "version": 1

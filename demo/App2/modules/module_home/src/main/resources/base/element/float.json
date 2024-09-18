@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "xxl_padding_margin",
+      "value": "24vp"
+    },
+    {
+      "name": "xl_padding_margin",
+      "value": "20vp"
+    },
+    {
+      "name": "lg_padding_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "md_padding_margin",
+      "value": "12vp"
+    }
+  ]
+}

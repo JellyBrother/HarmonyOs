@@ -1,14 +1,28 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_LittleGrass-main_K9tvAMhNXjyiOpCn3P8IYoW2piIH5RELMGxgEpwNn4c=.cer",
+          "storePassword": "0000001A97BD665F53E9D742AF42304338914B0747B7D247EE412FCEF5432F2A009EE3F07206780C410C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A16178727018EB3F6FF3263A6425DCFF778DA3D7A7A798E36E4107A2C77DC5241665A337A9128",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_LittleGrass-main_K9tvAMhNXjyiOpCn3P8IYoW2piIH5RELMGxgEpwNn4c=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_LittleGrass-main_K9tvAMhNXjyiOpCn3P8IYoW2piIH5RELMGxgEpwNn4c=.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-//        "compatibleSdkVersion": "4.0.0(10)",
-//        "runtimeOS": "HarmonyOS"
+        //        "compatibleSdkVersion": "4.0.0(10)",
+        //        "runtimeOS": "HarmonyOS"
       }
     ]
   },

@@ -1,0 +1,111 @@
+[2024-09-18T17:37:53.098] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-09-18T17:37:57.976] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-09-18T17:37:58.004] [DEBUG] debug-file - hvigorfile, resolving G:\HarmonyOs\projects\codelabs\OxHornCampus\hvigorfile.ts
+[2024-09-18T17:38:31.968] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2024-09-18T17:38:32.303] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-09-18T17:38:32.309] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-09-18T17:38:32.317] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2024-09-18T17:38:32.373] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-09-18T17:38:32.436] [DEBUG] debug-file - Sdk init in 124 ms 
+[2024-09-18T17:38:32.470] [DEBUG] debug-file - Project task initialization takes 32 ms 
+[2024-09-18T17:38:32.481] [DEBUG] debug-file - hvigorfile, resolving G:\HarmonyOs\projects\codelabs\OxHornCampus\entry\hvigorfile.ts
+[2024-09-18T17:38:32.509] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-09-18T17:38:32.520] [DEBUG] debug-file - Module entry task initialization takes 7 ms 
+[2024-09-18T17:38:32.524] [DEBUG] debug-file - project has submodules:entry
+[2024-09-18T17:38:32.565] [DEBUG] debug-file - Configuration task cost before running: 34 s 614 ms 
+[2024-09-18T17:38:32.569] [DEBUG] debug-file - Executing task :entry:clean
+[2024-09-18T17:38:32.576] [DEBUG] debug-file - entry : clean cost memory -11.595207214355469
+[2024-09-18T17:38:32.595] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-09-18T17:37:53.140] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-09-18T17:37:57.978] [DEBUG] debug-file - Since current hvigor version 5.5.1 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2024-09-18T17:38:31.969] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2024-09-18T17:38:32.303] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-09-18T17:38:32.310] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-09-18T17:38:32.470] [DEBUG] debug-file - hvigorfile, resolve finished G:\HarmonyOs\projects\codelabs\OxHornCampus\hvigorfile.ts
+[2024-09-18T17:38:32.490] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2024-09-18T17:38:32.509] [DEBUG] debug-file - Target 'default' config: {}
+[2024-09-18T17:38:32.520] [DEBUG] debug-file - hvigorfile, resolve finished G:\HarmonyOs\projects\codelabs\OxHornCampus\entry\hvigorfile.ts
+[2024-09-18T17:38:32.526] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-09-18T17:38:32.569] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-09-18T17:38:32.576] [DEBUG] debug-file - runTaskFromQueue task cost before running: 34 s 625 ms 
+[2024-09-18T17:38:32.603] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [],
+  analyze: 'normal'
+}
+[2024-09-18T17:38:32.625] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-09-18T17:37:53.143] [DEBUG] debug-file - env: daemon=false
+[2024-09-18T17:37:57.979] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2024-09-18T17:38:32.304] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-09-18T17:38:32.490] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2024-09-18T17:38:32.510] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-09-18T17:38:32.547] [DEBUG] debug-file - load to the disk finished
+[2024-09-18T17:38:32.578] [INFO] debug-file - Finished :entry:clean... after 8 ms 
+[2024-09-18T17:38:32.621] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-09-18T17:38:32.680] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-09-18T17:37:53.143] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2024-09-18T17:38:32.304] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-09-18T17:38:32.510] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-09-18T17:38:32.549] [DEBUG] debug-file - Module OxHornCampus Collected Dependency: 
+[2024-09-18T17:38:32.578] [DEBUG] debug-file - Executing task ::clean
+[2024-09-18T17:38:32.621] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-09-18T17:38:32.684] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-09-18T17:38:32.510] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-09-18T17:38:32.549] [DEBUG] debug-file - Module OxHornCampus's total dependency: 0
+[2024-09-18T17:38:32.579] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-09-18T17:38:32.684] [DEBUG] debug-file - Clear worker 0.
+[2024-09-18T17:38:32.552] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-09-18T17:38:32.579] [DEBUG] debug-file - OxHornCampus : clean cost memory 0.028656005859375
+[2024-09-18T17:38:32.684] [DEBUG] debug-file - Worker 0 has been cleared.
+[2024-09-18T17:38:32.552] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-09-18T17:38:32.579] [DEBUG] debug-file - runTaskFromQueue task cost before running: 34 s 627 ms 
+[2024-09-18T17:38:32.684] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-09-18T17:38:32.560] [DEBUG] debug-file - Configuration phase cost:34 s 573 ms 
+[2024-09-18T17:38:32.580] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2024-09-18T17:38:32.695] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-09-18T17:38:32.580] [DEBUG] debug-file - Executing task :entry:init
+[2024-09-18T17:38:32.695] [DEBUG] debug-file - Clear worker 1.
+[2024-09-18T17:38:32.580] [DEBUG] debug-file - entry : init cost memory 0.0715179443359375
+[2024-09-18T17:38:32.695] [DEBUG] debug-file - Worker 1 has been cleared.
+[2024-09-18T17:38:32.580] [DEBUG] debug-file - runTaskFromQueue task cost before running: 34 s 628 ms 
+[2024-09-18T17:38:32.695] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-09-18T17:38:32.580] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-09-18T17:38:32.695] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-09-18T17:38:32.581] [DEBUG] debug-file - Executing task ::init
+[2024-09-18T17:38:32.696] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-09-18T17:38:32.581] [DEBUG] debug-file - OxHornCampus : init cost memory 0.00893402099609375
+[2024-09-18T17:38:32.581] [DEBUG] debug-file - runTaskFromQueue task cost before running: 34 s 629 ms 
+[2024-09-18T17:38:32.581] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-09-18T17:38:32.755] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2024-09-18T17:38:32.755] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2024-09-18T17:38:32.756] [DEBUG] debug-file - Current worker pool is terminated.

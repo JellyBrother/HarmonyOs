@@ -1,9 +1,19 @@
 import WeatherConstants from '../common/constants/WeatherConstants';
 import http from '@ohos.net.http';
 import geoLocationManager from '@ohos.geoLocationManager';
-import { Location, LocationInfo, WeatherData, WeatherNowData, WeatherIndexData, DayForecast, FutureWeather } from '../common/model/Weather';
-import ResponseResult from '../common/model/ResponseResult';
+import {
+  DayForecast,
+  FutureWeather,
+  LocationInfo,
+  WeatherData,
+  WeatherIndexData,
+  WeatherNow,
+  WeatherNowData
+} from '../common/model/Weather';
 
+import LogUtil from '../base/code/utils/LogUtil';
+
+const TAG: string = 'MainPage';
 
 function lookUpCity(location: geoLocationManager.Location): Promise<WeatherData> {
   return new Promise(async (resolve: Function, reject: Function) => {
@@ -26,13 +36,14 @@ function lookUpCity(location: geoLocationManager.Location): Promise<WeatherData>
     });
   });
 }
+
 export class AverageLocation {
-  averageLongitude: number=0;
-  averageLatitude: number=0;
+  averageLongitude: number = 0;
+  averageLatitude: number = 0;
 }
 
 
-function calculateAverageCoordinates(rectangle:string): AverageLocation {
+function calculateAverageCoordinates(rectangle: string): AverageLocation {
   const coordinatesArray = rectangle.split(";").map(coord => coord.split(","));
 
   // 初始化经度和纬度的累加器
@@ -67,7 +78,9 @@ class WeatherViewModel {
   getWeatherNow(location: LocationInfo): Promise<WeatherNowData> {
     return new Promise(async (resolve: Function, reject: Function) => {
       let url = `${WeatherConstants.SERVER}/${WeatherConstants.WEATHER_NOW}`;
+      LogUtil.error(TAG, `calculateAverageCoordinates1`)
       const result = calculateAverageCoordinates(location.rectangle);
+      LogUtil.error(TAG, `calculateAverageCoordinates2`)
 
       url += '?location=' + result.averageLongitude.toFixed(2) + "," + result.averageLatitude.toFixed(2) + '&key=' + WeatherConstants.KEY;
       console.error("url1" + url)
@@ -85,12 +98,70 @@ class WeatherViewModel {
     });
   }
 
+  queryTodayWeather3(): Promise<WeatherNow> {
+    return new Promise(async (resolve: Function, reject: Function) => {
+      this.getCityFromIp().then((value: LocationInfo) => {
+        this.address = value
+        this.getWeatherNow(value).then((weather: WeatherNowData) => {
+          let weatherNow: WeatherNow = weather.now
+          resolve(weatherNow)
+        }, (reason: any) => {
+          reject(reason)
+        })
+      })
+    })
+  }
+
+  queryTodayWeather2(): Promise<WeatherNow> {
+    LogUtil.error(TAG, `queryTodayWeather2`)
+    return new Promise(async (resolve: Function, reject: Function) => {
+      LogUtil.error(TAG, `getCityFromIp`)
+      this.getCityFromIp().then((value: LocationInfo) => {
+        this.address = value
+        LogUtil.error(TAG, `getWeatherNow`)
+        this.getWeatherNow(value).then((weather: WeatherNowData) => {
+          LogUtil.error(TAG, `getWeatherNow resolve`)
+          let weatherNow: WeatherNow = weather.now
+          resolve(weatherNow)
+        }, (reason: any) => {
+          LogUtil.error(TAG, `getWeatherNow reject`)
+          reject(reason)
+        }).catch(err => {
+          LogUtil.error(TAG, err)
+        })
+      })
+
+
+      // let url = `https://restapi.amap.com/v3/ip?key=76959cfcdd1df58887071d9b6ce10bfa`;
+      // console.error("url" + url)
+      // let httpRequest = http.createHttp();
+      // httpRequest.request(url, (err, data) => {
+      //   if (!err) {
+      //     let resultJson: LocationInfo = JSON.parse(data.result as string);
+      //     console.log("getCityFromIp:", resultJson.rectangle);
+      //
+      //     resolve(resultJson)
+      //   } else {
+      //     reject(err)
+      //     console.log("getCityFromIp:", err.message);
+      //
+      //   }
+      // });
+    })
+  }
+
   async queryTodayWeather() {
     try {
-      const loc = await this.getCityFromIp();
-      this.address = loc
-      const weather = await this.getWeatherNow(loc);
-      return weather.now;
+      this.getCityFromIp().then((value: LocationInfo) => {
+        this.address = value
+        this.getWeatherNow(value).then((weather: WeatherNowData) => {
+          return weather.now;
+        })
+      })
+      // const loc = await this.getCityFromIp();
+      // this.address = loc
+      // const weather = await this.getWeatherNow(loc);
+      // return weather.now;
     } catch (error) {
       console.error("Error:", error);
       throw new Error()
@@ -105,22 +176,31 @@ class WeatherViewModel {
       httpRequest.request(url, (err, data) => {
         if (!err) {
           let resultJson: LocationInfo = JSON.parse(data.result as string);
-          console.log("getCityFromIp:",resultJson.rectangle);
+          LogUtil.error(TAG, `getCityFromIp:${resultJson.rectangle}`)
 
           resolve(resultJson)
         } else {
           reject(err)
-          console.log("getCityFromIp:",err.message);
+          console.log("getCityFromIp:", err.message);
 
         }
       });
     })
   }
 
+  // async getCityFromIp2(): LocationInfo {
+  //   let url = `https://restapi.amap.com/v3/ip?key=76959cfcdd1df58887071d9b6ce10bfa`;
+  //   LogUtil.error(TAG, `getCityFromIp2 url:${url}`);
+  //   HttpUtil.get<HttpResponse>(url).then((data:HttpResponse)=>{
+  //     let resultJson: LocationInfo = JSON.parse(data.result as string);
+  //     return resultJson;
+  //   })
+  // }
+
   getLifeIndex(): Promise<WeatherIndexData> {
     return new Promise(async (resolve: Function, reject: Function) => {
 
-      if (this.address.infocode=="") {
+      if (this.address.infocode == "") {
         this.address = await this.getCityFromIp();
       }
       let location = this.address
@@ -137,7 +217,7 @@ class WeatherViewModel {
           // merge(life, JSON.parse(data.result as string));
           console.log("getLifeIndex:", data.result);
 
-          let life : WeatherIndexData =JSON.parse(data.result as string)
+          let life: WeatherIndexData = JSON.parse(data.result as string)
 
           resolve(life)
         } else {
@@ -165,7 +245,7 @@ class WeatherViewModel {
         if (!err) {
           // let day = new DayForecast()
           // assign(day, JSON.parse(data.result as string));
-          let day : DayForecast = JSON.parse(data.result as string)
+          let day: DayForecast = JSON.parse(data.result as string)
           console.log("getHourWeather:", day.code);
 
           resolve(day)
@@ -195,11 +275,11 @@ class WeatherViewModel {
         if (!err) {
           // let day = new FutureWeather()
           console.error("url1" + JSON.stringify(data.result))
-          let day : FutureWeather =JSON.parse(data.result as string)
-          if (day !instanceof FutureWeather) {
+          let day: FutureWeather = JSON.parse(data.result as string)
+          if (day! instanceof FutureWeather) {
             day = JSON.parse(data.result as string)
           }
-            // assign(day, JSON.parse(data.result as string));
+          // assign(day, JSON.parse(data.result as string));
           resolve(day)
         }
         else {
@@ -208,8 +288,6 @@ class WeatherViewModel {
       });
     });
   }
-
-
 }
 
 

@@ -1,0 +1,14 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/lib_utils": "file:../libs/lib_utils",
+    "@ohos/lib_net": "file:../libs/lib_net",
+    "@ohos/module_home": "file:../modules/module_home",
+  }
+}
+

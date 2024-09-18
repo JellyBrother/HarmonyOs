@@ -3,13 +3,13 @@
 		"BUNDLE_NAME":"com.captainz.littlegrass",
 		"SELECT_BUILD_MODE":"",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"E:\\github\\github\\LittleGrass\\build\\outputs\\default"
+			"OUTPUT_PATH":"G:\\HarmonyOs\\projects\\github\\v4\\LittleGrass-main\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_PRODUCT":"default"
 	},
 	"CommonInfo":{
 		"crossplatform.projectType":"",
-		"project.ide.version":"5.0.3.700",
+		"project.ide.version":"4.1.0.400",
 		"current.select.product":"default",
 		"current.select.buildMode":""
 	}

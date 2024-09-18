@@ -1,0 +1,113 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\build",
+    "BUNDLE_NAME": "com.example.oxhorncampus",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "G:\\HarmonyOs\\projects\\codelabs\\OxHornCampus"
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "lib_net",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

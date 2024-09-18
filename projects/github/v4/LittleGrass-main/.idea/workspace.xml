@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07e94f23-c1b0-451d-bbda-85719a1a8df0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/Index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/build-profile.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/hvigorfile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/oh-package.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/ets/net/HttpUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/ets/net/NetConstant.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/module.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/resources/base/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/resources/en_US/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/resources/zh_CN/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/Index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/build-profile.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/hvigorfile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/obfuscation-rules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/oh-package.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/common/CommonConstants.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/common/CommonEnums.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/common/ContinueModel.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/common/RankColorMap.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/common/ResponseData.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/BackgroundTaskManager.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/BreakpointSystem.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/CommonUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/DarkModeUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/FileUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/GlobalContext.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/ImageUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/JsonUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/LazyDataSource.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/Logger.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/LottieUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/ObservedArray.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/PermissionUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/PreferenceManager.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/SubWindowUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/WebUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/ets/utils/WindowUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/module.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/resources/base/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/resources/en_US/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_utils/src/main/resources/zh_CN/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/Index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/build-profile.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/hvigorfile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/oh-package.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/src/main/ets/components/MainPage.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/src/main/ets/model/Constants.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/src/main/ets/service/Constants.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/src/main/module.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/src/main/resources/base/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/src/main/resources/en_US/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/modules/module_home/src/main/resources/zh_CN/element/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/base/code/net/HttpUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/utils/Base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/AppScope/app.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/AppScope/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/AppScope/resources/base/media/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/build-profile.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/oh-package-lock.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/common/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/common/constant.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/common/enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/entryability/EntryAbility.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/api/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/AvaterComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/BottomDialogComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/CategoryComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/CommentComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/HomeComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/MovieComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/MovieListComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/MyComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/OptionDialogComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/SearchComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/SwiperComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/TVComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/components/TitleComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/controller/CommentController.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/interface/Index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/IndexPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/LaunchPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/MovieDetailPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/MovieLoginPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/MoviePlayPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/MovieRegisterPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/MovieSearchPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/pages/MovieUserPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/movie/service/Index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/api/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/CommentInputComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/FavoriteComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/LikeComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicAuthorComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicAvaterComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicCategoryComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicCircleComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicClassifyComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicClassifyListComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicHomeComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicMyComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicRecommendComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/MusicSearchComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/components/NavigatorTitleComponent.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/controller/LikeController.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/interface/Index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicAuthorCategoryPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicAuthorMusicListPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicCategoryPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicClassifyListPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicFavoriteListPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicIndexPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicPlayerPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicSearchPage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/pages/MusicSharePage.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/music/service/Index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/theme/color.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/theme/size.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/utils/HttpUtil.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/utils/Lyric.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/utils/PreferenceModel.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/ets/utils/common.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/module.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/element/color.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/default_avater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/default_cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_avater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_classify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_collection_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_comment_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_detail_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_empty_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_favorite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_full_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_half_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_home_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_hot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_like_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_like_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_menu_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_menu_board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_menu_collect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_menu_history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_menu_like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_movie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_movie_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_circle_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_classics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_classify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_collect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_comments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_default_cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_play_menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_play_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_playing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_playing_grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_random.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_rank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_singer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_music_white_menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_no1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_no2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_no3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_permission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_play_record.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_recomment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_recomment_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_record.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_share_music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_song_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_talk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_tv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_tv_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/media/icon_user_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/base/profile/main_pages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/en_US/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/main/resources/zh_CN/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/ets/TestAbility/TestAbility.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/ets/TestAbility/pages/index.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/ets/TestRunner/OpenHarmonyTestRunner.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/ets/test/Ability.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/ets/test/List.test.ets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/module.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/resources/base/element/color.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/resources/base/element/string.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/resources/base/media/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/entry/src/ohosTest/resources/base/profile/test_pages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/hvigor/hvigor-config.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/hvigor/hvigor-wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/hvigorfile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/hvigorw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/hvigorw.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/oh-package-lock.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/oh-package.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/一键提交到gitee.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/一键提交到github.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/分类歌曲.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/外网映射正常访问提示.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/实际效果预览.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/新版电影APP整体预览图.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影app整体预览.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影app整体预览2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/电影预览9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐分享.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐列表页.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐圈评论.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐我的1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐我的2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐推荐.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐搜索列表.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐搜索记录.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐播放页-创建收藏夹.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐播放页-播放模式切换.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐播放页-收藏音乐.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐播放页-评论.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐播放页.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐收藏列表.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐朋友圈1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐朋友圈2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐歌手专辑页.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐歌手页.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐歌词页.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐点赞和评论.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master - 副本/音乐首页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master/entry/src/main/ets/common/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Harmony-arkts-movie-music-app-ui-master/entry/src/main/ets/common/constant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/.clang-format" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.deveco/module/entry.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.deveco/module/entry.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.deveco/module/retrofit.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.deveco/module/retrofit.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.deveco/project.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.deveco/project.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-profile.json5" beforeDir="false" afterPath="$PROJECT_DIR$/build-profile.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/entry/oh-package-lock.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/oh-package-lock.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retrofit/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/retrofit/oh-package-lock.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.clang-format" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/cache/file-cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/cache/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/cache/meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/cache/task-cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/outputs/build-logs/build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/outputs/sync/fileCache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/outputs/sync/fileCache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/outputs/sync/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.hvigor/outputs/sync/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.idea/.deveco/module/entry.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.idea/.deveco/module/entry.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.idea/.deveco/module/retrofit.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.idea/.deveco/module/retrofit.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.idea/.deveco/project.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.idea/.deveco/project.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/entry/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/entry/oh-package-lock.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/oh-package-lock.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LittleGrass-main2/retrofit/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../LittleGrass-main2/retrofit/oh-package-lock.json5" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FilterPreference">
+    <option name="filterName" value="No filters" />
+    <option name="level" value="error" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2mEUroSVNSaWMcI0Fs6kZA06UP9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "MODULE_HAP_TIME": "{\"PQY5T20A27009403entry\":\"2024-09-18T09:23:47.134381700Z\",\"PQY5T20A27009403retrofit\":\"2024-09-18T06:45:29.922252900Z\"}",
+    "PQY5T20A27009403": "537010281",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ace.nodejs.path": "E:/harmonyos/node",
+    "ace.nodejs.version": "18.14.1",
+    "auto_debug_bundleName": "000000284513CE24A34EF333AE3818E4209D86ADD841562F22C43CFD14AE89C30E9457707D370B8D5547D4D9C1F9288E3F65825EB17DDC64",
+    "auto_debug_cert_list": "00000023DAF82C5DE4825974D802D1A4AB30C0807F6843C2D8F8F3B148AEF5091FB04A54D293FD71088FAAEE1B8CBB125F8C66",
+    "auto_debug_device_list": "00000023322DB3ADE7AAE57B81BACF02221520BB1CE658384CCA58452922A74343A277C635D137A968A55AC5EFC020A32C7FD0",
+    "auto_debug_package_name": "00000028B436F63DA91A71480A660080B06239C70075805BCE0765B65413405783F8068E307892E02F2C448F66A2F05CCC1A51802C60C79F",
+    "auto_debug_team_id": "00000022979552A2D9E1402BC5540FA023CAA03B3C73B1C386B622FD0A0628709AA9EA117DDA4F496C3EA65F2C304387F96F",
+    "last_opened_file_path": "G:/HarmonyOs/projects/github/v4/Harmony-arkts-movie-music-app-ui-master"
+  },
+  "keyToStringList": {
+    "reqPermissions": [
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\HarmonyOs\projects\github\v4\LittleGrass-main\entry\src\main\ets\base\code\net" />
+      <recent name="G:\HarmonyOs\projects\github\v4\LittleGrass-main\entry\src\main\ets\utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.entry">
+    <configuration name="entry" type="HotReLoadTask" factoryName="Hot Reload">
+      <SYMBOL_DIRS>[]</SYMBOL_DIRS>
+      <MODULE_NAME />
+      <DEPLOY_MULTI_HAP>false</DEPLOY_MULTI_HAP>
+      <REINSTALL_APPLICATION>false</REINSTALL_APPLICATION>
+      <DEBUGGER_TYPE>ArkTS/JS</DEBUGGER_TYPE>
+      <MULTI_HAP_MODULE_DATA>[]</MULTI_HAP_MODULE_DATA>
+      <SHOW_STATIC_VARIABLES>true</SHOW_STATIC_VARIABLES>
+      <ENABLE_MIX_STACK>false</ENABLE_MIX_STACK>
+      <LOGGING_TARGET_CHANNELS>lldb process:gdb-remote packets</LOGGING_TARGET_CHANNELS>
+      <ASAN_ENABLE_DATA>false</ASAN_ENABLE_DATA>
+      <DEBUG_LINE_ENABLE_DATA>false</DEBUG_LINE_ENABLE_DATA>
+      <AUTO_DEPENDENCIES_DATA>false</AUTO_DEPENDENCIES_DATA>
+      <USER_POST_ATTACH_COMMANDS>[]</USER_POST_ATTACH_COMMANDS>
+      <USER_STARTUP_COMMANDS>[]</USER_STARTUP_COMMANDS>
+      <INSTALL_FLAGS_CONFIG_KEY />
+      <LAUNCH_FLAGS_CONFIG_KEY />
+      <LAUNCH_ABILITY_CONFIG_TYPE />
+      <LAUNCH_ABILITY_CONFIG_VALUE />
+      <HOT_RELOAD_MODULE_NAME>entry</HOT_RELOAD_MODULE_NAME>
+      <method v="2">
+        <option name="Build.Hvigor.HotReloadBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="entry" type="OhosDebugTask" factoryName="OpenHarmony App">
+      <SYMBOL_DIRS>[]</SYMBOL_DIRS>
+      <MODULE_NAME>entry</MODULE_NAME>
+      <DEPLOY_MULTI_HAP>false</DEPLOY_MULTI_HAP>
+      <REINSTALL_APPLICATION>false</REINSTALL_APPLICATION>
+      <DEBUGGER_TYPE>ArkTS/JS</DEBUGGER_TYPE>
+      <MULTI_HAP_MODULE_DATA>[]</MULTI_HAP_MODULE_DATA>
+      <SHOW_STATIC_VARIABLES>true</SHOW_STATIC_VARIABLES>
+      <ENABLE_MIX_STACK>false</ENABLE_MIX_STACK>
+      <LOGGING_TARGET_CHANNELS>lldb process:gdb-remote packets</LOGGING_TARGET_CHANNELS>
+      <ASAN_ENABLE_DATA>false</ASAN_ENABLE_DATA>
+      <DEBUG_LINE_ENABLE_DATA>false</DEBUG_LINE_ENABLE_DATA>
+      <AUTO_DEPENDENCIES_DATA>false</AUTO_DEPENDENCIES_DATA>
+      <USER_POST_ATTACH_COMMANDS>[]</USER_POST_ATTACH_COMMANDS>
+      <USER_STARTUP_COMMANDS>[]</USER_STARTUP_COMMANDS>
+      <INSTALL_FLAGS_CONFIG_KEY />
+      <LAUNCH_FLAGS_CONFIG_KEY />
+      <LAUNCH_ABILITY_CONFIG_TYPE>Default Ability</LAUNCH_ABILITY_CONFIG_TYPE>
+      <LAUNCH_ABILITY_CONFIG_VALUE />
+      <method v="2">
+        <option name="Build.Hvigor.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="retrofit" type="OhosDebugTask" factoryName="OpenHarmony App">
+      <SYMBOL_DIRS>[]</SYMBOL_DIRS>
+      <MODULE_NAME>retrofit</MODULE_NAME>
+      <DEPLOY_MULTI_HAP>false</DEPLOY_MULTI_HAP>
+      <REINSTALL_APPLICATION>false</REINSTALL_APPLICATION>
+      <DEBUGGER_TYPE>ArkTS/JS</DEBUGGER_TYPE>
+      <MULTI_HAP_MODULE_DATA>[]</MULTI_HAP_MODULE_DATA>
+      <SHOW_STATIC_VARIABLES>true</SHOW_STATIC_VARIABLES>
+      <ENABLE_MIX_STACK>false</ENABLE_MIX_STACK>
+      <LOGGING_TARGET_CHANNELS>lldb process:gdb-remote packets</LOGGING_TARGET_CHANNELS>
+      <ASAN_ENABLE_DATA>false</ASAN_ENABLE_DATA>
+      <DEBUG_LINE_ENABLE_DATA>false</DEBUG_LINE_ENABLE_DATA>
+      <AUTO_DEPENDENCIES_DATA>false</AUTO_DEPENDENCIES_DATA>
+      <USER_POST_ATTACH_COMMANDS>[]</USER_POST_ATTACH_COMMANDS>
+      <USER_STARTUP_COMMANDS>[]</USER_STARTUP_COMMANDS>
+      <INSTALL_FLAGS_CONFIG_KEY />
+      <LAUNCH_FLAGS_CONFIG_KEY />
+      <LAUNCH_ABILITY_CONFIG_TYPE>Nothing</LAUNCH_ABILITY_CONFIG_TYPE>
+      <LAUNCH_ABILITY_CONFIG_VALUE />
+      <method v="2">
+        <option name="Build.Hvigor.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>172</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>176</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>160</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>163</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>161</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>165</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>163</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>88</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>86</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>84</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>180</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>155</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>156</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>219</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>194</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>140</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>138</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>118</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>119</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>121</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>123</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>124</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>127</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>171</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>78</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/MainPage.ets</url>
+          <line>170</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>200</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>202</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>203</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>205</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>213</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>79</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>81</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>82</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>80</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>61</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>46</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="JavaScript">
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/viewmodel/WeatherViewModel.ets</url>
+          <line>49</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,13 +1,9 @@
 import { CommonConstants } from '../common/constants/CommonConstants';
-import geoLocationManager from '@ohos.geoLocationManager';
-import bundleManager from '@ohos.bundle.bundleManager';
-import abilityAccessCtrl, { Permissions } from '@ohos.abilityAccessCtrl';
-import promptAction from '@ohos.promptAction'
+import { Permissions } from '@ohos.abilityAccessCtrl';
+import promptAction from '@ohos.promptAction';
 import weatherViewModel from '../viewmodel/WeatherViewModel';
 import router from '@ohos.router';
 import util from '@ohos.util';
-import window from '@ohos.window';
-import common from '@ohos.app.ability.common';
 import {
   DailyForecast,
   DailyIndex,
@@ -17,7 +13,6 @@ import {
   WeatherIndexData,
   WeatherNow
 } from '../common/model/Weather';
-import shortcut from '@system.mediaquery'
 import hilog from '@ohos.hilog';
 import LifeIndex from '../view/LifeIndex';
 import { LifeIndexDataSource } from '../viewmodel/LifeIndexDataSource';
@@ -25,18 +20,20 @@ import { HourForecastDataSource } from '../viewmodel/HourForecastDataSource';
 import HourForecast from '../view/HourForecast';
 import FutureForecast from '../view/FutureForecast';
 import { Permission } from '../utils/PermissionHandler';
-import resourceManager from '@ohos.resourceManager';
-import { BusinessError } from '@kit.BasicServicesKit';
-import { buffer } from '@kit.ArkTS';
+// import { BusinessError } from '@kit.BasicServicesKit';
+import { BusinessError,TextDecoderOptions,DecodeWithStreamOptions } from '../utils/Base';
+import LogUtil from '../base/code/utils/LogUtil';
 
 /**
  * The MainPage that is routed as the SplashScreenPage.
  */
 const permissions: Array<Permissions> = ['ohos.permission.LOCATION', 'ohos.permission.APPROXIMATELY_LOCATION'];
 
+@Preview
 @Entry
 @Component
 struct MainPage {
+  private TAG: string = 'MainPage';
   @State weatherNow: WeatherNow = new WeatherNow()
   @State city: LocationInfo = new LocationInfo()
   @State lifeIndex: WeatherIndexData = new WeatherIndexData()
@@ -64,7 +61,7 @@ struct MainPage {
         .width(CommonConstants.MAIN_PAGE_COLUMN_WIDTH)
         .padding({ top: vp2px(20), left: vp2px(8), right: vp2px(8) })
 
-        .onClick((e)=>{
+        .onClick((e) => {
           this.getGps()
         })
 
@@ -101,16 +98,16 @@ struct MainPage {
 
         LifeIndex().margin({ top: 10 })
         HourForecast()
-        ForEach(this.fc,(item:DailyForecast,index:number)=> {
-            FutureForecast({ fcs: this.fc })
-              .borderRadius(25)
-              .backgroundColor('#661788c8')
-              .margin({ left: 10, right: 10, top: 20 })
-              .height(320)
-            Row() {
+        ForEach(this.fc, (item: DailyForecast, index: number) => {
+          FutureForecast({ fcs: this.fc })
+            .borderRadius(25)
+            .backgroundColor('#661788c8')
+            .margin({ left: 10, right: 10, top: 20 })
+            .height(320)
+          Row() {
 
-            }.height(40)
-          }, (item: DailyForecast, index: number): string => {
+          }.height(40)
+        }, (item: DailyForecast, index: number): string => {
           return "";
         })
 
@@ -140,29 +137,29 @@ struct MainPage {
 
   aboutToAppear() {
     router.clear()
-    console.log("MainPage", "aboutToAppear")
+    LogUtil.error(this.TAG, `aboutToAppear  getCityInfo`);
     this.getCityInfo()
   }
 
   onPageShow() {
     console.log("MainPage", "onPageShow")
-    this.getLifeIndex()
+    // this.getLifeIndex()
   }
 
   @Permission(permissions,getContext(this))
-  getGps(){
-    promptAction.showToast({message:'请求定位权限成功'})
+  getGps() {
+    promptAction.showToast({ message: '请求定位权限成功' })
   }
 
   handleCity() {
     this.city = weatherViewModel.address
     this.getHourWeather()
     this.getFutureForecast()
-}
+  }
 
   getCityInfo() {
     let parent = this
-    weatherViewModel.queryTodayWeather()
+    weatherViewModel.queryTodayWeather2()
       .then(now => {
         parent.handleCity()
         console.log("getCityInfo", JSON.stringify(now));
@@ -185,7 +182,7 @@ struct MainPage {
     weatherViewModel
       .getHourWeather()
       .then(day => {
-        console.log("getHourWeather",day.hourly)
+        console.log("getHourWeather", day.hourly)
         this.hourSource.addAllData(day.hourly)
       })
   }
@@ -194,7 +191,7 @@ struct MainPage {
     weatherViewModel
       .getFutureForecast()
       .then(forecast => {
-        if (forecast.daily==undefined) {
+        if (forecast.daily == undefined) {
           this.getFakeData()
             .then((data) => {
               // 处理模拟的数据
@@ -207,7 +204,7 @@ struct MainPage {
             .catch((err: BusinessError) => {
             });
 
-        }else {
+        } else {
           this.fc.length = 0
           this.fc.push(...forecast.daily)
           console.error("forecasts:" + this.fc.length);
@@ -223,10 +220,10 @@ struct MainPage {
         if (error != null) {
           reject(error);
         } else {
-          let textDecoderOptions: util.TextDecoderOptions = {
+          let textDecoderOptions: TextDecoderOptions = {
             ignoreBOM: true
           };
-          let decodeWithStreamOptions: util.DecodeWithStreamOptions = {
+          let decodeWithStreamOptions: DecodeWithStreamOptions = {
             stream: false
           };
           let textDecoder = util.TextDecoder.create('utf-8', textDecoderOptions);
@@ -237,6 +234,5 @@ struct MainPage {
       });
     });
   }
-
 }
 

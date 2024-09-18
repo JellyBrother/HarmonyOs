@@ -861,3 +861,153 @@ at E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\re
 [2024-08-10T11:57:49.431] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2024-08-10T11:57:49.434] [DEBUG] debug-file - worker[29] exits with exit code 1.
 [2024-08-10T11:57:49.439] [DEBUG] debug-file - worker[30] exits with exit code 1.
+[2024-09-18T14:50:31.251] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-09-18T14:50:35.640] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-09-18T14:51:04.781] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-09-18T14:51:04.787] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-09-18T14:51:04.796] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2024-09-18T14:50:35.680] [DEBUG] debug-file - hvigorfile, resolving G:\HarmonyOs\projects\github\v4\LittleGrass-main2\hvigorfile.ts
+[2024-09-18T14:51:04.400] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2024-09-18T14:51:05.043] [DEBUG] debug-file - Project task initialization takes 31 ms 
+[2024-09-18T14:51:05.054] [DEBUG] debug-file - hvigorfile, resolving G:\HarmonyOs\projects\github\v4\LittleGrass-main2\entry\hvigorfile.ts
+[2024-09-18T14:51:05.096] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-09-18T14:51:05.119] [DEBUG] debug-file - Module entry task initialization takes 8 ms 
+[2024-09-18T14:51:05.133] [DEBUG] debug-file - hvigorfile, resolving G:\HarmonyOs\projects\github\v4\LittleGrass-main2\retrofit\hvigorfile.ts
+[2024-09-18T14:51:05.155] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=retrofit, buildMode=debug
+[2024-09-18T14:51:05.160] [DEBUG] debug-file - Module retrofit task initialization takes 2 ms 
+[2024-09-18T14:51:05.161] [DEBUG] debug-file - hvigorfile, resolve finished G:\HarmonyOs\projects\github\v4\LittleGrass-main2\retrofit\hvigorfile.ts
+[2024-09-18T14:51:05.165] [DEBUG] debug-file - project has submodules:entry,retrofit
+[2024-09-18T14:51:05.261] [DEBUG] debug-file - Configuration task cost before running: 29 s 743 ms 
+[2024-09-18T14:51:05.264] [DEBUG] debug-file - Executing task :entry:clean
+[2024-09-18T14:51:05.268] [DEBUG] debug-file - entry : clean cost memory 0.223602294921875
+[2024-09-18T14:51:05.273] [DEBUG] debug-file - Executing task :retrofit:clean
+[2024-09-18T14:51:05.275] [DEBUG] debug-file - retrofit : clean cost memory 0.2199859619140625
+[2024-09-18T14:51:05.292] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-09-18T14:51:05.009] [DEBUG] debug-file - Sdk init in 218 ms 
+[2024-09-18T14:51:04.883] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-09-18T14:50:31.307] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-09-18T14:50:35.648] [DEBUG] debug-file - Since current hvigor version 5.5.1 differs from last hvigor version 
+      5.3.3, delete file-cache.json and task-cache.json.
+[2024-09-18T14:51:04.782] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-09-18T14:51:04.789] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-09-18T14:51:04.401] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2024-09-18T14:51:05.043] [DEBUG] debug-file - hvigorfile, resolve finished G:\HarmonyOs\projects\github\v4\LittleGrass-main2\hvigorfile.ts
+[2024-09-18T14:51:05.068] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2024-09-18T14:51:05.096] [DEBUG] debug-file - Target 'default' config: {}
+[2024-09-18T14:51:05.119] [DEBUG] debug-file - hvigorfile, resolve finished G:\HarmonyOs\projects\github\v4\LittleGrass-main2\entry\hvigorfile.ts
+[2024-09-18T14:51:05.148] [DEBUG] debug-file - hvigorfile, require result:  [Function: hspTasks]
+[2024-09-18T14:51:05.155] [DEBUG] debug-file - Target 'default' config: {}
+[2024-09-18T14:51:05.165] [DEBUG] debug-file - module:retrofit no need to execute packageHap
+[2024-09-18T14:51:05.265] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-09-18T14:51:05.268] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 750 ms 
+[2024-09-18T14:51:05.273] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-09-18T14:51:05.276] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 757 ms 
+[2024-09-18T14:51:05.295] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true
+} in this build.
+[2024-09-18T14:51:05.334] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-09-18T14:50:31.314] [DEBUG] debug-file - env: daemon=false
+[2024-09-18T14:50:35.659] [DEBUG] debug-file - Cache service initialization finished in 10 ms 
+[2024-09-18T14:51:04.782] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-09-18T14:51:05.068] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2024-09-18T14:51:05.098] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-09-18T14:51:05.148] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hspTasks]
+[2024-09-18T14:51:05.155] [DEBUG] debug-file - Module 'retrofit' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-09-18T14:51:05.175] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-09-18T14:51:05.270] [INFO] debug-file - Finished :entry:clean... after 4 ms 
+[2024-09-18T14:51:05.276] [INFO] debug-file - Finished :retrofit:clean... after 3 ms 
+[2024-09-18T14:51:05.428] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-09-18T14:50:31.315] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2024-09-18T14:51:05.298] [DEBUG] debug-file - Module 'retrofit' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-09-18T14:51:04.782] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-09-18T14:51:05.098] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-09-18T14:51:05.155] [DEBUG] debug-file - End initialize module-target build option map, moduleName=retrofit
+[2024-09-18T14:51:05.216] [DEBUG] debug-file - load to the disk finished
+[2024-09-18T14:51:05.276] [DEBUG] debug-file - Executing task ::clean
+[2024-09-18T14:51:05.442] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-09-18T14:51:05.303] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [],
+  analyze: 'normal'
+}
+[2024-09-18T14:51:05.098] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true
+}
+[2024-09-18T14:51:05.155] [DEBUG] debug-file - Module 'retrofit' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-09-18T14:51:05.241] [DEBUG] debug-file - Module LittleGrass-main2 Collected Dependency: G:\HarmonyOs\projects\github\v4\LittleGrass-main2\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-09-18T14:51:05.276] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Clear worker 0.
+[2024-09-18T14:51:05.325] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-09-18T14:51:05.098] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-09-18T14:51:05.241] [DEBUG] debug-file - Module LittleGrass-main2's total dependency: 1
+[2024-09-18T14:51:05.277] [DEBUG] debug-file - LittleGrass-main2 : clean cost memory 0.026947021484375
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Worker 0 has been cleared.
+[2024-09-18T14:51:05.325] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-09-18T14:51:05.098] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-09-18T14:51:05.245] [DEBUG] debug-file - Module entry Collected Dependency: G:\HarmonyOs\projects\github\v4\LittleGrass-main2\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-09-18T14:51:05.277] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 759 ms 
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-09-18T14:51:05.245] [DEBUG] debug-file - Module entry's total dependency: 1
+[2024-09-18T14:51:05.277] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-09-18T14:51:05.254] [DEBUG] debug-file - Module retrofit Collected Dependency: G:\HarmonyOs\projects\github\v4\LittleGrass-main2\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-09-18T14:51:05.277] [DEBUG] debug-file - Executing task :entry:init
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Clear worker 1.
+[2024-09-18T14:51:05.277] [DEBUG] debug-file - entry : init cost memory 0.01010894775390625
+[2024-09-18T14:51:05.254] [DEBUG] debug-file - Module retrofit's total dependency: 1
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Worker 1 has been cleared.
+[2024-09-18T14:51:05.277] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 759 ms 
+[2024-09-18T14:51:05.256] [DEBUG] debug-file - Configuration phase cost:29 s 589 ms 
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-09-18T14:51:05.278] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-09-18T14:51:05.451] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-09-18T14:51:05.278] [DEBUG] debug-file - Executing task :retrofit:init
+[2024-09-18T14:51:05.452] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-09-18T14:51:05.278] [DEBUG] debug-file - retrofit : init cost memory 0.00801849365234375
+[2024-09-18T14:51:05.278] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 760 ms 
+[2024-09-18T14:51:05.278] [INFO] debug-file - Finished :retrofit:init... after 1 ms 
+[2024-09-18T14:51:05.278] [DEBUG] debug-file - Executing task ::init
+[2024-09-18T14:51:05.278] [DEBUG] debug-file - LittleGrass-main2 : init cost memory 0.00907135009765625
+[2024-09-18T14:51:05.279] [DEBUG] debug-file - runTaskFromQueue task cost before running: 29 s 760 ms 
+[2024-09-18T14:51:05.279] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-09-18T14:51:05.528] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2024-09-18T14:51:05.529] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2024-09-18T14:51:05.530] [DEBUG] debug-file - Current worker pool is terminated.
