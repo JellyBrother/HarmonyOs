@@ -1,0 +1,11 @@
+{
+  "app": {
+    "bundleName": "com.vx.harmony.hmostasks",
+    "patchVersionCode": 2000043,
+    "versionCode": 1000000
+  },
+  "module": {
+    "name": "phone",
+    "type": "hotreload"
+  }
+}

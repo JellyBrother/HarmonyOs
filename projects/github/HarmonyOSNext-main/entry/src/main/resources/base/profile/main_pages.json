@@ -1,0 +1,28 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/01/FirstPageCase",
+    "pages/01/FirstCompPage",
+    "pages/01/RowColumnCase",
+    "pages/01/CustomCompCase",
+    "pages/01/DouYinStackCase",
+    "pages/01/BaiduCase",
+    "pages/02/FlexCase",
+    "pages/02/GridCase",
+    "pages/02/RelativeCase",
+    "pages/02/ScrollCase",
+    "pages/02/ScrollCase02",
+    "pages/02/EventCase",
+    "pages/02/OnAreaChangeCase",
+    "pages/03/StateCase",
+    "pages/03/LoginCase",
+    "pages/03/AddressCase",
+    "pages/03/MvvmCase",
+    "pages/04/CommonStyleCase",
+    "pages/04/PxVpFpLpxCase",
+    "pages/04/LayoutCase"
+  ],
+  "window": {
+    "designWidth": 720
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "HarmonyAtomicService"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "HarmonyAtomicService"
+    },
+    {
+      "name": "app_location_reason",
+      "value": "测试位置权限"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "HarmonyAtomicService"
+    },
+    {
+      "name": "app_label",
+      "value": "CodeLab"
+    }
+  ]
+}

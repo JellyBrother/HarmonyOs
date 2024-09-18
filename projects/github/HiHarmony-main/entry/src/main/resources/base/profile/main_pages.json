@@ -1,0 +1,25 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Third",
+    "pages/localstorage/main",
+    "pages/localstorage/Case1",
+    "pages/localstorage/Case2",
+    "pages/localstorage/Case3",
+    "pages/localstorage/Case5",
+    "pages/rendercontrol/main",
+    "pages/rendercontrol/ConditionRender",
+    "pages/rendercontrol/ForEachRender",
+    "pages/concurrent/main",
+    "pages/concurrent/OnceIO",
+    "pages/concurrent/TaskPool",
+    "pages/customcomp/main",
+    "pages/customcomp/Builder",
+    "pages/customcomp/Animatable",
+    "pages/statemanager/main",
+    "pages/statemanager/StateWatcher",
+    "pages/statemanager/PropWatcher",
+    "pages/statemanager/LinkWatcher",
+    "pages/statemanager/ProvideWatcher"
+  ]
+}

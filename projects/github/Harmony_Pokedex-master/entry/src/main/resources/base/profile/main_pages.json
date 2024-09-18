@@ -1,0 +1,7 @@
+{
+  "src": [
+    "pages/SplashAsync",
+    "pages/SplashAnimation",
+    "pages/PokeListPage"
+  ]
+}

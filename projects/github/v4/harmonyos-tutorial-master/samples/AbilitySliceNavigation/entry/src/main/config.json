@@ -1,0 +1,57 @@
+{
+  "app": {
+    "bundleName": "com.waylau.hmos.abilityslicenavigation",
+    "vendor": "waylau",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.waylau.hmos.abilityslicenavigation",
+    "name": ".MyApplication",
+    "mainAbility": "com.waylau.hmos.abilityslicenavigation.MainAbility",
+    "deviceType": [
+      "phone",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action.pay"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.waylau.hmos.abilityslicenavigation.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.waylau.hmos.abilityslicenavigation.PayAbility",
+        "icon": "$media:icon",
+        "description": "$string:payability_description",
+        "label": "$string:entry_PayAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

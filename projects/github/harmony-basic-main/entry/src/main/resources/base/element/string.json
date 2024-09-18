@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "HmBs"
+    },
+    {
+      "name": "PayAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PayAbility_label",
+      "value": "HmBs"
+    },
+    {
+      "name": "secondability_desc",
+      "value": "description"
+    },
+    {
+      "name": "secondability_label",
+      "value": "HmBs"
+    }
+  ]
+}

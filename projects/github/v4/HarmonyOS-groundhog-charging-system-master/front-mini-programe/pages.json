@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+       
+       
+        {
+            "path" : "pages/charge/charge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充电",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/scan/scan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "subPackages":[
+    {
+      "root": "subpkg",
+      "pages": [
+              {
+                    "path" : "charging/charging",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "chargeOrder/chargeOrder",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+    }
+  ],
+// 如果您是通过uni_modules形式引入uview-plus，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "土拨鼠充电",
+		"navigationBarBackgroundColor": "#0aa671",
+		"backgroundColor": "#FFFFFF"
+	},
+	"uniIdRouter": {},
+    "tabBar": {
+        "color": "#999",
+        "selectedColor": "#0aa671",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/charge/charge"
+            },
+            {
+                "pagePath": "pages/scan/scan"
+            },
+            {
+                "pagePath": "pages/my/my"
+            }
+        ]
+  	}
+}

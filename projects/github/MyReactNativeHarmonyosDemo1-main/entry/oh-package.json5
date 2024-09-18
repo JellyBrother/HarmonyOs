@@ -1,0 +1,14 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "file:../library/react_native_openharmony-5.0.0.500.har",
+    "@react-native-oh-tpl/react-native-blob-util": "file:../libs/blobUtil.har",
+    "@react-native-oh-tpl/async-storage": "file:../libs/async_storage.har"
+  }
+}

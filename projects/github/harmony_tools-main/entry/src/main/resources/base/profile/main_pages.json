@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Main",
+    "pages/DialogPage",
+    "pages/WebViewPage",
+    "pages/SelectMediaPage",
+    "pages/CropAvatarPage"
+  ]
+}

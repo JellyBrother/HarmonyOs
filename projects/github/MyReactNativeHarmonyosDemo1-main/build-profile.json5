@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_MyReactNativeHarmonyosDemo1_tFXsqk0xhw5hmvYXuOF7lfM6e9difrjMBUZsew3iJKk=.cer",
+          "storePassword": "0000001BFE53360A4AC15A38592CBC5D78EDFA8D71F7B9B58BC81963535C5F4CE5088A84EF3A6D3AA2D4CC",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B39F41C02D0E5BBA8DC49F05581D0955B948ACF3768D12F9A7795F3320B63166F0C70B776A7B794",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_MyReactNativeHarmonyosDemo1_tFXsqk0xhw5hmvYXuOF7lfM6e9difrjMBUZsew3iJKk=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_MyReactNativeHarmonyosDemo1_tFXsqk0xhw5hmvYXuOF7lfM6e9difrjMBUZsew3iJKk=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

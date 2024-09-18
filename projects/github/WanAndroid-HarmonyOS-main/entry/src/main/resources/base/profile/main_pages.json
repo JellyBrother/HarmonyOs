@@ -1,0 +1,13 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/SearchPage",
+    "pages/PointsRankPage",
+    "pages/SystemSettingPage",
+    "pages/MySharedPage",
+    "pages/ShareArticlePage",
+    "pages/PointDetailPage",
+    "pages/SearchResultPage",
+    "pages/LoginPage"
+  ]
+}

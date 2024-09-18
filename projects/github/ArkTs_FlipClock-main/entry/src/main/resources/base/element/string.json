@@ -1,0 +1,206 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "FlipClock"
+    },
+
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "AnimationCollection"
+    },
+    {
+      "name": "common_bar_chart_height",
+      "value": "30%"
+    },
+    {
+      "name": "common_text_height",
+      "value": "40%"
+    },
+    {
+      "name": "common_text_width",
+      "value": "40%"
+    },
+    {
+      "name": "divider_height",
+      "value": "26%"
+    },
+    {
+      "name": "common_stack_height",
+      "value": "50%"
+    },
+    {
+      "name": "common_stack_width",
+      "value": "100%"
+    },
+    {
+      "name": "common_navigation_height",
+      "value": "60%"
+    },
+    {
+      "name": "common_navigation_width",
+      "value": "90%"
+    },
+    {
+      "name": "scroll_width",
+      "value": "40%"
+    },
+    {
+      "name": "ohos_id_text_size_headline",
+      "value": "20"
+    },
+    {
+      "name": "ohos_id_text_font_family_medium",
+      "value": "medium"
+    },
+    {
+      "name": "ohos_id_text_size_body1",
+      "value": "16"
+    },
+    {
+      "name": "ohos_id_text_size_body2",
+      "value": "14"
+    },
+    {
+      "name": "ohos_id_text_size_body3",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_text_size_caption",
+      "value": "10"
+    },
+    {
+      "name": "ohos_id_corner_radius_default_l",
+      "value": "16"
+    },
+    {
+      "name": "ohos_id_corner_radius_default_m",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_corner_radius_subtab",
+      "value": "4"
+    },
+    {
+      "name": "ohos_id_card_margin_start",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_card_padding_start",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_elements_margin_vertical_m",
+      "value": "8"
+    },
+    {
+      "name": "ohos_id_elements_margin_vertical_l",
+      "value": "16"
+    },
+    {
+      "name": "width_ninety_percent",
+      "value": "90%"
+    },
+    {
+      "name": "width_full",
+      "value": "100%"
+    },
+    {
+      "name": "main_page_padding",
+      "value": "12"
+    },
+    {
+      "name": "main_page_padding_top",
+      "value": "40"
+    },
+    {
+      "name": "swiper_stack_width",
+      "value": "310"
+    },
+    {
+      "name": "swiper_stack_height1",
+      "value": "130"
+    },
+    {
+      "name": "swiper_stack_height2",
+      "value": "180"
+    },
+    {
+      "name": "main_page_swiper_height",
+      "value": "200"
+    },
+    {
+      "name": "main_page_padding2",
+      "value": "12"
+    },
+    {
+      "name": "main_page_padding5",
+      "value": "8"
+    },
+    {
+      "name": "bottom_title_height",
+      "value": "36"
+    },
+    {
+      "name": "max_size",
+      "value": "100%"
+    },
+
+    {
+      "name": "calendar",
+      "value": "calendar"
+    },
+    {
+      "name": "monday",
+      "value": "壹"
+    },
+    {
+      "name": "tuesday",
+      "value": "貳"
+    },
+    {
+      "name": "wednesday",
+      "value": "叄"
+    },
+    {
+      "name": "thursday",
+      "value": "肆"
+    },
+    {
+      "name": "friday",
+      "value": "伍"
+    },
+    {
+      "name": "saturday",
+      "value": "陸"
+    },
+    {
+      "name": "sunday",
+      "value": "日"
+    },
+    {
+      "name": "today",
+      "value": "今"
+    },
+    {
+      "name" : "reason",
+      "value":  "通知"
+    }
+  ]
+}

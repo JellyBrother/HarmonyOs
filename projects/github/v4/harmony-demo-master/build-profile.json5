@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\dell_lg\\.ohos\\config\\auto_debug_SmartInterview_com.fjrcsz.smart_70086000317071779.cer",
+          "storePassword": "0000001A04371FA9710A0FA42AA5C68251DCBCDF3672317AA4677A80B73F89679DD67205C5D2067FA4A2",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A9CB29E2E89EB3171434A6BF54B19B4F6A00C5D0CF4ABC50F12153B2FF1F7B0916881BC0ED84F",
+          "profile": "C:\\Users\\dell_lg\\.ohos\\config\\auto_debug_SmartInterview_com.fjrcsz.smart_70086000317071779.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\dell_lg\\.ohos\\config\\auto_debug_SmartInterview_com.fjrcsz.smart_70086000317071779.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

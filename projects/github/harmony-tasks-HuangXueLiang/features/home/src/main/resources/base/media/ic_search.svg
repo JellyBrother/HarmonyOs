@@ -1,0 +1,10 @@
+<svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Icons/24px/Black/Zoom" rx="-0.500000" width="31.000000" height="31.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="Path" d="M18 14L15 14L15 11L13 11L13 14L10 14L10 16L13 16L13 19L15 19L15 16L18 16L18 14Z" fill="#172B4D" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Shape" d="M5 15C5 19.9706 9.02943 24 14 24C18.968 23.9939 22.9939 19.968 23 15C23 10.0294 18.9706 6 14 6C9.02943 6 5 10.0294 5 15ZM7 15C7 11.134 10.134 8 14 8C17.8642 8.00439 20.9956 11.1359 21 15C21 18.866 17.866 22 14 22C10.134 22 7 18.866 7 15Z" clip-rule="evenodd" fill="#172B4D" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Path" d="M26.7 26.29L22.45 22.03C22.02 22.55 21.55 23.02 21.03 23.45L25.29 27.7C25.68 28.08 26.3 28.08 26.69 27.69C27.08 27.3 27.08 26.68 26.7 26.29Z" fill="#172B4D" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

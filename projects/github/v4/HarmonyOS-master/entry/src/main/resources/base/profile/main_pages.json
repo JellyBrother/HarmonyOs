@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoginPage",
+    "pages/SplashPage",
+    "Test/newPage",
+    "pages/CirclePage",
+    "pages/CardHistory"
+  ]
+}

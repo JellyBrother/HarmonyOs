@@ -1,0 +1,68 @@
+{
+  "module": {
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.VIBRATE",
+        "reason": "$string:EntryAbility_desc",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "reason": "$string:EntryAbility_desc",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.PUBLISH_AGENT_REMINDER",
+        "reason": "$string:reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ],
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:entry_desc",
+    "mainElement": "MainAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "MainAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:MainAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:MainAbility_label",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:white"
+      }
+    ]
+  }
+}

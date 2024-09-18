@@ -1,0 +1,59 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lib_api",
+      "srcPath": "./lib_api"
+    },
+    {
+      "name": "lib_common",
+      "srcPath": "./lib_common"
+    },
+    {
+      "name": "module_find",
+      "srcPath": "./module_find"
+    },
+    {
+      "name": "module_home",
+      "srcPath": "./module_home"
+    },
+    {
+      "name": "module_hot",
+      "srcPath": "./module_hot"
+    },
+    {
+      "name": "module_me",
+      "srcPath": "./module_me"
+    }
+  ]
+}

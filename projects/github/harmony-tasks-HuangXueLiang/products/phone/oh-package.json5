@@ -1,0 +1,16 @@
+{
+  "name": "phone",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@sr/utils": "file:../../commons/utils",
+    "@sr/uicomponents": "file:../../commons/uicomponents",
+    "@sr/datastore": "file:../../commons/datastore",
+    "@sr/home": "file:../../features/home",
+    "@sr/login": "file:../../features/login",
+    "@sr/profile": "file:../../features/profile"
+  }
+}

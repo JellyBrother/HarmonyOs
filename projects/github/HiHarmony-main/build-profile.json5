@@ -1,0 +1,77 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/liubaozhu/.ohos/config/default_HiHarmony_rHLbLwRVGq70tOD85d4R4Br1Q-m-ufWrxTlaEAxS8I8=.cer",
+          "storePassword": "0000001B7B3D290092AF3ECBE6C4EB1A9EB47529C3661DE3D756327F526CF81B0D10AE542118AFA23F713C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAE215DEB5D0D6364ECAA7264BEC6F14DA60DF673A2FE6D779060DFF7294185AF6328A26CF40DFE",
+          "profile": "/Users/liubaozhu/.ohos/config/default_HiHarmony_rHLbLwRVGq70tOD85d4R4Br1Q-m-ufWrxTlaEAxS8I8=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/liubaozhu/.ohos/config/default_HiHarmony_rHLbLwRVGq70tOD85d4R4Br1Q-m-ufWrxTlaEAxS8I8=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "feature",
+      "srcPath": "./feature",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "library",
+      "srcPath": "./library",
+    },
+    {
+      "name": "shared",
+      "srcPath": "./shared",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

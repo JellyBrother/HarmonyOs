@@ -1,0 +1,52 @@
+{
+  "routerMap": [
+    {
+      "name": "homePage",
+      "pageSourceFile": "src/main/ets/pages/Index.ets",
+      "buildFunction": "HomePageBuilder",
+      "data": {
+        "description": "this is home page"
+      }
+    },
+    {
+      "name": "loginPage",
+      "pageSourceFile": "src/main/ets/pages/Login.ets",
+      "buildFunction": "LoginPageBuilder",
+      "data": {
+        "description": "this is login page"
+      }
+    },
+    {
+      "name": "homeDetailPage",
+      "pageSourceFile": "src/main/ets/pages/HomeDetail.ets",
+      "buildFunction": "HomeDetailPageBuilder",
+      "data": {
+        "description": "this is home detail page"
+      }
+    },
+    {
+      "name": "travelDetailPage",
+      "pageSourceFile": "src/main/ets/pages/TravelDetail.ets",
+      "buildFunction": "TravelDetailPageBuilder",
+      "data": {
+        "description": "this is travel detail page"
+      }
+    },
+    {
+      "name": "likeDetailPage",
+      "pageSourceFile": "src/main/ets/pages/LikeDetail.ets",
+      "buildFunction": "LikeDetailPageBuilder",
+      "data": {
+        "description": "this is like detail page"
+      }
+    },
+    {
+      "name": "basicWebPage",
+      "pageSourceFile": "src/main/ets/views/BasicWeb.ets",
+      "buildFunction": "BasicWebPageBuilder",
+      "data": {
+        "description": "this is basic web page"
+      }
+    }
+  ]
+}

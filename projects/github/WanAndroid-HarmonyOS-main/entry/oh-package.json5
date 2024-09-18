@@ -1,0 +1,13 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    // 引入lib_common 静态库
+    "@ohos/lib_common": "file:../lib_common"
+  }
+}
+

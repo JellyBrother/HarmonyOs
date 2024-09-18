@@ -1,0 +1,17 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "lib_common": "file:../lib_common",
+    "lib_api": "file:../lib_api",
+    "module_find": "file:../module_find",
+    "module_home": "file:../module_home",
+    "module_hot": "file:../module_hot",
+    "module_me": "file:../module_me"
+  }
+}
+

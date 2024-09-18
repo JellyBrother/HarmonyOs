@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ImagePage",
+    "pages/PropPage",
+    "pages/shoplist",
+    "pages/StatePage",
+    "pages/AUTOPageTest",
+    "pages/testFather",
+    "pages/ShopPage"
+  ]
+}

@@ -65,3 +65,7 @@ export { ImageUtil } from './src/main/ets/utils/ImageUtil';
 export { FileUtil } from './src/main/ets/utils/FileUtil';
 
 export { GlobalContext } from './src/main/ets/utils/GlobalContext';
+
+// export { BusinessError, ErrorCallback, AsyncCallback, Callback } from './src/main/ets/utils/Base';
+
+// export { avSession } from './src/main/ets/utils/avSession';

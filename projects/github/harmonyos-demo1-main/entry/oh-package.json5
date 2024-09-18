@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@react-native-oh-tpl/react-native-fast-image": "file:../node_modules/@react-native-oh-tpl/react-native-fast-image/harmony/fast_image.har"
+  }
+}
+

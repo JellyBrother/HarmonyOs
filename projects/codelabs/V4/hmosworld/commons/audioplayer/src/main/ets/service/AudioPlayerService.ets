@@ -13,11 +13,11 @@
  * limitations under the License.
  */
 
-import { common, wantAgent } from '@ohos.app.ability.Ability';
-
+import common from '@ohos.app.ability.common';
+import wantAgent from '@ohos.app.ability.wantAgent';
 // import { common, wantAgent } from '@kit.AbilityKit';
-// import { avSession } from '@kit.AVSessionKit';
-// import { BusinessError } from '@kit.BasicServicesKit';
+import { avSession } from '@kit.AVSessionKit';
+import { BusinessError } from '@kit.BasicServicesKit';
 import { BackgroundTaskManager, Logger } from '@ohos/utils';
 import { AudioRenderService } from './AudioRenderService';
 import { SpeechPlayerService } from './SpeechPlayerService';
