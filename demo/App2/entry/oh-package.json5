@@ -8,6 +8,7 @@
   "dependencies": {
     "@ohos/lib_utils": "file:../libs/lib_utils",
     "@ohos/lib_net": "file:../libs/lib_net",
+    "@ohos/lib_views": "file:../libs/lib_views",
     "@ohos/module_home": "file:../modules/module_home",
   }
 }

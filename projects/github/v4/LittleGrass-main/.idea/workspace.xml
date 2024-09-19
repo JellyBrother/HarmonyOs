@@ -5,54 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07e94f23-c1b0-451d-bbda-85719a1a8df0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/Index.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/build-profile.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/hvigorfile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/oh-package.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/src/main/ets/pages/Index.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/src/main/ets/utils/Calc.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/src/main/module.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/src/main/resources/base/element/color.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/src/main/resources/base/element/string.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../demo/App2/library/src/main/resources/base/profile/main_pages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/PullToRefresh/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/PullToRefresh/Index.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/PullToRefresh/build-profile.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/PullToRefresh/hvigorfile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/PullToRefresh/oh-package.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/PullToRefresh/src/main/module.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/PullToRefresh/src/main/resources/base/element/string.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/utils/parse.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/utils/stringify.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master/hvigor/hvigor-wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master2/hvigor/hvigor-config.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wan-harmony-master2/hvigor/hvigor-wrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../demo/App2/build-profile.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../demo/App2/build-profile.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/ets/net/HttpUtil.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../demo/App2/libs/lib_net/src/main/ets/net/HttpUtil.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Harmony_Music-master/common/commonMedia/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../Harmony_Music-master/common/commonMedia/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Harmony_Music-master/features/live/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../Harmony_Music-master/features/live/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Harmony_Music-master/features/musicComment/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../Harmony_Music-master/features/musicComment/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Harmony_Music-master/features/musicList/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../Harmony_Music-master/features/musicList/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Harmony_Music-master/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../Harmony_Music-master/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Harmony_Music-master/products/phone/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../Harmony_Music-master/products/phone/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WanAndroid-HarmonyOS-main/entry/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../WanAndroid-HarmonyOS-main/entry/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WanAndroid-HarmonyOS-main/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../WanAndroid-HarmonyOS-main/oh-package-lock.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HarmonyAtomicService-main2/build-profile.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../HarmonyAtomicService-main2/build-profile.json5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/build-profile.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/build-profile.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/oh-package.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/oh-package.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/common/OHPermission.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/common/OHPermission.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/common/Preferences.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/common/Preferences.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/common/WindowUtils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/common/WindowUtils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/net/Api.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/net/Api.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/net/cookie/CookieUtils.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/net/cookie/CookieUtils.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/net/cookie/KVCookiePersistor.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/ets/net/cookie/KVCookiePersistor.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/module.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/main/module.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/entry/src/ohosTest/module.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/entry/src/ohosTest/module.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/hvigor/hvigor-config.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/hvigor/hvigor-config.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wan-harmony-master/oh-package.json5" beforeDir="false" afterPath="$PROJECT_DIR$/../wan-harmony-master/oh-package.json5" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

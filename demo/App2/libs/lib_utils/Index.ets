@@ -21,6 +21,8 @@ export { ObservedArray } from './src/main/ets/utils/ObservedArray';
 
 export { WindowUtil } from './src/main/ets/utils/WindowUtil';
 
+export { WindowUtils } from './src/main/ets/utils/WindowUtils';
+
 export { Log } from './src/main/ets/utils/Logger';
 
 export { BreakpointSystem, BreakpointType, BreakpointTypeEnum } from './src/main/ets/utils/BreakpointSystem';

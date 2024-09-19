@@ -54,6 +54,10 @@
       "srcPath": "./libs/lib_net"
     },
     {
+      "name": "lib_views",
+      "srcPath": "./libs/lib_views"
+    },
+    {
       "name": "module_home",
       "srcPath": "./modules/module_home"
     },

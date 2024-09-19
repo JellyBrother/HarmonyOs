@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "lib_views",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

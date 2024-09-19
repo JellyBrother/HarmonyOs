@@ -1,5 +1,12 @@
 {
   "src": [
-    "pages/Index"
+    "oxhorncampus/pages/Splash",
+    "oxhorncampus/pages/MainPage",
+
+    "calendar/pages/Index",
+    "calendar/pages/SearchPage",
+    "calendar/pages/morePage"
+
+
   ]
 }
