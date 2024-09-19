@@ -5,7 +5,21 @@
 
     "calendar/pages/Index",
     "calendar/pages/SearchPage",
-    "calendar/pages/morePage"
+    "calendar/pages/morePage",
+
+    "tiktok/pages/Index",
+    "tiktok/pages/RegisterPage",
+    "tiktok/pages/PortraitAlbumPage",
+    "tiktok/pages/VideoAlbumPage",
+
+    "practicecard/pages/Index",
+    "practicecard/pages/LoginPage",
+    "practicecard/pages/SplashPage",
+    "practicecard/Test/newPage",
+    "practicecard/pages/CirclePage",
+    "practicecard/pages/CardHistory",
+    "practicecard/pages/PracticePage"
+
 
 
   ]
