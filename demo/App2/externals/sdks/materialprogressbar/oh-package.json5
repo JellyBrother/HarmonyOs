@@ -1,0 +1,18 @@
+{
+  "license": "Apache License 2.0",
+  "types": "",
+  "devDependencies": {},
+  "keywords": [
+    "js",
+    "materialprogressbar",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "author": "hihope",
+  "name": "@ohos/materialprogressbar",
+  "description": "自定义ProgressBar效果",
+  "main": "index.ets",
+  "repository": "https://gitee.com/openharmony-sig/MaterialProgressBar",
+  "version": "2.0.2",
+  "dependencies": {}
+}

@@ -16,6 +16,7 @@ import router from '@ohos.router';
 // import { router } from '@kit.ArkUI';
 import { CommonConstants as Const } from '../common/constants/CommonConstants';
 import dataPreferences from '@ohos.data.preferences';
+import EntryContext from '../../wanharmony/common/EntryContext';
 
 // import { splashImages } from '../viewmodel/SplashModel';
 
@@ -30,8 +31,13 @@ struct Splash {
   private preferences?: dataPreferences.Preferences
   private key_Splash_first_start: string = "key_Splash_no_first_start";
 
+  init(context: Object) {
+    EntryContext.setContext(context)
+  }
+
   async aboutToAppear(): Promise<void> {
     let context = getContext(this);
+    this.init(context)
     this.preferences = await dataPreferences.getPreferences(context, 'com.jelly.app2.oxhorncampus');
     let isNoFirstStart = await this.preferences.get(this.key_Splash_first_start, false);
     if (isNoFirstStart) {
@@ -131,7 +137,7 @@ struct Splash {
           Image($r('app.media.splash_bg'))
             .width('100%')
             .height('100%')
-          Image($r('app.media.startIcon'))
+          Image($rawfile('portrait/portrait_07.jpg'))
             .width($r('app.float.192'))
             .height($r('app.float.192'))
             .offset({

@@ -6,7 +6,14 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@ohos/axios": "^2.2.3"
+    "@ohos/axios": "^2.2.3",
+    "@ohos/pulltorefresh": "2.0.1",
+    "@ohos/lib_utils": "file:./libs/lib_utils",
+    "@ohos/lib_net": "file:./libs/lib_net",
+    "@ohos/lib_views": "file:./libs/lib_views",
+    "@ohos/module_home": "file:./modules/module_home",
+    "@ohos/materialprogressbar": "file:./externals/sdks/materialprogressbar",
+    //    "@ohos/materialprogressbar": "^2.0.2",
   },
   "devDependencies": {
     "@ohos/hypium": "1.0.13"

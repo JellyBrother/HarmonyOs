@@ -3,6 +3,7 @@ import { MainView } from './MainView';
 import router from '@ohos.router';
 import { Log, WindowUtils } from '@ohos/lib_utils';
 import hilog from '@ohos.hilog';
+import EntryContext from '../../wanharmony/common/EntryContext';
 
 /**
  * UIAbility生命周期
@@ -45,7 +46,7 @@ struct MainPage {
   aboutToAppear(): void {
     Log.getInstance().error(this.TAG, 'life aboutToAppear');
     this.listItems = [
-      new ListItemEntity("玩安卓", ""),
+      new ListItemEntity("玩安卓", "wanharmony/pages/Index"),
       new ListItemEntity("单词测试", "practicecard/pages/PracticePage"),
       new ListItemEntity("日历", "calendar/pages/Index"),
       new ListItemEntity("仿抖音", "tiktok/pages/Index"),

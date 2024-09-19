@@ -1,9 +1,0 @@
-{
-  "routerMap": [
-    {
-      "name": "ConfirmView",
-      "pageSourceFile": "src/main/ets/views/ConfirmView.ets",
-      "buildFunction": "PhotoConfirmBuilder"
-    }
-  ]
-}

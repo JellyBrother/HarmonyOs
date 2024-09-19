@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "materialprogressbar",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

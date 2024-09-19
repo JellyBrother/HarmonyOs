@@ -18,9 +18,14 @@
     "practicecard/Test/newPage",
     "practicecard/pages/CirclePage",
     "practicecard/pages/CardHistory",
-    "practicecard/pages/PracticePage"
+    "practicecard/pages/PracticePage",
 
-
+    "wanharmony/pages/Index",
+    "wanharmony/pages/WebPage",
+    "wanharmony/pages/Login",
+    "wanharmony/pages/SearchEntry",
+    "wanharmony/pages/SearchResult",
+    "wanharmony/pages/CollectList"
 
   ]
 }

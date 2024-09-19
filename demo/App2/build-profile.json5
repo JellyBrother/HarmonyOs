@@ -62,8 +62,8 @@
       "srcPath": "./modules/module_home"
     },
     {
-      "name": "library",
-      "srcPath": "./library",
+      "name": "materialprogressbar",
+      "srcPath": "./externals/sdks/materialprogressbar",
       "targets": [
         {
           "name": "default",
