@@ -18,7 +18,7 @@
 import window from '@ohos.window';
 // import { window } from '@kit.ArkUI';
 // import { BusinessError } from '@kit.BasicServicesKit';
-import Logger from './Logger';
+import { LogUtil } from './LogUtil';
 
 const TAG = '[SubWindowUtil]';
 
@@ -34,12 +34,12 @@ export class SubWindowUtil {
   public static showSubWindow(windowStage: window.WindowStage | undefined, path: string,
     subWindowParams: SubWindowParams) {
     if (!windowStage) {
-      Logger.error(TAG, `windowStage is undefined.`);
+      LogUtil.error(TAG, `windowStage is undefined.`);
       return;
     }
     windowStage.createSubWindow("subWindow", (err, data) => {
       if (err.code) {
-        Logger.error(TAG, `Failed to create the subwindow. Cause: ${err.message}.`);
+        LogUtil.error(TAG, `Failed to create the subwindow. Cause: ${err.message}.`);
         return;
       }
       let subWindow = data;
@@ -53,21 +53,21 @@ export class SubWindowUtil {
         // load content for sub window
         subWindow.setUIContent(path, (err) => {
           if (err.code) {
-            Logger.error(TAG, `Failed to load the content. Cause: ${err.message}.`);
+            LogUtil.error(TAG, `Failed to load the content. Cause: ${err.message}.`);
             return;
           }
-          Logger.info('Succeeded in loading the content.');
+          LogUtil.info(TAG,'Succeeded in loading the content.');
           try {
             subWindow.setWindowBackgroundColor(subWindowParams.backgroundColor ?? '#00ffffff');
           } catch (exception) {
-            Logger.error(TAG, `Failed to set the background color. Cause: ${JSON.stringify(exception)}.`);
+            LogUtil.error(TAG, `Failed to set the background color. Cause: ${JSON.stringify(exception)}.`);
           }
           subWindow.showWindow((err) => {
             if (err.code) {
-              Logger.error(TAG, `Failed to show the window. Cause: ${err.message}.`);
+              LogUtil.error(TAG, `Failed to show the window. Cause: ${err.message}.`);
               return;
             }
-            Logger.info('Succeeded in showing the window.');
+            LogUtil.info(TAG,'Succeeded in showing the window.');
           });
         });
       }
@@ -76,45 +76,45 @@ export class SubWindowUtil {
 
   public static destroySubWindow(subWindow: window.Window | undefined) {
     if (!subWindow) {
-      Logger.info('subWindow is undefined.');
+      LogUtil.info(TAG,'subWindow is undefined.');
       return;
     }
     subWindow.destroyWindow((err) => {
       if (err.code) {
-        Logger.error(TAG, `Failed to destroy the window. Cause: ${err.message}.`);
+        LogUtil.error(TAG, `Failed to destroy the window. Cause: ${err.message}.`);
         return;
       }
       // AppStorage.set<window.Window>('subWindow', undefined);
       AppStorage.Set<window.Window>('subWindow', undefined);
-      Logger.info('Succeeded in destroying the window.');
+      LogUtil.info(TAG,'Succeeded in destroying the window.');
     });
   }
 
   public static moveSubWindow(subWindow: window.Window | undefined, x: number, y: number) {
     if (!subWindow) {
-      Logger.info('subWindow is undefined.');
+      LogUtil.info(TAG,'subWindow is undefined.');
       return;
     }
     subWindow.moveWindowTo(x, y, (err) => {
       if (err.code) {
-        Logger.error(TAG, `Failed to move the window. Cause: ${err.message}.`);
+        LogUtil.error(TAG, `Failed to move the window. Cause: ${err.message}.`);
         return;
       }
-      Logger.info('Succeeded in moving the window.', x, y);
+      LogUtil.info(TAG,'Succeeded in moving the window.');
     });
   }
 
   public static resizeSubWindow(subWindow: window.Window | undefined, width: number, height: number) {
     if (!subWindow) {
-      Logger.info('subWindow is undefined.');
+      LogUtil.info(TAG,'subWindow is undefined.');
       return;
     }
     subWindow.resize(vp2px(width), vp2px(height), (err) => {
       if (err.code) {
-        Logger.error(TAG, `Failed to change the window size. Cause: ${err.message}.`);
+        LogUtil.error(TAG, `Failed to change the window size. Cause: ${err.message}.`);
         return;
       }
-      Logger.info('Succeeded in changing the window size.');
+      LogUtil.info(TAG,'Succeeded in changing the window size.');
     });
   }
 }

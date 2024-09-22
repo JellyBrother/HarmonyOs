@@ -20,7 +20,7 @@ import backgroundTaskManager from '@ohos.resourceschedule.backgroundTaskManager'
 // import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
 // import { AsyncCallback, BusinessError, Callback, ErrorCallback } from '@ohos.base';
 // import { BusinessError } from '@kit.BasicServicesKit';
-import Logger from './Logger';
+import { LogUtil } from './LogUtil';
 
 const TAG = '[BackgroundTaskManager]';
 
@@ -45,12 +45,12 @@ export class BackgroundTaskManager {
       try {
         backgroundTaskManager.startBackgroundRunning(context,
           backgroundTaskManager.BackgroundMode.AUDIO_PLAYBACK, wantAgentObj).then(() => {
-          Logger.info(TAG, 'startBackgroundRunning succeeded');
+          LogUtil.info(TAG, 'startBackgroundRunning succeeded');
         }).catch((err) => {
-          Logger.info(TAG, `startBackgroundRunning failed Cause:  ${JSON.stringify(err)}`);
+          LogUtil.info(TAG, `startBackgroundRunning failed Cause:  ${JSON.stringify(err)}`);
         });
       } catch (error) {
-        Logger.error(TAG, `Operation startBackgroundRunning failed. code is ${error.code} message is ${error.message}`);
+        LogUtil.error(TAG, `Operation startBackgroundRunning failed. code is ${error.code} message is ${error.message}`);
       }
     });
   }
@@ -59,12 +59,12 @@ export class BackgroundTaskManager {
   public static stopContinuousTask(context: common.UIAbilityContext): void {
     try {
       backgroundTaskManager.stopBackgroundRunning(context).then(() => {
-        Logger.info(TAG, 'stopBackgroundRunning succeeded');
+        LogUtil.info(TAG, 'stopBackgroundRunning succeeded');
       }).catch((err) => {
-        Logger.info(TAG, `stopBackgroundRunning failed Cause:  ${JSON.stringify(err)}`);
+        LogUtil.info(TAG, `stopBackgroundRunning failed Cause:  ${JSON.stringify(err)}`);
       });
     } catch (error) {
-      Logger.error(TAG, `stopBackgroundRunning failed. code is ${error.code} message is ${error.message}`);
+      LogUtil.error(TAG, `stopBackgroundRunning failed. code is ${error.code} message is ${error.message}`);
     }
   }
 }

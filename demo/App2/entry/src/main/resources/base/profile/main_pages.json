@@ -25,7 +25,26 @@
     "wanharmony/pages/Login",
     "wanharmony/pages/SearchEntry",
     "wanharmony/pages/SearchResult",
-    "wanharmony/pages/CollectList"
+    "wanharmony/pages/CollectList",
 
+    "moviemusic/movie/pages/LaunchPage",
+    "moviemusic/movie/pages/IndexPage",
+    "moviemusic/movie/pages/MovieDetailPage",
+    "moviemusic/movie/pages/MoviePlayPage",
+    "moviemusic/movie/pages/MovieUserPage",
+    "moviemusic/movie/pages/MovieLoginPage",
+    "moviemusic/movie/pages/MovieRegisterPage",
+    "moviemusic/movie/pages/MovieSearchPage",
+    "moviemusic/music/pages/MusicIndexPage",
+    "moviemusic/music/pages/MusicPlayerPage",
+    "moviemusic/music/pages/MusicSearchPage",
+    "moviemusic/music/pages/MusicSharePage",
+    "moviemusic/music/pages/MusicFavoriteListPage",
+    "moviemusic/music/pages/MusicClassifyListPage",
+    "moviemusic/music/pages/MusicAuthorCategoryPage",
+    "moviemusic/music/pages/MusicAuthorMusicListPage",
+    "moviemusic/music/pages/MusicCategoryPage",
+
+    "oxhorncampus/movie/components/HomeComponent"
   ]
 }

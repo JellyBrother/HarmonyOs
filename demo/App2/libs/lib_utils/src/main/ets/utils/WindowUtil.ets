@@ -13,13 +13,14 @@
  * limitations under the License.
  */
 
-import AbilityConstant from '@ohos.app.ability.AbilityConstant';
 import common from '@ohos.app.ability.common';
 // import { AbilityConstant, common } from '@kit.AbilityKit';
 import window from '@ohos.window';
+import { LogUtil } from './LogUtil';
+
 // import { window } from '@kit.ArkUI';
 // import { BusinessError } from '@kit.BasicServicesKit';
-import Logger from './Logger';
+// import Logger from './LogUtil';
 
 const TAG: string = '[WindowUtil]';
 
@@ -29,13 +30,13 @@ export class WindowUtil {
       try {
         windowClass.setWindowSystemBarProperties({ statusBarContentColor: isDark ? '#FFFFFF' : '#000000' }, (err) => {
           if (err.code) {
-            Logger.error(TAG, 'Failed to set the system bar properties. Cause: ' + JSON.stringify(err));
+            LogUtil.error(TAG, 'Failed to set the system bar properties. Cause: ' + JSON.stringify(err));
             return;
           }
-          Logger.info(TAG, 'Succeeded in setting the system bar properties.');
+          LogUtil.info(TAG, 'Succeeded in setting the system bar properties.');
         });
       } catch (exception) {
-        Logger.error(TAG, 'Failed to set the system bar properties. Cause: ' + JSON.stringify(exception));
+        LogUtil.error(TAG, 'Failed to set the system bar properties. Cause: ' + JSON.stringify(exception));
       }
     });
   }
@@ -43,11 +44,11 @@ export class WindowUtil {
   public static requestFullScreen(windowStage: window.WindowStage, context: Context): void {
     windowStage.getMainWindow((err, data: window.Window) => {
       if (err.code) {
-        Logger.error(TAG, 'Failed to obtain the main window. Cause: ' + JSON.stringify(err));
+        LogUtil.error(TAG, 'Failed to obtain the main window. Cause: ' + JSON.stringify(err));
         return;
       }
       let windowClass: window.Window = data;
-      Logger.info(TAG, 'Succeeded in obtaining the main window. Data: ' + JSON.stringify(data));
+      LogUtil.info(TAG, 'Succeeded in obtaining the main window. Data: ' + JSON.stringify(data));
 
       // Realize the immersive effect
       let isLayoutFullScreen = true;
@@ -57,7 +58,7 @@ export class WindowUtil {
         let naviBarArea: window.AvoidArea =
           // windowClass.getWindowAvoidArea(window.AvoidAreaType.TYPE_NAVIGATION_INDICATOR);
           windowClass.getWindowAvoidArea(window.AvoidAreaType.TYPE_SYSTEM);
-        Logger.info(TAG,
+        LogUtil.info(TAG,
           `Succeeded get the window navigation indicator HEIGHT: ${px2vp(naviBarArea.bottomRect.height)}`);
         // AppStorage.setOrCreate<number>('statusBarHeight', px2vp(area.topRect.height));
         AppStorage.SetOrCreate<number>('statusBarHeight', px2vp(area.topRect.height));
@@ -67,13 +68,13 @@ export class WindowUtil {
         if (area.topRect.height > 0) {
           let promise: Promise<void> = windowClass.setWindowLayoutFullScreen(isLayoutFullScreen);
           promise.then(() => {
-            Logger.info(TAG, 'Succeeded in setting the window layout to full-screen mode.');
+            LogUtil.info(TAG, 'Succeeded in setting the window layout to full-screen mode.');
           }).catch((err) => {
-            Logger.error(TAG, 'Failed to set the window layout to full-screen mode. Cause:' + JSON.stringify(err));
+            LogUtil.error(TAG, 'Failed to set the window layout to full-screen mode. Cause:' + JSON.stringify(err));
           });
         }
       } catch {
-        Logger.error(TAG, 'Failed to set the window layout to full-screen mode. ');
+        LogUtil.error(TAG, 'Failed to set the window layout to full-screen mode. ');
       }
     });
   }
@@ -92,7 +93,7 @@ export class WindowUtil {
   static setMainWindowRestricted(context: Context): void {
     window.getLastWindow(context).then((windowClass: window.Window) => {
       if (windowClass === undefined) {
-        Logger.error(`MainWindowClass is undefined`);
+        LogUtil.error(TAG, `MainWindowClass is undefined`);
         return;
       }
       // Setting restricted display.
@@ -103,7 +104,7 @@ export class WindowUtil {
   static setMainWindowPortrait(context: Context): void {
     window.getLastWindow(context).then((windowClass: window.Window) => {
       if (windowClass === undefined) {
-        Logger.error(`MainWindowClass is undefined`);
+        LogUtil.error(TAG, `MainWindowClass is undefined`);
         return;
       }
       // Setting restricted display.
@@ -114,9 +115,9 @@ export class WindowUtil {
   static setMissionContinueActive(context: common.UIAbilityContext, active: boolean) {
     // let activeState = active ? AbilityConstant.ContinueState.ACTIVE : AbilityConstant.ContinueState.INACTIVE;
     // context.setMissionContinueState(activeState).then(() => {
-    //   Logger.info('setMissionContinueState success');
+    //   LogUtil.info('setMissionContinueState success');
     // }).catch((err) => {
-    //   Logger.error(`setMissionContinueState failed, code is ${err.code}, message is ${err.message}`);
+    //   LogUtil.error(`setMissionContinueState failed, code is ${err.code}, message is ${err.message}`);
     // });
   }
 }

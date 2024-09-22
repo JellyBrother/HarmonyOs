@@ -1,6 +1,6 @@
 import http from '@ohos.net.http';
 import { HOST, MyAwesomeData } from './NetConstant';
-import { Log } from '@ohos/lib_utils';
+import { LogUtil } from '@ohos/lib_utils';
 
 enum STATUS {
   SUCCESS = 'SUCCESS',
@@ -62,12 +62,12 @@ export class HttpUtil {
         if (result.status == STATUS.SUCCESS) {
           resolve(result)
         } else {
-          Log.getInstance().error(this.TAG, `Request Failed: ${result.msg}`);
+          LogUtil.error(this.TAG, `Request Failed: ${result.msg}`);
           reject(result)
         }
       }).catch((err: Error) => {
         let message = `请求错误，地址：${HOST + url}${options.extraData && '，请求参数：' + JSON.stringify(options.extraData)},错误信息： ${JSON.stringify(err)}`;
-        Log.getInstance().error(this.TAG, `Request Error: ${message}`);
+        LogUtil.error(this.TAG, `Request Error: ${message}`);
         reject(err);
       }).finally(() => {
         // 当该请求使用完毕时，调用destroy方法主动销毁。

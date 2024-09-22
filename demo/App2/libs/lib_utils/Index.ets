@@ -23,7 +23,7 @@ export { WindowUtil } from './src/main/ets/utils/WindowUtil';
 
 export { WindowUtils } from './src/main/ets/utils/WindowUtils';
 
-export { Log } from './src/main/ets/utils/Logger';
+export { LogUtil } from './src/main/ets/utils/LogUtil';
 
 export { BreakpointSystem, BreakpointType, BreakpointTypeEnum } from './src/main/ets/utils/BreakpointSystem';
 

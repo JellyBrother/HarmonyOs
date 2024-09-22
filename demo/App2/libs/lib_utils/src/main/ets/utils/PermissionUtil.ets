@@ -17,7 +17,8 @@ import abilityAccessCtrl, {  Permissions } from '@ohos.abilityAccessCtrl';
 import bundleManager from '@ohos.bundle.bundleManager';
 // import { abilityAccessCtrl, bundleManager, Permissions } from '@kit.AbilityKit';
 // import { BusinessError } from '@kit.BasicServicesKit';
-import Logger from './Logger';
+
+import { LogUtil } from './LogUtil';
 
 const TAG: string = '[PermissionUtil]';
 
@@ -42,7 +43,7 @@ export class PermissionUtil {
         callback && callback();
       }
     }).catch((err) => {
-      Logger.error(TAG, `Failed to request permissions from user. Code is ${err.code}, message is ${err.message}`);
+      LogUtil.error(TAG, `Failed to request permissions from user. Code is ${err.code}, message is ${err.message}`);
     });
   }
 
@@ -69,14 +70,14 @@ export class PermissionUtil {
       tokenId = appInfo.accessTokenId;
     } catch (err) {
       // let err: BusinessError = error as BusinessError;
-      Logger.error(TAG, `Failed to get bundle info for self. Code is ${err.code}, message is ${err.message}`);
+      LogUtil.error(TAG, `Failed to get bundle info for self. Code is ${err.code}, message is ${err.message}`);
     }
     // Check whether the app is granted with the permission.
     try {
       grantStatus = await atManager.checkAccessToken(tokenId, permission);
     } catch (err) {
       // let err: BusinessError = error as BusinessError;
-      Logger.error(TAG, `Failed to check access token. Code is ${err.code}, message is ${err.message}`);
+      LogUtil.error(TAG, `Failed to check access token. Code is ${err.code}, message is ${err.message}`);
     }
     return grantStatus;
   }

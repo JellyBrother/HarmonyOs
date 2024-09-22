@@ -6,7 +6,7 @@ export struct FriendPage{
   private TAG: string = 'FriendPage';
 
   aboutToAppear(): void {
-    Log.getInstance().error(this.TAG, 'life aboutToAppear');
+    LogUtil.error(this.TAG, 'life aboutToAppear');
   }
 
   build() {
@@ -21,19 +21,19 @@ export struct FriendPage{
   }
 
   onPageShow(): void {
-    Log.getInstance().error(this.TAG, 'life onPageShow');
+    LogUtil.error(this.TAG, 'life onPageShow');
   }
 
   onBackPress(): void {
-    Log.getInstance().error(this.TAG, 'life onBackPress');
+    LogUtil.error(this.TAG, 'life onBackPress');
   }
 
   onPageHide(): void {
-    Log.getInstance().error(this.TAG, 'life onPageHide');
+    LogUtil.error(this.TAG, 'life onPageHide');
   }
 
   aboutToDisappear(): void {
-    Log.getInstance().error(this.TAG, 'life aboutToDisappear');
+    LogUtil.error(this.TAG, 'life aboutToDisappear');
   }
 
 }

@@ -18,48 +18,48 @@ import fileUri from '@ohos.file.fileuri';
 // import { BusinessError } from '@kit.BasicServicesKit';
 import image from '@ohos.multimedia.image';
 // import { image } from '@kit.ImageKit';
-import Logger from './Logger';
+import { LogUtil } from './LogUtil';
 
 const TAG: string = '[FileUtil]';
 
 export class FileUtil {
   public static copyFile(src: string, dest: string): void {
-    Logger.info(TAG, 'copyFile path src: ' + src);
-    Logger.info(TAG, 'copyFile path dest: ' + dest);
+    LogUtil.info(TAG, 'copyFile path src: ' + src);
+    LogUtil.info(TAG, 'copyFile path dest: ' + dest);
     try {
       let srcFile = fileIo.openSync(src, fileIo.OpenMode.READ_ONLY);
       let distFile = fileIo.openSync(dest, fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE);
       fileIo.copyFileSync(srcFile.fd, distFile.fd);
       fileIo.closeSync(srcFile);
       fileIo.closeSync(distFile);
-      Logger.info(TAG, 'copyFile success');
+      LogUtil.info(TAG, 'copyFile success');
     } catch (error) {
       // let err: BusinessError = error as BusinessError;
-      Logger.error(TAG, `copyFile failed code: ${error.code}, message: ${error.message}`);
+      LogUtil.error(TAG, `copyFile failed code: ${error.code}, message: ${error.message}`);
     }
   }
 
   public static deleteFile(filePath: string): void {
-    Logger.info(TAG, 'rmdir deleteFile:' + filePath);
+    LogUtil.info(TAG, 'rmdir deleteFile:' + filePath);
     fileIo.rmdir(filePath, (err) => {
       if (err) {
-        Logger.error(TAG, `deleteFile failed code: ${err.code}, message: ${err.message}`);
+        LogUtil.error(TAG, `deleteFile failed code: ${err.code}, message: ${err.message}`);
       } else {
-        Logger.info(TAG, 'deleteFile succeed');
+        LogUtil.info(TAG, 'deleteFile succeed');
       }
     });
   }
 
   public static saveBuffer2File(filePath: string, buffer: ArrayBuffer): void {
-    Logger.info(TAG, 'saveBuffer2File filePath:' + filePath);
+    LogUtil.info(TAG, 'saveBuffer2File filePath:' + filePath);
     try {
       let distFile = fileIo.openSync(filePath, fileIo.OpenMode.READ_WRITE | fileIo.OpenMode.CREATE);
       fileIo.write(distFile.fd, buffer);
       fileIo.closeSync(distFile.fd)
-      Logger.info(TAG, 'saveBuffer2File success');
+      LogUtil.info(TAG, 'saveBuffer2File success');
     } catch (error) {
       // let err: BusinessError = error as BusinessError;
-      Logger.error(TAG, `saveBuffer2File failed code: ${error.code}, message: ${error.message}`);
+      LogUtil.error(TAG, `saveBuffer2File failed code: ${error.code}, message: ${error.message}`);
     }
   }
 
@@ -68,16 +68,16 @@ export class FileUtil {
   }
 
   public static savePixelMap2File(pixelMap: PixelMap, filePath: string) {
-    Logger.info(TAG, 'savePixelMap2File filePath:' + filePath);
+    LogUtil.info(TAG, 'savePixelMap2File filePath:' + filePath);
     let packOpts: image.PackingOption = { format: "image/png ", quality: 100 };
     let file = fileIo.openSync(filePath, fileIo.OpenMode.CREATE | fileIo.OpenMode.READ_WRITE);
     let imagePackerApi = image.createImagePacker();
     // imagePackerApi.packToFile(pixelMap, file.fd, packOpts).then(() => {
-    //   Logger.info(TAG, 'savePixelMap2File success');
+    //   LogUtil.info(TAG, 'savePixelMap2File success');
     //   fileIo.closeSync(file.fd);
     // }).catch((err) => {
     //   fileIo.closeSync(file.fd);
-    //   Logger.error(TAG, `savePixelMap2File failed code: ${err.code}, message: ${err.message}`);
+    //   LogUtil.error(TAG, `savePixelMap2File failed code: ${err.code}, message: ${err.message}`);
     // })
   }
 }

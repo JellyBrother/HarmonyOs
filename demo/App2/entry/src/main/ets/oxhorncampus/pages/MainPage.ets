@@ -1,7 +1,7 @@
 import { ListItemEntity } from '../main/entity/ListItemEntity';
 import { MainView } from './MainView';
 import router from '@ohos.router';
-import { Log, WindowUtils } from '@ohos/lib_utils';
+import { LogUtil, WindowUtils } from '@ohos/lib_utils';
 import hilog from '@ohos.hilog';
 import EntryContext from '../../wanharmony/common/EntryContext';
 
@@ -33,23 +33,26 @@ import EntryContext from '../../wanharmony/common/EntryContext';
 @Component
 struct MainPage {
   // private context = getContext(this) as common.UIAbilityContext;
-  private TAG: string = 'MainPage';
+  private TAG: string = 'MainPage'
   @State listItems: ListItemEntity[] = [];
 
   jumpPage(listItemEntity: ListItemEntity) {
-    Log.getInstance().error(this.TAG, `jumpPage text:${listItemEntity.text} path:${listItemEntity.path}`);
+    LogUtil.error(this.TAG, `jumpPage text:${listItemEntity.text} path:${listItemEntity.path}`);
     router.pushUrl({
       url: listItemEntity.path
     });
   }
 
   aboutToAppear(): void {
-    Log.getInstance().error(this.TAG, 'life aboutToAppear');
+    LogUtil.error(this.TAG, 'life aboutToAppear');
     this.listItems = [
       new ListItemEntity("玩安卓", "wanharmony/pages/Index"),
       new ListItemEntity("单词测试", "practicecard/pages/PracticePage"),
       new ListItemEntity("日历", "calendar/pages/Index"),
       new ListItemEntity("仿抖音", "tiktok/pages/Index"),
+      // new ListItemEntity("影视", "moviemusic/movie/pages/LaunchPage"),
+      new ListItemEntity("影视", "oxhorncampus/movie/components/HomeComponent"),
+      // new ListItemEntity("音乐", "moviemusic/movie/pages/LaunchPage"),
     ]
   }
 
@@ -101,19 +104,19 @@ struct MainPage {
   }
 
   onPageShow(): void {
-    Log.getInstance().error(this.TAG, 'life onPageShow');
+    LogUtil.error(this.TAG, 'life onPageShow');
   }
 
   onBackPress(): void {
-    Log.getInstance().error(this.TAG, 'life onBackPress');
+    LogUtil.error(this.TAG, 'life onBackPress');
   }
 
   onPageHide(): void {
-    Log.getInstance().error(this.TAG, 'life onPageHide');
+    LogUtil.error(this.TAG, 'life onPageHide');
   }
 
   aboutToDisappear(): void {
-    Log.getInstance().error(this.TAG, 'life aboutToDisappear');
+    LogUtil.error(this.TAG, 'life aboutToDisappear');
   }
 
 }

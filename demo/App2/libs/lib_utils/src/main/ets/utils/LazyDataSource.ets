@@ -14,7 +14,7 @@
  */
 
 
-import Logger from './Logger';
+import { LogUtil } from './LogUtil';
 import { ObservedArray } from './ObservedArray';
 
 const TAG = '[BasicDataSource]';
@@ -32,7 +32,7 @@ class BasicDataSource <T> implements IDataSource {
 
   registerDataChangeListener(listener: DataChangeListener): void {
     if (this.listeners.indexOf(listener) < 0) {
-      Logger.info(TAG, 'add listener');
+      LogUtil.info(TAG, 'add listener');
       this.listeners.push(listener);
     }
   }
@@ -40,7 +40,7 @@ class BasicDataSource <T> implements IDataSource {
   unregisterDataChangeListener(listener: DataChangeListener): void {
     const pos = this.listeners.indexOf(listener);
     if (pos >= 0) {
-      Logger.info(TAG, 'remove listener');
+      LogUtil.info(TAG, 'remove listener');
       this.listeners.splice(pos, 1);
     }
   }

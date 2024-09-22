@@ -1,4 +1,4 @@
-import { Log, WindowUtils } from '@ohos/lib_utils';
+import { LogUtil, WindowUtils } from '@ohos/lib_utils';
 
 /**
  * UIAbility生命周期
@@ -16,7 +16,7 @@ export struct MainView {
 
 
   aboutToAppear(): void {
-    Log.getInstance().error(this.TAG, 'life aboutToAppear');
+    LogUtil.error(this.TAG, 'life aboutToAppear');
   }
 
   build() {
@@ -35,19 +35,19 @@ export struct MainView {
   }
 
   onPageShow(): void {
-    Log.getInstance().error(this.TAG, 'life onPageShow');
+    LogUtil.error(this.TAG, 'life onPageShow');
   }
 
   onBackPress(): void {
-    Log.getInstance().error(this.TAG, 'life onBackPress');
+    LogUtil.error(this.TAG, 'life onBackPress');
   }
 
   onPageHide(): void {
-    Log.getInstance().error(this.TAG, 'life onPageHide');
+    LogUtil.error(this.TAG, 'life onPageHide');
   }
 
   aboutToDisappear(): void {
-    Log.getInstance().error(this.TAG, 'life aboutToDisappear');
+    LogUtil.error(this.TAG, 'life aboutToDisappear');
   }
 
 }

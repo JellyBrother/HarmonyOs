@@ -58,14 +58,14 @@
 //       onPageEndMap.get(data.url)?.();
 //     })
 //     .onProgressChange((event) => {
-//       Logger.info(TAG, 'newProgress:' + event?.newProgress);
+//       LogUtil.info(TAG, 'newProgress:' + event?.newProgress);
 //       if (event?.newProgress === 100) {
 //         onProgressChangeMap.get(data.url)?.();
 //       }
-//       Logger.info(TAG, 'onProgressChange weburl: ' + data.url);
+//       LogUtil.info(TAG, 'onProgressChange weburl: ' + data.url);
 //     })
 //     .onResourceLoad((event) => {
-//       Logger.info(TAG, 'onResourceLoad:' + event?.url);
+//       LogUtil.info(TAG, 'onResourceLoad:' + event?.url);
 //       onResourceLoadMap.get(data.url)?.(event.url);
 //     })
 //     .width('100%')
@@ -85,7 +85,7 @@
 //   // Used to construct the number of nodes and return the node mount in the corresponding NodeContainer.
 //   // This API is called when the corresponding NodeContainer is created or by using the rebuild method.
 //   makeNode(uiContext: UIContext): FrameNode | null {
-//     Logger.info(TAG, ' uiContext is undifined : ' + (uiContext === undefined));
+//     LogUtil.info(TAG, ' uiContext is undifined : ' + (uiContext === undefined));
 //     if (this.isRemove) {
 //       return null;
 //     }
@@ -100,7 +100,7 @@
 //   }
 //
 //   aboutToResize(size: Size) {
-//     Logger.info(TAG, 'aboutToResize width : ' + size.width + ' height : ' + size.height);
+//     LogUtil.info(TAG, 'aboutToResize width : ' + size.width + ' height : ' + size.height);
 //   }
 //
 //   aboutToAppear() {
@@ -110,7 +110,7 @@
 //   }
 //
 //   aboutToDisappear() {
-//     Logger.info(TAG, 'aboutToDisappear');
+//     LogUtil.info(TAG, 'aboutToDisappear');
 //   }
 //
 //
