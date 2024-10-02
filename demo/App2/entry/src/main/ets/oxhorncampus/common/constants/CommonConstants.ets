@@ -47,7 +47,7 @@ export class CommonConstants {
   static readonly MORNING_TIME: number = 6;
   static readonly EVENING_TIME: number = 18;
   static readonly NIGHT_TIME: number = 19;
-  static readonly SPLASH_DURATION: number = 3000;
+  static readonly SPLASH_DURATION: number = 2000;
   /**
    * Color constants.
    */

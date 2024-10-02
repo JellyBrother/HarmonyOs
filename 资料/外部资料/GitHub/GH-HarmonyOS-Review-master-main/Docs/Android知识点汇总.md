@@ -2724,3 +2724,20 @@ if (vWeb != null) {
     vWeb = null;
 } 
 ```
+
+### 解决WebView内存泄漏的策略
+https://www.jianshu.com/p/5d5a92ff8f07/
+* 正确管理WebView生命周期：
+在Activity或Fragment的onPause()方法中调用WebView的.onPause()。
+在onResume()方法中调用WebView的.onResume()。
+在onDestroy()方法中调用WebView的destroy()。
+* 避免静态引用：
+不要将WebView声明为静态变量，确保其生命周期与Activity或Fragment一致。
+* 注销JavaScript接口：
+在WebView不再使用时，注销所有注册的JavaScript接口。
+* 清理图片缓存：
+调用WebView的.clearCache()方法清理图片缓存。
+* 使用弱引用：
+使用弱引用（WeakReference）来引用WebView，避免强引用导致的内存泄漏。
+* 监控WebView的使用：
+在应用中添加内存泄漏监控逻辑，及时发现并处理泄漏问题。
