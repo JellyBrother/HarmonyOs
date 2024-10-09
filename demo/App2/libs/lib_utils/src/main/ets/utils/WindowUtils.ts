@@ -72,54 +72,61 @@ export class WindowUtils {
     // });
 
     // 2.实现沉浸式效果。方式二：设置窗口为全屏布局，配合设置导航栏、状态栏的透明度、背景/文字颜色及高亮图标等属性，与主窗口显示保持协调一致。
-    let isLayoutFullScreen = true;
-    windowClass.setWindowLayoutFullScreen(isLayoutFullScreen, (err) => {
-      let sysBarProps: window.SystemBarProperties = {
-        statusBarColor: '#ff00ff',
-        isStatusBarLightIcon: true,
-        // 从API Version 8开始支持
-        statusBarContentColor: '#ffffff',
-        navigationBarColor: '#00ff00',
-        isNavigationBarLightIcon: true,
-        // 从API Version 8开始支持
-        navigationBarContentColor: '#ffffff'
-
-        // statusBarColor: '#000000',
-        // isStatusBarLightIcon: true,
-        // // 从API Version 8开始支持
-        // statusBarContentColor: '#000000',
-        // navigationBarColor: '#000000',
-        // isNavigationBarLightIcon: true,
-        // // 从API Version 8开始支持
-        // navigationBarContentColor: '#000000'
-      };
-      windowClass.setSystemBarProperties(sysBarProps, (err) => {
-        windowClass.setWindowSystemBarProperties(sysBarProps, (err) => {
-          let errCode: number = err.code;
-          if (errCode) {
-            LogUtil.error(this.TAG, 'setLightMode2 setWindowSystemBarProperties Cause: ' + JSON.stringify(err));
-
-            windowClass.setSystemBarProperties(sysBarProps, (err) => {
-              let errCode: number = err.code;
-              if (errCode) {
-                LogUtil.error(this.TAG, 'setLightMode2 setSystemBarProperties2 Failed Cause: ' + JSON.stringify(err));
-                return;
-              }
-              LogUtil.error(this.TAG, 'setLightMode2 setSystemBarProperties2 Succeeded');
-            });
-            return;
-          }
-          LogUtil.error(this.TAG, 'setLightMode2 setWindowSystemBarProperties Succeeded in setting the system bar properties.');
-        });
-
-        let errCode: number = err.code;
-        if (errCode) {
-          LogUtil.error(this.TAG, 'setLightMode2 setSystemBarProperties Failed Cause: ' + JSON.stringify(err));
-          return;
-        }
-        LogUtil.error(this.TAG, 'setLightMode2 setSystemBarProperties Succeeded');
-      });
-
+    // let windowSystemBarEnable: Array<'status' | 'navigation'> = ['status'];
+    // windowClass.setWindowSystemBarEnable(windowSystemBarEnable, (err) => {
+    //   let errCode: number = err.code;
+    //   if (errCode) {
+    //     LogUtil.error(this.TAG, 'setLightMode2 setWindowSystemBarEnable Failed Cause: ' + JSON.stringify(err));
+    //     return;
+    //   }
+    //   LogUtil.error(this.TAG, 'setLightMode2 setWindowSystemBarEnable Succeeded');
+    // })
+    // let sysBarProps: window.SystemBarProperties = {
+    //   statusBarColor: '#c82424',
+    //   isStatusBarLightIcon: true,
+    //   // 从API Version 8开始支持
+    //   statusBarContentColor: '#c82424',
+    //   navigationBarColor: '#c82424',
+    //   isNavigationBarLightIcon: true,
+    //   // 从API Version 8开始支持
+    //   navigationBarContentColor: '#c82424'
+    //
+    //   // statusBarColor: '#000000',
+    //   // isStatusBarLightIcon: true,
+    //   // // 从API Version 8开始支持
+    //   // statusBarContentColor: '#000000',
+    //   // navigationBarColor: '#000000',
+    //   // isNavigationBarLightIcon: true,
+    //   // // 从API Version 8开始支持
+    //   // navigationBarContentColor: '#000000'
+    // };
+    // windowClass.setWindowSystemBarProperties(sysBarProps, (err) => {
+    //   let errCode: number = err.code;
+    //   if (errCode) {
+    //     LogUtil.error(this.TAG, 'setLightMode2 setWindowSystemBarProperties Cause: ' + JSON.stringify(err));
+    //     return;
+    //   }
+    //   LogUtil.error(this.TAG, 'setLightMode2 setWindowSystemBarProperties Succeeded in setting the system bar properties.');
+    // });
+    // let SystemBarProperties: window.SystemBarProperties = {
+    //   statusBarColor: '#ff00ff',
+    //   navigationBarColor: '#00ff00',
+    //   //以下两个属性从API Version8开始支持
+    //   statusBarContentColor: '#c82424',
+    //   navigationBarContentColor: '#c82424'
+    // };
+    // try {
+    //   let promise = windowClass.setSystemBarProperties(SystemBarProperties);
+    //   // let promise = windowClass.setWindowSystemBarProperties(SystemBarProperties);
+    //   promise.then(() => {
+    //     console.info('Succeeded in setting the system bar properties.');
+    //   }).catch((err) => {
+    //     console.error(`Failed to set the system bar properties. Cause code: ${err.code}, message: ${err.message}`);
+    //   });
+    // } catch (exception) {
+    //   console.error(`Failed to set the system bar properties. Cause code: ${exception.code}, message: ${exception.message}`);
+    // }
+    windowClass.setWindowLayoutFullScreen(true, (err) => {
       let errCode: number = err.code;
       if (errCode) {
         LogUtil.error(this.TAG, 'setLightMode2 Failed to set the window layout to full-screen mode. Cause:' + JSON.stringify(err));
@@ -167,61 +174,69 @@ export class WindowUtils {
     //   LogUtil.error(this.TAG, 'Succeeded in setting the system bar to be visible.');
     // });
 
-    // 2.实现沉浸式效果。方式二：设置窗口为全屏布局，配合设置导航栏、状态栏的透明度、背景/文字颜色及高亮图标等属性，与主窗口显示保持协调一致。
-    let isLayoutFullScreen = true;
-    windowClass.setWindowLayoutFullScreen(isLayoutFullScreen, (err) => {
-      let sysBarProps: window.SystemBarProperties = {
-        statusBarColor: '#00ff00',
-        isStatusBarLightIcon: false,
-        // 从API Version 8开始支持
-        statusBarContentColor: '#000000',
-        navigationBarColor: '#ff00ff',
-        isNavigationBarLightIcon: false,
-        // 从API Version 8开始支持
-        navigationBarContentColor: '#000000'
+    // // 2.实现沉浸式效果。方式二：设置窗口为全屏布局，配合设置导航栏、状态栏的透明度、背景/文字颜色及高亮图标等属性，与主窗口显示保持协调一致。
+    // windowClass.setWindowLayoutFullScreen(true, (err) => {
+    //   let sysBarProps: window.SystemBarProperties = {
+    //     statusBarColor: '#00ff00',
+    //     isStatusBarLightIcon: false,
+    //     // 从API Version 8开始支持
+    //     statusBarContentColor: '#000000',
+    //     navigationBarColor: '#ff00ff',
+    //     isNavigationBarLightIcon: false,
+    //     // 从API Version 8开始支持
+    //     navigationBarContentColor: '#000000'
+    //
+    //     // statusBarColor: '#ffffff',
+    //     // isStatusBarLightIcon: false,
+    //     // // 从API Version 8开始支持
+    //     // statusBarContentColor: '#ffffff',
+    //     // navigationBarColor: '#ffffff',
+    //     // isNavigationBarLightIcon: false,
+    //     // // 从API Version 8开始支持
+    //     // navigationBarContentColor: '#ffffff'
+    //   };
+    //   windowClass.setSystemBarProperties(sysBarProps, (err) => {
+    //     windowClass.setWindowSystemBarProperties(sysBarProps, (err) => {
+    //       let errCode: number = err.code;
+    //       if (errCode) {
+    //         LogUtil.error(this.TAG, 'setDarkMode2 setWindowSystemBarProperties FailedCause: ' + JSON.stringify(err));
+    //
+    //         windowClass.setSystemBarProperties(sysBarProps, (err) => {
+    //           let errCode: number = err.code;
+    //           if (errCode) {
+    //             LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties2 FailedCause: ' + JSON.stringify(err));
+    //             return;
+    //           }
+    //           LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties2 Succeeded in setting the system bar properties.');
+    //         });
+    //         return;
+    //       }
+    //       LogUtil.error(this.TAG, 'setDarkMode2 setWindowSystemBarProperties Succeeded in setting the system bar properties.');
+    //     });
+    //
+    //     let errCode: number = err.code;
+    //     if (errCode) {
+    //       LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties FailedCause: ' + JSON.stringify(err));
+    //       return;
+    //     }
+    //     LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties Succeeded in setting the system bar properties.');
+    //   });
+    //
+    //   let errCode: number = err.code;
+    //   if (errCode) {
+    //     LogUtil.error(this.TAG, 'setDarkMode2 Failed to set the window layout to full-screen mode. Cause:' + JSON.stringify(err));
+    //     return;
+    //   }
+    //   LogUtil.error(this.TAG, 'Succeeded in setting the window layout to full-screen mode.');
+    // });
 
-        // statusBarColor: '#ffffff',
-        // isStatusBarLightIcon: false,
-        // // 从API Version 8开始支持
-        // statusBarContentColor: '#ffffff',
-        // navigationBarColor: '#ffffff',
-        // isNavigationBarLightIcon: false,
-        // // 从API Version 8开始支持
-        // navigationBarContentColor: '#ffffff'
-      };
-      windowClass.setSystemBarProperties(sysBarProps, (err) => {
-        windowClass.setWindowSystemBarProperties(sysBarProps, (err) => {
-          let errCode: number = err.code;
-          if (errCode) {
-            LogUtil.error(this.TAG, 'setDarkMode2 setWindowSystemBarProperties FailedCause: ' + JSON.stringify(err));
-
-            windowClass.setSystemBarProperties(sysBarProps, (err) => {
-              let errCode: number = err.code;
-              if (errCode) {
-                LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties2 FailedCause: ' + JSON.stringify(err));
-                return;
-              }
-              LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties2 Succeeded in setting the system bar properties.');
-            });
-            return;
-          }
-          LogUtil.error(this.TAG, 'setDarkMode2 setWindowSystemBarProperties Succeeded in setting the system bar properties.');
-        });
-
-        let errCode: number = err.code;
-        if (errCode) {
-          LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties FailedCause: ' + JSON.stringify(err));
-          return;
-        }
-        LogUtil.error(this.TAG, 'setDarkMode2 setSystemBarProperties Succeeded in setting the system bar properties.');
-      });
-
+    windowClass.setWindowLayoutFullScreen(true, (err) => {
       let errCode: number = err.code;
       if (errCode) {
         LogUtil.error(this.TAG, 'setDarkMode2 Failed to set the window layout to full-screen mode. Cause:' + JSON.stringify(err));
         return;
       }
-      LogUtil.error(this.TAG, 'Succeeded in setting the window layout to full-screen mode.');
+      LogUtil.error(this.TAG, 'setDarkMode2 Succeeded in setting the window layout to full-screen mode.');
     });
   }
 }
